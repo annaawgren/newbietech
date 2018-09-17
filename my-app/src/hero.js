@@ -5,11 +5,14 @@ class Hero extends Component {
 
 
   render() {
-    return (<div className="hero">
+    return (<div className="hero flex flex-column w-100 vh-100 pl5 pr5 pt6">
 
 
-        Hero
-
+        <div className="hero-quote">
+          Facilitated and curated
+          creative tech experiences.
+          <br />For beginners.
+        </div>
 
       </div>)
   }

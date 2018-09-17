@@ -7,7 +7,7 @@ import Footer from './footer.js'
 import Header from './header.js'
 import HeaderBanner from './headerBanner.js'
 import Hero from './hero.js'
-import Menu from './menu.js'
+import NewMenu from './newmenu.js'
 import Newsletter from './newsletter.js'
 import OurLabs from './ourLabs.js'
 import Partner from './partner.js'
@@ -22,6 +22,7 @@ import './exploreFacts.css'
 import './footer.css'
 import './fonts.css'
 import './header.css'
+import './hero.css'
 import './headerBanner.css'
 import './menu.css'
 import './newsletter.css'
@@ -38,7 +39,7 @@ class App extends Component {
 
         <Header />
 
-        <Menu />
+        <NewMenu />
 
         <Hero />
 

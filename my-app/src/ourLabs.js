@@ -5,7 +5,7 @@ class OurLabs extends Component {
 
 
   render() {
-    return (<div className="ourlabs">
+    return (<div className="ourlabs" id="ourlabs">
 
 
         Our labs headline

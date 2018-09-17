@@ -5,7 +5,7 @@ class ThisIsNewbie extends Component {
 
 
   render() {
-    return (<div className="this-is-newbie">
+    return (<div className="this-is-newbie" id="thisIsNewbie">
 
 
         This is Newbie tech

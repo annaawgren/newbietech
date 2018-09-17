@@ -1,0 +1,11 @@
+.hero {
+  background: var(--pink);
+}
+
+.hero-quote {
+  max-width: 800px;
+  font-family: var(--bold-font);
+  font-size: 6em;
+  line-height: 1.2;
+  text-align: left;
+}

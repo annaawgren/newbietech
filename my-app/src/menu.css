@@ -1,0 +1,63 @@
+.menu {
+  background-color: var(--pink);
+  padding-top: 50px;
+}
+
+
+.menu a,
+.menu h2 {
+  font-family: var(--bold-font);
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.menu-container {
+  border: solid 2px black;
+    max-width: 1800px;
+}
+
+.labinfo-row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.labinfo,
+.place,
+.date {
+  padding: 2vh 2vw;
+  width: auto;
+}
+
+.border-right {
+  border-right: solid 2px black;
+}
+
+.border-top {
+  border-top: solid 2px black;
+}
+
+.border-left {
+  border-left: solid 2px black;
+  align-self: flex-end;
+}
+
+.long-line,
+.short-line1,
+.short-line2 {
+  width: 100px;
+  height: 1px;
+  background-color: #000;
+}
+
+.signup-button {
+  text-align: center;
+  width: 400px;
+  padding: 2vh 2vw;
+  align-self: right;
+  background: red;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+}

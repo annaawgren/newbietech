@@ -1,0 +1,21 @@
+.header {
+  background-color: var(--pink);
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav-item {
+  font-family: var(--bold-font);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.logo {
+  text-align: left;
+  font-family: var(--mad-font);
+  font-size: 6em;
+  line-height: 1;
+}
