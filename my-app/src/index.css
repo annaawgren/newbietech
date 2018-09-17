@@ -6,6 +6,10 @@
   --lightyellow: #FAFFD8;
   --grey: #E7E7E1;
 
+  --book-font: "CircularStd-Book.woff", sans-serif;
+  --bold-font: "CircularStd-Bold.woff", sans-serif;
+  --black-font: "CircularStd-Black.woff", sans-serif;
+  --mad-font: "mad-sans-black.woff", sans-serif;
 }
 
 body {
