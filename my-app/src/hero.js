@@ -16,7 +16,6 @@ class Hero extends Component {
 
         <div className="arduino-img" />
         <div className="chip-img" />
-        <div className="chip-img" />
 
       </div>)
   }

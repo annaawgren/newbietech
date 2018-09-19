@@ -2,12 +2,21 @@
   background-color: var(--pink);
 }
 
+.mobile-menu {
+  display: none;
+}
+
+.desktop-menu {
+  display: block;
+}
+
 .nav a {
   text-decoration: none;
 }
 
 .nav-item {
   font-family: var(--bold-font);
+  font-size: 1.2em;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -18,4 +27,33 @@
   font-family: var(--mad-font);
   font-size: 6em;
   line-height: 1;
+}
+
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 20px 20px;
+    height: auto;
+  }
+
+  .logo {
+    font-size: 3.5em;
+    line-height: 1;
+  }
+
+  .mobile-menu {
+    display: block;
+    font-family: var(--bold-font);
+    font-size: 1.2em;
+    line-height: 1;
+  }
+
+  .underlined {
+    border-bottom: solid 2px #000;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
 }

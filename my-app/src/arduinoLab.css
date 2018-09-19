@@ -39,3 +39,37 @@
   line-height: 1.5;
   color: #000;
 }
+
+
+@media (max-width: 1200px) {
+
+  .labtxt-container-right {
+    top: 15%;
+    left: 20px;
+    right: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .labtxt-hl-black {
+    font-size: 1.5em;
+    line-height: 1.3;
+  }
+
+  .labinfo-black p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .labtxt-container-right a {
+    font-size: 1.em;
+  }
+
+
+  .button {
+    width: 200px;
+    height: 60px;
+    font-size: 1em;
+  }
+}

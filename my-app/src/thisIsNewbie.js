@@ -12,7 +12,7 @@ class ThisIsNewbie extends Component {
 
         <div className="icons flex flex-row flex-wrap justify-center justify-around w-100">
 
-          <div className="w-25 tl pr4">
+          <div className="icons-box w-25 tl pr4">
             <div className="icon hands-on-img" />
 
             <h2> Experience based <br /> & Hands-on </h2>
@@ -23,7 +23,7 @@ class ThisIsNewbie extends Component {
             </p>
           </div>
 
-          <div className="w-25 tl pr4">
+          <div className="icons-box w-25 tl pr4">
             <div className="icon collab-img" />
 
             <h2> Collaborative <br /> & Social </h2>
@@ -33,7 +33,7 @@ class ThisIsNewbie extends Component {
             </p>
           </div>
 
-          <div className="w-25 tl pr4">
+          <div className="icons-box w-25 tl pr4">
             <div className="icon analogue-img" />
 
             <h2> Analogue <br /> & Digital </h2>
@@ -43,7 +43,7 @@ class ThisIsNewbie extends Component {
             </p>
           </div>
 
-          <div className="w-25 tl pr4">
+          <div className="icons-box w-25 tl pr4">
             <div className="icon curated-img" />
 
             <h2> Facilitated <br /> & Curated </h2>

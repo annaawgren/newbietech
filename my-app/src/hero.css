@@ -34,3 +34,33 @@
   width: 120px;
   height: 120px;
 }
+
+
+@media (max-width: 1200px) {
+  .hero {
+    padding: 0;
+    height: 80vh;
+  }
+
+  .hero-quote {
+    padding: 20px;
+    font-size: 3em;
+    line-height: 1.2;
+    position: absolute;
+    top: 15%;
+  }
+
+  .arduino-img {
+    bottom: 80px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .chip-img {
+    top: 0px;
+    left: 100px;
+    width: 120px;
+    height: 120px;
+  }
+}

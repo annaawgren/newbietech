@@ -55,3 +55,35 @@ video {
   color: #fff;
   font-size: 1.5em;
 }
+
+
+
+@media (max-width: 1200px) {
+  .background-img img,
+  video {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .labtxt-container {
+    top: 15%;
+    left: 20px;
+    right: 20px;
+  }
+
+  .labtxt-hl {
+    font-size: 1.5em;
+    line-height: 1.3;
+  }
+
+  .labinfo p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .button {
+    width: 200px;
+    height: 60px;
+    font-size: 1em;
+  }
+}

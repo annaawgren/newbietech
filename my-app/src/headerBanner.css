@@ -19,3 +19,12 @@
 .banner.hidden {
   display: none;
 }
+
+
+@media (max-width: 420px) {
+  .banner {
+    padding: 15px 15px;
+    height: auto;
+  }
+
+}

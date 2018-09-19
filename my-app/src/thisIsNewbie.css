@@ -54,3 +54,20 @@
 .curated-img {
   background-image: url(./images/curated-icon.png);
 }
+
+
+
+@media (max-width: 1200px) {
+  .this-is-newbie {
+    padding: 20px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icons-box {
+    width: 100%;
+  }
+}
