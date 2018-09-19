@@ -5,10 +5,10 @@ class OurLabs extends Component {
 
 
   render() {
-    return (<div className="ourlabs" id="ourlabs">
+    return (<div className="ourlabs w-100 pt5 pb5" id="ourlabs">
 
 
-        Our labs headline
+        <h1>OUR LABS</h1>
 
 
       </div>)

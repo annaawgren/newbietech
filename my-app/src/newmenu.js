@@ -3,9 +3,9 @@ import React, {Component} from 'react'
 class NewMenu extends Component {
 
   render() {
-    return (<div className="menu flex flew-wrap flex-column pa5 vh-50 w100 ">
+    return (<div className="menu flex flew-wrap flex-column pl6 pr6 vh-50 w100 ">
 
-      <div className="box bg-pink pa3 pr3 pl3 w-25">
+      <div className="box pa3 pr3 pl3 w-25">
         <a href="#ourLabs">
           One day labs – now in Stockholm
         </a>
@@ -37,7 +37,7 @@ class NewMenu extends Component {
       </div>
 
       <div className="signup-button">
-        <a href="#newsletter" className="js-scroll">
+        <a href="#newsletter">
           <h2>Keep me updated!</h2>
         </a>
       </div>

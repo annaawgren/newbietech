@@ -3,6 +3,7 @@
    font-family: var(--bold-font);
    height: 50px;
    background-color: var(--turqoise);
+   padding-left: 25%;
 }
 
 .close-tag {

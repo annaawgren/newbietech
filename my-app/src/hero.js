@@ -5,14 +5,18 @@ class Hero extends Component {
 
 
   render() {
-    return (<div className="hero flex flex-column w-100 vh-100 pl5 pr5 pt6">
+    return (<div className="hero flex flex-column w-100 vh-100 pl6 pr6 pt5">
 
 
-        <div className="hero-quote">
+        <div className="hero-quote pl6">
           Facilitated and curated
           creative tech experiences.
           <br />For beginners.
         </div>
+
+        <div className="arduino-img" />
+        <div className="chip-img" />
+        <div className="chip-img" />
 
       </div>)
   }

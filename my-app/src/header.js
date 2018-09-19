@@ -4,7 +4,7 @@ import Typing from 'react-typing-animation'
 class Header extends Component {
 
   render() {
-    return (<div className="header flex flex-wrap w-100 pa5">
+    return (<div className="header flex flex-wrap w-100 pt5 pl6 pr6 pb5">
 
       <ul className="nav flex flex-wrap flex-row justify-end w-100 mb5">
         <li class="nav-item">

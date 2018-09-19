@@ -1,0 +1,12 @@
+.partner {
+  background-image: url(./images/testbg7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.partner-hl {
+  font-family: var(--mad-font);
+  font-size: 
+}

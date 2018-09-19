@@ -1,0 +1,56 @@
+.this-is-newbie {
+  background-color: #fff;
+}
+
+.this-is-hl {
+  font-family: var(--bold-font);
+  font-size: 4em;
+  line-height: 1;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  margin-left: 16px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+  max-width: 1800px;
+}
+
+.icons h2 {
+  font-family: var(--mad-font);
+  font-size: 2.5em;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.icons p {
+  font-family: var(--bold-font);
+  font-size: 1.2em;
+  line-height: 1.6;
+
+}
+
+.hands-on-img {
+  background-image: url(./images/hands-on-icon.png);
+}
+
+.collab-img {
+  background-image: url(./images/collaborative-icon.png);
+}
+
+.analogue-img {
+  background-image: url(./images/analogue-digital-icon.png);
+}
+
+.curated-img {
+  background-image: url(./images/curated-icon.png);
+}

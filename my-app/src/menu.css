@@ -1,20 +1,26 @@
 .menu {
   background-color: var(--pink);
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 
 .menu a,
-.menu h2 {
+.menu h2,
+.signup-button h2,
+.signtup-button a {
   font-family: var(--bold-font);
   text-decoration: none;
   text-align: center;
+  font-size: 1.3em;
 }
 
+.box {
+  background-color: var(--redishpink);
+}
 
 .menu-container {
   border: solid 2px black;
-    max-width: 1800px;
+  max-width: 1800px;
 }
 
 .labinfo-row {
@@ -56,7 +62,7 @@
   width: 400px;
   padding: 2vh 2vw;
   align-self: right;
-  background: red;
+  background: var(--redishpink);
   border-left: solid 2px black;
   border-right: solid 2px black;
   border-bottom: solid 2px black;
