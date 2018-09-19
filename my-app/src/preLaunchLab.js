@@ -6,7 +6,7 @@ class PrelaunchLab extends Component {
     return (<div className="prelaunch flex flex-column w-100 vh-100 tc">
 
       <div className="background-img">
-        <video autoPlay="autoPlay" loop="loop" infinite="true">
+        <video autoPlay="autoplay" loop="loop" infinite="true" playsInline="true">
           <source src={require("./images/dancePP.mp4")} type="video/mp4" alt="video"/>
         </video>
       </div>
