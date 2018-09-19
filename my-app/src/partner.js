@@ -5,27 +5,27 @@ class Partner extends Component {
 
 
   render() {
-    return (<div className="partner flex flex-column w-100 vh-100 tl">
+    return (<div className="partner flex flex-column w-100 vh-100 tl justify-center items-center">
 
 
-      <div className="labtxt-container-right flex flex-column justify-right items-right tl w-20">
+      <div className="partner-container flex flex-column justify-center items-center tc">
 
-        <div className="labnumber-hl-black mb4">#01</div>
         <div className="partner-hl">
           Yes, BECOME A
           <br/>
           PARTNER
         </div>
 
-        <div className="labinfo-black">
+        <div className="partnerinfo">
           <p>
-            Design, code, and build pieces of jewellery, pins or clothing items
-            that reacts to touch, sound, moist or motion. An introduction to
-            using micro-controllers and Arduino. Bring your own laptop.
-            No prior knowledge of coding needed. 
+            Let’s join forces! We are looking for partners
+            who share our mission to make tech fun and accessible
+            for everyone. Do not hesitate to contact us if you see
+            an opportunity to collaborate and shape Newbie tech
+            togheter with us!
             <br/>
             <br/>
-            More info coming soon.
+            contact <a className="redishpink" href="mailto:frida@newbietech.se">frida@newbietech.se</a>
           </p>
         </div>
 

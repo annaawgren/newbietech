@@ -1,0 +1,19 @@
+.footer {
+  height: 130vh;
+  background-image: url(./images/testbg9.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.ftt {
+  position: absolute;
+  top: 50px;
+
+}

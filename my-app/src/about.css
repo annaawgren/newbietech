@@ -1,0 +1,33 @@
+.about {
+  background-color: var(--pink);
+  position: relative;
+}
+
+.about-container p {
+  font-family: var(--bold-font);
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+.about-container a {
+  text-decoration: none;
+}
+
+.about-hl {
+  font-family: var(--mad-font);
+  font-size: 4em;
+  line-height: 1;
+}
+
+
+.team-img {
+  position: absolute;
+  top: 80px;
+  right: 300px;
+  width: 300px;
+  height: 300px;
+
+  background-image: url(./images/team.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

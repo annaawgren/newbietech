@@ -4,23 +4,23 @@ import Typing from 'react-typing-animation'
 class Header extends Component {
 
   render() {
-    return (<div className="header flex flex-wrap w-100 pt5 pl6 pr6 pb5">
+    return (<div className="header flex flex-wrap w-100 pt4 pl6 pr6 pb5">
 
       <ul className="nav flex flex-wrap flex-row justify-end w-100 mb5">
-        <li class="nav-item">
-          <a class="nav-link" href="#ourlabs">Labs</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#ourlabs">Labs</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#thisIsNewbie">This is Newbie</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#thisIsNewbie">This is Newbie</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#explore">Explorations</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#explore">Explorations</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#register">About</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#register">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#footer">Contact</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#footer">Contact</a>
         </li>
       </ul>
 
