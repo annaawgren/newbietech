@@ -14,7 +14,7 @@ class ArduinoLab extends Component {
         <div className="labtxt-hl-black">
           Build interactive
           <br/>
-          with Arduino
+          wearables with Arduino
         </div>
 
         <div className="labinfo-black">

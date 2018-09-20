@@ -1,6 +1,7 @@
 .facts-container {
   position: relative;
   height: 150vh;
+  width: 100vw;
 }
 
 .info-box-container {
@@ -40,16 +41,15 @@
   font-family: var(--bold-font);
 }
 
-.info-box p,
-.info-box a {
+.info-box p {
   padding: 20px 0;
   border-top: solid 2px black;
   font-family: var(--bold-font);
 }
 
 .box1 {
-  top: 10vh;
-  left: 0;
+  /* top: 10vh;
+  left: 0; */
   background-color: #faffd8;
 }
 
@@ -102,4 +102,42 @@
 .btt {
   position: absolute;
   bottom: 5px;
+}
+
+@media (max-width: 1200px) {
+  .facts-container {
+    width: 100vw;
+    padding: 40px 0;
+    margin: 0;
+  }
+
+  .facts-hl h1 {
+    font-size: 3em;
+    line-height: 1;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .info-box h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    border: solid 2px #000;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .info-box-container {
+    width: 100vw;
+    padding: 0;
+  }
+
+  .info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 450px;
+    padding: 30px;
+    border: solid 2px black;
+    text-align: left;
+  }
+  .info-box {}
 }

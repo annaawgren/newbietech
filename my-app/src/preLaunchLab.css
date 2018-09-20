@@ -59,16 +59,22 @@ video {
 
 
 @media (max-width: 1200px) {
+  .prelaunch {
+    background-image: url(./images/dance.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .background-img img,
   video {
-    height: 100vh;
-    object-fit: cover;
+  display: none
   }
 
   .labtxt-container {
-    top: 15%;
-    left: 20px;
-    right: 20px;
+    top: 10%;
+    left: 30px;
+    right: 30px;
   }
 
   .labtxt-hl {
