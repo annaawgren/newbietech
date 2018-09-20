@@ -57,7 +57,15 @@ class ExploreFactsNew extends Component {
 
       <div className="bg-box nr1">
         <h1>Live interfaces</h1>
-        <div className="plus" />
+        <div onClick={this.handleInterfaceClick} className="plus" />
+      </div>
+      <div className={`bg-box-onclick ${this.state.interfaceVisible
+            ? "visible"
+            : "hidden"}`}>
+        <div className="bg-box-content">
+          hej
+
+        </div>
       </div>
 
       <div className="bg-box nr2">

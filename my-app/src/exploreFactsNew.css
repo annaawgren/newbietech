@@ -30,7 +30,7 @@
 
 .bg-box {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   text-align: left;
@@ -82,4 +82,16 @@
   background-size: contain;
   width: 20px;
   height: 20px;
+}
+
+.bg-box-onclick.hidden {
+  display: none;
+}
+
+.bg-box-content {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  background: red;
+
 }
