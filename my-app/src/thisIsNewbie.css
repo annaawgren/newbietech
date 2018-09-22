@@ -10,13 +10,16 @@
   margin-top: 50px;
 }
 
+.icons-box {
+  padding: 0 40px;
+}
 
 .icon {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
-  height: 100px;
+  width: 60%;
+  height: 60px;
   margin-left: 16px;
   margin-left: 16px;
   margin-bottom: 30px;
@@ -25,7 +28,7 @@
 
 .icons h2 {
   font-family: var(--mad-font);
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.2;
   text-align: left;
   letter-spacing: -1px;
@@ -34,9 +37,8 @@
 
 .icons p {
   font-family: var(--bold-font);
-  font-size: 1.2em;
-  line-height: 1.6;
-
+  font-size: 1.3em;
+  line-height: 1.5;
 }
 
 .hands-on-img {
@@ -57,17 +59,61 @@
 
 
 
+@media (max-width: 1300px) {
+  .icons-box {
+    width: 50%;
+  }
+
+  .icons p {
+    font-size: 1.3em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+
+  .icons h2 {
+    font-size: 3em;
+  }
+}
+
 @media (max-width: 1200px) {
   .this-is-newbie {
     padding: 20px;
   }
+  .this-is-newbie {
+    padding-bottom: 100px;
+  }
+  .icon {
+    width: 100%;
+    height: 80px;
+  }
+}
 
+@media (max-width: 768px) {
+  .icons-box {
+    width: 100%;
+  }
+  .icon {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .this-is-hl {
+    margin-bottom: 50px;
+  }
   .icons {
     display: flex;
     flex-direction: column;
+    padding: 0 40px;
   }
-
   .icons-box {
+    padding: 0;
     width: 100%;
+  }
+  .icon {
+    margin: 40px 0;
   }
 }
