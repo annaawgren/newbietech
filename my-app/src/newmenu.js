@@ -50,9 +50,9 @@ class NewMenu extends Component {
           </div>
         </div>
 
-        <div className="flex w-100">
-          <div className="signup-button pa-container redishpink-bg pa3 w-30 items-end">
-            <a href="#ourLabs">
+        <div className="flex w-100 flex-column items-end">
+          <div className="signup-button pa-container redishpink-bg pa3 w-30">
+            <a href="#newsletter">
               Keep me posted!
             </a>
           </div>

@@ -48,11 +48,11 @@ class App extends Component {
 
         <ThisIsNewbie />
 
-        {/* <OurLabs />
+        <OurLabs />
 
         <PrelaunchLab />
 
-        <ArduinoLab />
+        {/* <ArduinoLab />
 
         <ExploreFactsNew />
 
