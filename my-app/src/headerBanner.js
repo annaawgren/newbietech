@@ -26,7 +26,7 @@ class HeaderBanner extends Component {
 
     return (<div className="header-banner">
 
-      <div className="banner flex flex-wrap bg-green w-100 pl6 pr6 items-center">
+      <div className="banner w-100 tc">
         <div><span>💥</span>
           <span>
             <a href="#prelaunch">Machine learning lab</a>

@@ -1,19 +1,20 @@
 .banner {
-   box-shadow: 0 0 4px 0px rgba(65, 65, 65, 0.5);
+   box-shadow: 0 0 5px 0px rgba(65, 65, 65, 0.5);
    font-family: var(--bold-font);
-   height: 50px;
+   height: auto;
    background-color: var(--turqoise);
-   padding-left: 25%;
+   padding: 10px 5%;
+   z-index: 3;
 }
 
-.close-tag {
+/* .close-tag {
   width: 20px;
   height: 100%;
   background-image: url(./images/closing-x.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
 
 .banner.hidden {
@@ -21,10 +22,10 @@
 }
 
 
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
   .banner {
     padding: 15px 15px;
     height: auto;
   }
 
-}
+} */
