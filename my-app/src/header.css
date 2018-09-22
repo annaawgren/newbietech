@@ -21,7 +21,6 @@
   margin-right: 10px;
 }
 
-
 .logo {
   text-align: left;
   font-family: var(--mad-font);
@@ -30,30 +29,50 @@
 }
 
 
-@media (max-width: 1200px) {
+
+@media (max-width: 800px) {
   .header {
     padding: 20px 20px;
     height: auto;
   }
-
   .logo {
     font-size: 3.5em;
     line-height: 1;
   }
-
   .mobile-menu {
     display: block;
     font-family: var(--bold-font);
     font-size: 1.2em;
     line-height: 1;
   }
-
   .underlined {
     border-bottom: solid 2px #000;
   }
-
   .desktop-menu {
     display: none;
   }
+}
 
+@media (max-width: 450px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .logo {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .logo {
+    font-size: 2.5em;
+  }
+  .mobile-menu {
+    padding: 0;
+
+  }
 }

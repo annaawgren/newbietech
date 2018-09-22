@@ -1,43 +1,32 @@
 .menu {
   background-color: var(--pink);
   padding-top: 30px;
+  text-align: center;
 }
 
 .mobile-view-menu {
   display: none;
 }
 
-
 .menu a,
-.menu h2,
-.signup-button h2,
 .signtup-button a {
   font-family: var(--bold-font);
   text-decoration: none;
-  text-align: center;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
-.box {
+.redishpink-bg {
   background-color: var(--redishpink);
+}
+
+.onedaylabs {
+  border-top: solid 2px #000;
+  border-left: solid 2px #000;
+  border-right: solid 2px #000;
 }
 
 .menu-container {
   border: solid 2px black;
-  max-width: 1800px;
-}
-
-.labinfo-row {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-}
-
-.labinfo,
-.place,
-.date {
-  padding: 2vh 2vw;
-  width: auto;
 }
 
 .border-right {
@@ -62,10 +51,6 @@
 }
 
 .signup-button {
-  text-align: center;
-  width: 400px;
-  padding: 2vh 2vw;
-  align-self: right;
   background: var(--redishpink);
   border-left: solid 2px black;
   border-right: solid 2px black;
@@ -73,44 +58,13 @@
 }
 
 
-
-
-@media (max-width: 1200px) {
-  .desktop-view-menu {
-    display: none;
-  }
-
-  .mobile-view-menu {
-    display: block;
-    line-height: 1;
-  }
-
-  .mobile-view-menu a {
-    display: block;
-  }
-
-  .box-mobile {
-    border: solid 2px #000;
-    padding: 20px 35px;
-    width: auto;
-
-  }
-
-  .redishpink-bg {
-    background-color: var(--redishpink);
-  }
-
-  .menu {
-    height: auto;
-    padding-bottom: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
+@media (min-width: 1800px) {
   .menu a,
-  .menu h2,
-  .signup-button h2,
   .signtup-button a {
-    font-size: 1em;
+    font-size: 2em;
   }
+  .pa-container {
+    padding: 40px;
+  }
+
 }

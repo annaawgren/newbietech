@@ -8,6 +8,7 @@ import Footer from './footer.js'
 import Header from './header.js'
 import HeaderBanner from './headerBanner.js'
 import Hero from './hero.js'
+import Menu from './menu.js'
 import NewMenu from './newmenu.js'
 import Newsletter from './newsletter.js'
 import OurLabs from './ourLabs.js'
@@ -43,11 +44,11 @@ class App extends Component {
 
         <NewMenu />
 
-        <Hero />
+        {/* <Hero /> */}
 
         <ThisIsNewbie />
 
-        <OurLabs />
+        {/* <OurLabs />
 
         <PrelaunchLab />
 
@@ -55,7 +56,7 @@ class App extends Component {
 
         <ExploreFactsNew />
 
-        {/* <ExploreFacts /> */}
+        <ExploreFacts />
 
         <Newsletter />
 
@@ -63,7 +64,7 @@ class App extends Component {
 
         <About />
 
-        <Footer />
+        <Footer /> */}
 
       </div>
     )

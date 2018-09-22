@@ -30,7 +30,6 @@ class Header extends Component {
       </div>
 
 
-
       <div>
 
         <div className="logo flex flex-column justify-between items-start mb4">
