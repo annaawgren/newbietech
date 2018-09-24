@@ -22,6 +22,32 @@
 
 .partnerinfo p {
   font-family: var(--bold-font);
-  font-size: 18px;
+  font-size: 1em;
   line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .partner-container {
+    width: 400px;
+    padding: 30px;
+  }
+  .partner-hl {
+    font-size: 3em;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .partner-container {
+    width: 80%;
+    padding: 30px;
+  }
+}
+
+@media (max-height: 570px) {
+  .partner {
+    height: 150vh;
+  }
 }
