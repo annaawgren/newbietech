@@ -6,12 +6,12 @@
 .hero-quote {
   max-width: 800px;
   font-family: var(--bold-font);
-  font-size: 6em;
+  font-size: 5em;
   line-height: 1.2;
   text-align: left;
 }
 
-.arduino-img {
+/* .arduino-img {
   background-image: url(./images/arduino.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -29,38 +29,36 @@
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  top: 20px;
+  top: 0px;
   right: 250px;
   width: 120px;
   height: 120px;
-}
+} */
 
 
-@media (max-width: 1200px) {
-  .hero {
-    padding: 0;
-    height: 80vh;
-  }
-
+@media (max-width: 1300px) {
   .hero-quote {
-    padding: 20px;
     font-size: 3em;
     line-height: 1.2;
-    position: absolute;
-    top: 15%;
   }
-
-  .arduino-img {
-    bottom: 80px;
-    right: 50px;
-    width: 200px;
-    height: 200px;
+  .hero {
+    height: 60vh;
   }
+}
 
-  .chip-img {
-    top: 0px;
-    left: 100px;
-    width: 120px;
-    height: 120px;
+@media (max-width: 800px) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero-quote {
+    font-size: 2.6em;
   }
 }

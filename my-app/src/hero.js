@@ -8,7 +8,7 @@ class Hero extends Component {
     return (<div className="hero flex flex-column w-100 vh-100 pl6 pr6 pt5">
 
 
-        <div className="hero-quote pl6">
+        <div className="hero-quote">
           Facilitated and curated
           creative tech experiences.
           <br />For beginners.

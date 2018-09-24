@@ -15,7 +15,8 @@ class ThisIsNewbie extends Component {
           <div className="icons-box w-25 tl pr4">
             <div className="icon hands-on-img" />
 
-            <h2> Experience based <br /> & Hands-on </h2>
+            <h2 className="text-bg"> Experience based</h2>
+            <h2 className="text-bg">& Hands-on </h2>
             <p>We believe in learning by doing.
               We focus on hands-on creativity and in our labs
               we build along with experienced industry professionals
@@ -26,7 +27,8 @@ class ThisIsNewbie extends Component {
           <div className="icons-box w-25 tl pr4">
             <div className="icon collab-img" />
 
-            <h2> Collaborative <br /> & Social </h2>
+            <h2 className="text-bg"> Collaborative</h2>
+            <h2 className="text-bg">& Social </h2>
             <p>We believe in learning together.
               We explore in small groups and
               co-create to maximise learnings collaboratively.
@@ -36,7 +38,8 @@ class ThisIsNewbie extends Component {
           <div className="icons-box w-25 tl pr4">
             <div className="icon analogue-img" />
 
-            <h2> Analogue <br /> & Digital </h2>
+            <h2 className="text-bg"> Analogue</h2>
+            <h2 className="text-bg">& Digital </h2>
             <p>We believe in making emerging technologies tangible.
               We work with analogue materials and provide digital skills
               to make the physical world interactive.
@@ -46,7 +49,8 @@ class ThisIsNewbie extends Component {
           <div className="icons-box w-25 tl pr4">
             <div className="icon curated-img" />
 
-            <h2> Facilitated <br /> & Curated </h2>
+            <h2 className="text-bg"> Facilitated</h2>
+            <h2 className="text-bg">& Curated </h2>
             <p>We believe in kickstarting the learning process.
               We build experiences powered by industry professionals
               to make exploring emerging technologies fun and accessible.

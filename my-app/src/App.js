@@ -42,9 +42,9 @@ class App extends Component {
 
         <Header />
 
-        <NewMenu />
+        {/* <NewMenu /> */}
 
-        {/* <Hero /> */}
+        <Hero />
 
         <ThisIsNewbie />
 
