@@ -61,30 +61,30 @@ video {
 }
 
 @media (max-width: 767px) {
-  .prelaunch {
+  .arduino {
     height: 170vh;
   }
 
-  .labtxt-container {
+  .labtxt-container-black {
     top: 10%;
   }
 
-  .labtxt-hl {
+  .labtxt-hl-black {
     font-size: 2em;
     padding: 0 40px;
   }
 
-  .labtxt-container p {
+  .labtxt-container-black p {
     padding: 0 40px;
   }
 
-  .button-black {
+  .button {
     width: 200px;
   }
 }
 
 @media (max-width: 412px) {
-  .prelaunch {
+  .arduino {
     height: 130vh;
   }
 }
@@ -96,13 +96,13 @@ video {
 }
 
 @media (max-width: 322px) {
-  .prelaunch {
+  .arduino {
     height: 200vh;
   }
 }
 
 @media (max-height: 641px) {
-  .prelaunch {
+  .arduino {
     height: 160vh;
   }
 }

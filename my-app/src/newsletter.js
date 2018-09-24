@@ -1,20 +1,33 @@
 import React, {Component} from 'react'
+import anime from 'animejs'
 
 
 class Newsletter extends Component {
 
 
+  componentDidMount() {
+    anime({
+    targets: '#handemoji',
+    rotate: '20deg',
+    duration: 500,
+    loop: true,
+    delay: 500,
+    direction: 'alternate',
+    easing: 'easeInOutSine'
+    })
+    }
+
+
   render() {
-    return (<div className="newsletter flex flex-column w-100 vh-50 pl6 pr6 pt6 pb6 justify-center items-center">
+    return (<div className="newsletter flex flex-column w-100 pl6 pr6 pt4 pb6 justify-center items-center tc">
 
-
-        <h1>Newsletter <span className="hand-emoji">👋🏻</span></h1>
+        <span id="handemoji" className="hand-emoji">👋🏻</span>
+        <h1>Hey, newsletter! </h1>
 
         <div className="newsletter-signup">
           <p>
             We are currently working on when, where and whats for our
-            upcoming labs. <span className="redishpink">And some other nice things</span>.
-            Sign up to be the first to know.
+            upcoming labs. <span className="redishpink">And some other nice things.</span> Sign up to be the first to know about it!
           </p>
         </div>
 
@@ -30,7 +43,7 @@ class Newsletter extends Component {
             target="_blank"
             noValidate
           >
-            <div id="mc_embed_signup_scroll">
+            <div className="flex flex-column items-center" id="mc_embed_signup_scroll">
               <div className="signup-box">
                 <input
                   type="email"
@@ -56,7 +69,7 @@ class Newsletter extends Component {
                 xstyle="position: absolute; left: -5000px;"
                 aria-hidden="true"
               />
-              <div className="clear">
+              <div className="clear flex flex-row items-center justify-center">
                 <input
                   type="submit"
                   value="Subscribe"

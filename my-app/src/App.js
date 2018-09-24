@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import anime from 'animejs'
+
 
 import About from './about.js'
 import ArduinoLab from './arduinoLab.js'
@@ -12,6 +12,7 @@ import Hero from './hero.js'
 import Menu from './menu.js'
 import NewMenu from './newmenu.js'
 import Newsletter from './newsletter.js'
+import NewbieIsFor from './newbieIsFor.js'
 import OurLabs from './ourLabs.js'
 import Partner from './partner.js'
 import PrelaunchLab from './preLaunchLab.js'
@@ -29,6 +30,7 @@ import './header.css'
 import './hero.css'
 import './headerBanner.css'
 import './menu.css'
+import './newbieIsFor.css'
 import './newsletter.css'
 import './ourLabs.css'
 import './partner.css'
@@ -55,9 +57,11 @@ class App extends Component {
 
         <ArduinoLab />
 
+        <NewbieIsFor />
+
         {/* <ExploreFactsNew />
 
-        <ExploreFacts />
+        <ExploreFacts /> */}
 
         <Newsletter />
 
@@ -65,7 +69,7 @@ class App extends Component {
 
         <About />
 
-        <Footer /> */}
+        <Footer />
 
       </div>
     )

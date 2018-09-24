@@ -24,16 +24,18 @@ class ArduinoLab extends Component {
 
 
           <p>
-            Learn the basics of Machine Learning and sensor inputs
-            for gesture recognition. You will begin to explore using
-            the camera in your computer. Create games where you use
-            your body as a remote control. Bring your own laptop.
-            No prior knowledge needed.
+            Design, code, and build pieces of jewellery, pins or clothing items
+            that reacts to touch, sound, moist or motion. An introduction to
+            using micro-controllers and Arduino. Bring your own laptop.
+            No prior knowledge of coding needed. 
+            <br />
+            <br />
+            More info coming soon.
           </p>
 
 
 
-        <a className="button black-txt mt5 mb5 flex justify-center items-center" href="#newsletter">Keep me posted</a>
+        <a className="button mt5 mb5 flex justify-center items-center" href="#newsletter">Keep me posted</a>
 
       </div>
 

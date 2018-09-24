@@ -1,10 +1,27 @@
+.header-banner {
+     box-shadow: 0 0 5px 0px rgba(65, 65, 65, 0.5);
+
+}
+
 .banner {
-   box-shadow: 0 0 5px 0px rgba(65, 65, 65, 0.5);
    font-family: var(--bold-font);
    height: auto;
    background-color: var(--turqoise);
    padding: 10px 5%;
    z-index: 3;
+}
+
+.underlined-ml {
+  border-bottom: solid 2px #000;
+  padding-bottom: 2px;
+}
+
+.underlined-ml:hover {
+  border-bottom: solid 0 #000;
+}
+
+.banner a {
+  text-decoration: none;
 }
 
 /* .close-tag {
