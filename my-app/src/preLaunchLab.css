@@ -60,7 +60,13 @@ video {
   font-size: 1em;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 500px) (max-width: 768px){
+  .labtxt-hl {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 768px) {
   .prelaunch {
     height: 170vh;
   }

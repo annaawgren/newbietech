@@ -6,8 +6,8 @@ class ThisIsNewbie extends Component {
   componentDidMount() {
     anime({
     targets: '#icon',
-    rotate: '1turn',
-    duration: 30000,
+    rotate: '20deg',
+    duration: 3000,
     loop: true,
     direction: 'alternate',
     easing: 'easeInOutSine'

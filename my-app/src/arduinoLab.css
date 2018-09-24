@@ -60,7 +60,7 @@ video {
   border: solid 2px var(--redishpink);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .arduino {
     height: 170vh;
   }
@@ -75,6 +75,7 @@ video {
   }
 
   .labtxt-container-black p {
+    font-size: 1.5em;
     padding: 0 40px;
   }
 

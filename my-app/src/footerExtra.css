@@ -1,0 +1,19 @@
+.footerExtra {
+  height: 80px;
+  padding-bottom: 10px;
+
+}
+
+.footerExtra p {
+  font-size: 0.8em;
+  font-family: var(--bold-font);
+  color: grey;
+  line-height: 1;
+}
+
+.footerExtra h1 {
+  font-size: 2em;
+  font-family: var(--mad-font);
+  line-height: 1;
+
+}

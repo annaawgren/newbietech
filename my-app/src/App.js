@@ -6,6 +6,7 @@ import ArduinoLab from './arduinoLab.js'
 import ExploreFactsNew from './exploreFactsNew.js'
 import ExploreFacts from './exploreFacts.js'
 import Footer from './footer.js'
+import FooterExtra from './footerExtra.js'
 import Header from './header.js'
 import HeaderBanner from './headerBanner.js'
 import Hero from './hero.js'
@@ -24,6 +25,7 @@ import './about.css'
 import './arduinoLab.css'
 import './exploreFactsNew.css'
 import './exploreFacts.css'
+import './footerExtra.css'
 import './footer.css'
 import './fonts.css'
 import './header.css'
@@ -70,6 +72,8 @@ class App extends Component {
         <About />
 
         <Footer />
+
+        <FooterExtra />
 
       </div>
     )
