@@ -25,7 +25,7 @@ class PrelaunchLab extends Component {
             your body as a remote control. Bring your own laptop.
             No prior knowledge needed.
           </p>
-        
+
 
 
         <a className="button mt5 mb5 flex justify-center items-center" href="https://www.eventbrite.com/" target="blank">Sign me up!</a>

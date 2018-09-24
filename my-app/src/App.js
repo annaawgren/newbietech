@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import anime from 'animejs'
 
 import About from './about.js'
 import ArduinoLab from './arduinoLab.js'
@@ -52,9 +53,9 @@ class App extends Component {
 
         <PrelaunchLab />
 
-        {/* <ArduinoLab />
+        <ArduinoLab />
 
-        <ExploreFactsNew />
+        {/* <ExploreFactsNew />
 
         <ExploreFacts />
 

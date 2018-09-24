@@ -1,21 +1,26 @@
 .arduino {
-  background-image: url(./images/testbg5.jpg);
+  background-image: url(./images/arduino-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.labtxt-container-right {
-  position: absolute;
-  top: 15%;
-  right: 20%;
+.background-img img,
+video {
+  width: 100vw;
+  position: relative;
 }
 
-.labtxt-container-right a {
+.labtxt-container-black {
+  position: absolute;
+  top: 15%;
+  max-width: 600px;
+}
+
+.labtxt-container-black a {
   text-decoration: none;
-  color: var(--redishpink);
-  font-size: 1.5em;
+  color: #000;
 }
 
 .labnumber-hl-black {
@@ -25,6 +30,7 @@
   line-height: 1;
 }
 
+
 .labtxt-hl-black {
   font-family: var(--bold-font);
   font-size: 2.5em;
@@ -32,61 +38,71 @@
   color: #000;
 }
 
-.labinfo-black p {
-  font-family: var(--bold-font);
-  text-decoration: none;
-  font-size: 1.3em;
-  line-height: 1.5;
-  color: #000;
+.redishpink {
+  color: var(--redishpink);
 }
 
+.labtxt-container-black p {
+  font-family: var(--bold-font);
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #000;
+  margin-top: 30px;
+}
 
-@media (max-width: 1200px) {
-  .arduino {
-    background-position: center;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.button {
+  width: 300px;
+  height: 60px;
+  font-family: var(--bold-font);
+  font-size: 1em;
+  border: solid 2px var(--redishpink);
+}
+
+@media (max-width: 767px) {
+  .prelaunch {
+    height: 170vh;
   }
 
-  .labtxt-container-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 15%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  .labtxt-container {
+    top: 10%;
   }
 
-  .labnumber-hl-black {
-    margin-bottom: 2s0px;
-
+  .labtxt-hl {
+    font-size: 2em;
+    padding: 0 40px;
   }
 
-  .labtxt-hl-black {
-    font-size: 1.5em;
-    line-height: 1.3;
-    padding: 0 30px;
+  .labtxt-container p {
+    padding: 0 40px;
   }
 
-  .labinfo-black p {
-    font-size: 1em;
-    line-height: 1.5;
-    padding: 0 30px;
-    margin-top: 20px;
-  }
-
-  .labtxt-container-right a {
-    color: #000;
-    font-size: 1em;
-  }
-
-  .button {
+  .button-black {
     width: 200px;
-    height: 60px;
+  }
+}
+
+@media (max-width: 412px) {
+  .prelaunch {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 376px) {
+  .prelaunch {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 322px) {
+  .prelaunch {
+    height: 200vh;
+  }
+}
+
+@media (max-height: 641px) {
+  .prelaunch {
+    height: 160vh;
   }
 }

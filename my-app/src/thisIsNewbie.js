@@ -1,7 +1,22 @@
 import React, {Component} from 'react'
-
+import anime from 'animejs'
 
 class ThisIsNewbie extends Component {
+
+  componentDidMount() {
+    anime({
+    targets: '#icon',
+    rotate: '1turn',
+    duration: 30000,
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInOutSine'
+    })
+    }
+
+
+
+
 
 
   render() {
@@ -25,7 +40,7 @@ class ThisIsNewbie extends Component {
           </div>
 
           <div className="icons-box w-25 tl pr4">
-            <div className="icon collab-img" />
+            <div id="icon" className="icon collab-img" />
 
             <h2 className="text-bg"> Collaborative</h2>
             <h2 className="text-bg">& Social </h2>
