@@ -3,68 +3,81 @@ import anime from 'animejs'
 
 class ExploreFacts extends Component {
 
-  componentDidMount() {
-
-    var basicTimeline = anime.timeline();
-
-    basicTimeline
-      .add({
-        targets: '#redball',
-        translateX: 250,
-        easing: 'easeOutExpo'
-      })
-      .add({
-        targets: '#blueball',
-        translateX: 250,
-        easing: 'easeOutExpo'
-      })
-      .add({
-        targets: '#greenball',
-        translateX: 250,
-        easing: 'easeOutExpo'
-      });
-  }
+  // componentDidMount() {
+  //
+  //   var basicTimeline = anime.timeline();
+  //
+  //   basicTimeline
+  //     .add({
+  //       targets: '#f-interface',
+  //       translateX: 250,
+  //       duration: 200,
+  //       easing: 'easeInOutSine'
+  //     })
+  //     .add({
+  //       targets: '#f-wearables',
+  //       translateX: 250,
+  //       duration: 300,
+  //       easing: 'easeInOutSine'
+  //     })
+  //     .add({
+  //       targets: '#f-conductive',
+  //       translateX: 250,
+  //       duration: 300,
+  //       easing: 'easeInOutSine'
+  //     })
+  //     .add({
+  //       targets: '#f-arduino',
+  //       translateX: 250,
+  //       duration: 300,
+  //       easing: 'easeInOutSine'
+  //     })
+  //     .add({
+  //       targets: '#f-machinelearning',
+  //       translateX: 250,
+  //       duration: 300,
+  //       easing: 'easeInOutSine'
+  //     });
+  // }
 
   render() {
-    return (<div className="exploreFacts pl6 pr6 pt3 w-100 tc flex">
+    return (<div className="exploreFacts pl6 pr6 pt5 w-100 tc flex flex-column justify-start">
 
-
-      <h1>Things we
+      <h1>Cool technologies
         <br/>
-        like to explore</h1>
+        we like to explore</h1>
 
       <div className="exploreFacts-container flex justify-start tl">
 
         <div id="f-interface" className="ef-box box1">
-          <h1>Live interfaces</h1>
-          <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards can read inputs - light on a sensor, a finger on a button, or a Twitter message – and turn it into an output - activating a motor, turning on an LED, publishing something online. You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
+          <h2>Live interfaces</h2>
+          <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Blafl öalfjaoierg You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
           </p>
         </div>
 
         <div id="f-wearables" className="ef-box box2">
-          <h1>Interactive wearables</h1>
-          <p>Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it.
+          <h2>Interactive wearables</h2>
+          <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Blafl öalfjaoierg You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
           </p>
         </div>
 
         <div id="f-conductive" className="ef-box box3">
-          <h1>Conductive materials</h1>
-          <p>Projection mapping and spatial augmented reality is a projection technology used to turn objects into a display surface for video projection. This technique can add extra dimensions, optical illusions, or notions of movement onto static objects such as buildings, vehicles or indoor objects. Through specialised software, a two- or three-dimensional object is spatially mapped on the virtual program which mimics the real environment it is to be projected on. The software can interact with a projector to fit any desired image onto the surface of that object.
+          <h2>Conductive materials</h2>
+          <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Blafl öalfjaoierg You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
           </p>
         </div>
 
         <div id="f-arduino" className="ef-box box4">
-          <h1>Arduino and other microcontrollers</h1>
-          <p>Projection mapping and spatial augmented reality is a projection technology used to turn objects into a display surface for video projection. This technique can add extra dimensions, optical illusions, or notions of movement onto static objects such as buildings, vehicles or indoor objects. Through specialised software, a two- or three-dimensional object is spatially mapped on the virtual program which mimics the real environment it is to be projected on. The software can interact with a projector to fit any desired image onto the surface of that object.
+          <h2>Arduino and other microcontrollers</h2>
+          <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Blafl öalfjaoierg You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
           </p>
         </div>
 
-        <div  id="f-machinelearning" className="ef-box box5">
-          <h1>Machine Learning</h1>
-          <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards can read inputs - light on a sensor, a finger on a button, or a Twitter message – and turn it into an output - activating a motor, turning on an LED, publishing something online. You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
+        <div id="f-machinelearning" className="ef-box box5">
+          <h2>Machine Learning</h2>
+          <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Blafl öalfjaoierg You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
           </p>
         </div>
-
       </div>
 
       <a className="button-black btt flex justify-center items-center" href="#header">Back to top</a>

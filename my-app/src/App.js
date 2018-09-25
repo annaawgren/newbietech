@@ -47,6 +47,8 @@ class App extends Component {
         <Menu />
 
         <Hero />
+        
+        <ThisIsNewbie />
 
         <OurLabs />
 
@@ -54,7 +56,7 @@ class App extends Component {
 
         <ArduinoLab />
 
-        <ThisIsNewbie />
+
 
         {/* <NewbieIsFor /> */}
 
