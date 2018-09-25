@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (<div className="header flex flex-column w-100 pt4 pl6 pr6 pb5 tr">
 
-  
+
       <div className="mobile-menu flex flex-row item-end w-100 mb4"><span className="underlined">Menu</span></div>
 
       <div className="desktop-menu">

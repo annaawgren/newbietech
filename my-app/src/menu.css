@@ -1,70 +1,59 @@
-.menu {
+.hero-menu {
   background-color: var(--pink);
-  padding-top: 30px;
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.hero-menu-item {
+  border: solid 1px #000;
+}
+
+.hero-menu-container {
+  border: solid 1px #000;
 }
 
 .mobile-view-menu {
   display: none;
 }
 
-.menu a,
-.signtup-button a {
+.hero-menu-container a {
   font-family: var(--bold-font);
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+
+.fab-bg {
+  background-color: #FFAABB;
 }
 
 .redishpink-bg {
   background-color: var(--redishpink);
 }
 
-.onedaylabs {
-  border-top: solid 2px #000;
-  border-left: solid 2px #000;
-  border-right: solid 2px #000;
-}
-
-.menu-container {
-  border: solid 2px black;
-}
-
-.border-right {
-  border-right: solid 2px black;
-}
-
-.border-top {
-  border-top: solid 2px black;
-}
-
-.border-left {
-  border-left: solid 2px black;
-  align-self: flex-end;
-}
-
-.long-line,
-.short-line1,
-.short-line2 {
-  width: 100px;
-  height: 1px;
-  background-color: #000;
-}
 
 .signup-button {
-  background: var(--redishpink);
   border-left: solid 2px black;
   border-right: solid 2px black;
   border-bottom: solid 2px black;
+  text-align: center;
+}
+
+.signup-button a {
+  font-family: var(--bold-font);
+  text-decoration: none;
+  font-size: 1.5em;
+  line-height: 1;
 }
 
 
-@media (min-width: 1800px) {
-  .menu a,
-  .signtup-button a {
-    font-size: 2em;
-  }
-  .pa-container {
-    padding: 40px;
+
+@media (max-width: 769px) {
+  .menu {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }

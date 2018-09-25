@@ -14,11 +14,9 @@ class About extends Component {
 
           <p>
             Newbie tech was founded by art director/developer <a className="redishpink" href="https://www.linkedin.com/in/anna-%C3%A5gren-7abb445a/" target="blank">Anna Ågren</a>, digital designer <a className="redishpink" href="https://www.linkedin.com/in/lisaengwall/" target="blank">Lisa Engwall</a> and gamification expert <a className="redishpink" href="https://www.linkedin.com/in/frida-mons%C3%A9n-91ab0693/" target="blank">Frida Monsén</a>.
-            The seed for the exploration lab was planted at Hyper Island where the duo explored creative tech together.
-            Anna and Lisa want to spread the joy and beauty of exploring and learning
-            about new technologies together with other tech newbies through facilitated,
-            high quality and curated exploration labs. Newbie tech work in the
-            intersection of creative tech and design.
+            We are curious and passionate about exploring emerging technologies!
+            We run Newbie Tech because we want to inspire and give opportunities
+            for others to discover that joy for tech that we feel!
           </p>
 
         </div>

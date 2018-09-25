@@ -11,12 +11,11 @@ import Header from './header.js'
 import HeaderBanner from './headerBanner.js'
 import Hero from './hero.js'
 import Menu from './menu.js'
-import NewMenu from './newmenu.js'
 import Newsletter from './newsletter.js'
 import NewbieIsFor from './newbieIsFor.js'
 import OurLabs from './ourLabs.js'
 import Partner from './partner.js'
-import PrelaunchLab from './preLaunchLab.js'
+import MachineLearning from './machinelearning.js'
 import ThisIsNewbie from './thisIsNewbie.js'
 
 
@@ -36,7 +35,7 @@ import './newbieIsFor.css'
 import './newsletter.css'
 import './ourLabs.css'
 import './partner.css'
-import './preLaunchLab.css'
+import './machinelearning.css'
 import './thisIsNewbie.css'
 
 class App extends Component {
@@ -47,7 +46,7 @@ class App extends Component {
 
         <Header />
 
-        {/* <NewMenu /> */}
+        <Menu />
 
         <Hero />
 
@@ -55,7 +54,7 @@ class App extends Component {
 
         <OurLabs />
 
-        <PrelaunchLab />
+        <MachineLearning />
 
         <ArduinoLab />
 

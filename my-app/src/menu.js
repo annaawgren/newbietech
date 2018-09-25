@@ -3,71 +3,40 @@ import React, {Component} from 'react'
 class Menu extends Component {
 
   render() {
-    return (<div className="menu pa4 vh-50 w100 flex flew-wrap flex-column">
+    return (<div className="hero-menu flex flew-wrap flex-column pl6 pr6 vh-30 w-100">
 
-      <div className="box bg-pink pa3 pr3 pl3 w-25">
-        <a href="#ourLabs">
-          One day labs – now in Stockholm
-        </a>
-      </div>
+      <div className="hero-menu-container flex flex-column w-100">
 
-      <div className="border-box">
-        {/* First row */}
-
-        <div className="box flex flex-row justify-start w-100 pa3">
-
-          <a className="labinfo border" href="#ourLabs">
-            Experience based & hands on
+        <div className="flex flex-row items-stretch w-100">
+          <a href="#ourLabs" className="hero-menu-item fab-bg pa3 w-20">
+            One day labs
           </a>
-
-          <a className="labinfo border" href="#Machinelearning">
-            Prelaunch Lab: Machine learning
+          <a href="#machinelearning" className="hero-menu-item pa3 w-60">
+            Free prelaunch: Explore Machine learning
           </a>
-
-          <a className="labinfo border" href="#Explorations">
-            Explorations
+          <a href="#ourLabs" className="hero-menu-item fab-bg pa3 w-20">
+            Now in Stockholm
           </a>
-
         </div>
 
-        {/* 2nd row */}
-        <div className="box flex flex-row flex-wrap content-start w-100 pa3">
-
-          <a className="labinfo border" href="#ourLabs">
-            Analogue & Digital
+        <div className="flex flex-row items-stretch w-100">
+          <a href="#ourLabs" className="hero-menu-item pa3 w-50">
+            Upcoming: Build interactive wearables
           </a>
-
-          <a className="labinfo border" href="#Machinelearning">
-            Build interactive wearables
-          </a>
-
-          <a className="pl3 pr3 self-end" href="#Explorations">
-            Facilitated & Curated
-          </a>
-
-        </div>
-
-        {/* Third row */}
-        <div className="box flex flex-row flex-wrap content-start w-100 pa3">
-
-          <a className="pl3 pr3" href="#ourLabs">
-            About
-          </a>
-
-          <a className="pl3 pr3" href="#Machinelearning">
-            Collaborative & Social
-          </a>
-
-          <a className="pl3 pr3 self-end" href="#Explorations">
-            No previous coding skills needed
+          <a href="#ourLabs" className="hero-menu-item pa3 w-50">
+            No previous coding skills needed!
           </a>
 
         </div>
 
       </div>
 
-      <div className="box bg-pink pa3 pr3 pl3 w-25 self-end">
-        Keep me updated!
+      <div className="flex w-100 flex-column items-end">
+        <div className="signup-button pa-container redishpink-bg pa3 w-25">
+          <a href="#newsletter">
+            Keep me posted >>>
+          </a>
+        </div>
       </div>
 
     </div>)

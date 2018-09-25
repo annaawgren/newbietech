@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 
-class PrelaunchLab extends Component {
+class MachineLearning extends Component {
 
   render() {
-    return (<div className="prelaunch flex flex-column w-100 vh-100 tc items-center">
+    return (<div className="prelaunch flex flex-column w-100 vh-100 tc items-center" id="machinelearning">
 
 
 
@@ -37,4 +37,4 @@ class PrelaunchLab extends Component {
 
 }
 
-export default PrelaunchLab
+export default MachineLearning
