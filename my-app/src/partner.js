@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class Partner extends Component {
 
   render() {
-    return (<div className="partner flex flex-column w-100 vh-100 tl justify-center items-center">
+    return (<div className="partner flex flex-column w-100 tl justify-center items-center">
 
       <div className="partner-container flex flex-column justify-center items-center tc">
 

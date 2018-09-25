@@ -1,9 +1,11 @@
 .arduino {
-  background-image: url(./images/arduino-bg.jpg);
+  background-image: url(./images/testbg5.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  height: 1000px;
 }
 
 .background-img img,
@@ -15,7 +17,7 @@ video {
 .labtxt-container-black {
   position: absolute;
   top: 15%;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .labtxt-container-black a {
@@ -45,7 +47,6 @@ video {
 .labtxt-container-black p {
   font-family: var(--bold-font);
   text-decoration: none;
-  text-align: center;
   font-size: 1.2em;
   line-height: 1.5;
   color: #000;
@@ -61,9 +62,6 @@ video {
 }
 
 @media (max-width: 768px) {
-  .arduino {
-    height: 170vh;
-  }
 
   .labtxt-container-black {
     top: 10%;
@@ -84,7 +82,7 @@ video {
   }
 }
 
-@media (max-width: 412px) {
+/* @media (max-width: 412px) {
   .arduino {
     height: 130vh;
   }
@@ -100,10 +98,10 @@ video {
   .arduino {
     height: 200vh;
   }
-}
+} */
 
-@media (max-height: 641px) {
+/* @media (max-height: 641px) {
   .arduino {
     height: 160vh;
   }
-}
+} */

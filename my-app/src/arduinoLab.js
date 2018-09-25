@@ -8,11 +8,11 @@ class ArduinoLab extends Component {
 
 
   render() {
-    return (<div className="arduino flex flex-column w-100 vh-100 tc items-center">
+    return (<div className="arduino flex flex-row w-100 pr6 pl6 tl justify-end">
 
 
 
-      <div className="labtxt-container-black flex flex-column justify-center items-center">
+      <div className="labtxt-container-black flex flex-column justify-right items-right">
 
         <div className="labnumber-hl-black mb4">#01</div>
         <div className="labtxt-hl-black">
