@@ -52,7 +52,15 @@
     padding-right: 40px;
   }
   .team-img {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
+  }
+  .about p {
+    font-family: var(--bold-font);
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  .about-hl {
+    font-size: 5em;
   }
 }

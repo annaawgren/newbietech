@@ -1,7 +1,7 @@
 .footerExtra {
   height: 80px;
   padding-bottom: 10px;
-
+  position: relative;
 }
 
 .footerExtra p {
@@ -9,11 +9,25 @@
   font-family: var(--bold-font);
   color: grey;
   line-height: 1;
+  text-align: left;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
 }
 
 .footerExtra h1 {
   font-size: 2em;
   font-family: var(--mad-font);
   line-height: 1;
+  text-align: right;
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+}
+
+@media (max-width: 450px) {
+  .footerExtra h1 {
+    font-size: 1.5em;
+  }
 
 }

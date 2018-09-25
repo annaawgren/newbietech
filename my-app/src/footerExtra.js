@@ -5,7 +5,7 @@ class FooterExtra extends Component {
 
 
   render() {
-    return (<div className="footerExtra flex flex-row pl4 pr4 w-100 justify-between items-end">
+    return (<div className="footerExtra">
 
       <p>
         ©Newbie tech 2018
