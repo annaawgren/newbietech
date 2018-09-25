@@ -62,6 +62,14 @@ video {
 }
 
 @media (max-width: 768px) {
+  .arduino {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .labnumber-hl-black {
+      padding: 0 40px;
+  }
 
   .labtxt-container-black {
     top: 10%;
@@ -82,26 +90,22 @@ video {
   }
 }
 
-/* @media (max-width: 412px) {
+@media (max-widht: 450px) {
   .arduino {
-    height: 130vh;
+    margin-left: 20px;
+    margin-right: 20px;
   }
+
+  .labnumber-hl-black {
+      padding: 0 20px;
+  }
+
+  .labtxt-container-black {
+    top: 10%;
+  }
+  .button {
+    margin-left: 20px;
+  }
+
+
 }
-
-@media (max-width: 376px) {
-  .prelaunch {
-    height: 130vh;
-  }
-}
-
-@media (max-width: 322px) {
-  .arduino {
-    height: 200vh;
-  }
-} */
-
-/* @media (max-height: 641px) {
-  .arduino {
-    height: 160vh;
-  }
-} */

@@ -8,7 +8,9 @@ class Partner extends Component {
       <div className="partner-container flex flex-column justify-center items-center tc">
 
         <div className="partner-hl">
-          Yes, BECOME A
+          Yes,
+          <br/>
+          BECOME A
           <br/>
           PARTNER
         </div>

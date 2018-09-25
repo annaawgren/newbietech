@@ -52,4 +52,8 @@
   .partner {
     height: 150vh;
   }
+
+  .partner-hl {
+    font-size: 2em;
+  }
 }
