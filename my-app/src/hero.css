@@ -51,6 +51,11 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .hero-quote {
+    font-size: 2.5em;
+    line-height: 1.2;
+    text-align: left;
+  }
 }
 
 @media (max-width: 370px) {

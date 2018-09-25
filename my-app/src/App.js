@@ -50,15 +50,15 @@ class App extends Component {
 
         <Hero />
 
-        <ThisIsNewbie />
-
         <OurLabs />
 
         <MachineLearning />
 
         <ArduinoLab />
 
-        <NewbieIsFor />
+        <ThisIsNewbie />
+
+        {/* <NewbieIsFor /> */}
 
         {/* <ExploreFactsNew />
 

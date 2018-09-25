@@ -13,9 +13,6 @@
   border: solid 1px #000;
 }
 
-.mobile-view-menu {
-  display: none;
-}
 
 .hero-menu-container a {
   font-family: var(--bold-font);
@@ -49,11 +46,22 @@
 }
 
 
-
 @media (max-width: 769px) {
-  .menu {
+  .hero-menu {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .hero-menu-container a {
+    font-size: 1em;
+  }
+
+  .signup-button {
+    width: 60%;
+  }
+
+  .signup-button a {
+    font-size: 1em;
   }
 
 }

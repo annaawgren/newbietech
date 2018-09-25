@@ -9,10 +9,10 @@
   max-width: 600px;
 }
 
-.about-container p {
+.about p {
   font-family: var(--bold-font);
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .about-container a {
@@ -50,5 +50,9 @@
   .about {
     padding-left: 40px;
     padding-right: 40px;
+  }
+  .team-img {
+    height: 250px;
+    width: 250px;
   }
 }

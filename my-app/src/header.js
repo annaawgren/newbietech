@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Typing from 'react-typing-animation'
+// import Typing from 'react-typing-animation'
 
 class Header extends Component {
 
@@ -35,11 +35,13 @@ class Header extends Component {
 
         <div className="logo flex flex-column justify-between items-start mb4">
           NEWBIE TECH
+          <br />
+          EXPLORATION LAB
 
-          <Typing speed={100}>
+          {/* <Typing speed={100}>
             <span>
               EXPLORATION LAB</span>
-          </Typing>
+          </Typing> */}
         </div>
 
       </div>
