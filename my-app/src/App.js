@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 
 import About from './about.js'
 import ArduinoLab from './arduinoLab.js'
-import ExploreFactsNew from './exploreFactsNew.js'
 import ExploreFacts from './exploreFacts.js'
 import Footer from './footer.js'
 import FooterExtra from './footerExtra.js'
@@ -22,7 +21,6 @@ import ThisIsNewbie from './thisIsNewbie.js'
 import './App.css'
 import './about.css'
 import './arduinoLab.css'
-import './exploreFactsNew.css'
 import './exploreFacts.css'
 import './footerExtra.css'
 import './footer.css'
@@ -60,9 +58,7 @@ class App extends Component {
 
         {/* <NewbieIsFor /> */}
 
-        {/* <ExploreFactsNew />
-
-        <ExploreFacts /> */}
+        <ExploreFacts />
 
         <Newsletter />
 

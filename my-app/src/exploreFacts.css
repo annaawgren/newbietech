@@ -1,10 +1,9 @@
-.facts-container {
+.exploreFacts {
   position: relative;
-  height: 150vh;
-  width: 100vw;
+  height: 1000px;
 }
 
-.info-box-container {
+.exploreFacts-container {
   position: absolute;
 }
 
@@ -20,12 +19,12 @@
   }
 }
 
-.info-box:hover {
+.ef-box:hover {
   z-index: 10;
   animation: infoboxmoves 1s ease;
 }
 
-.info-box {
+.ef-box {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -35,21 +34,21 @@
   border: solid 2px black;
 }
 
-.info-box h1 {
+.exploreFacts-container h1 {
   margin-bottom: 20px;
   font-size: 2vw;
   font-family: var(--bold-font);
 }
 
-.info-box p {
+.ef-box p {
   padding: 20px 0;
   border-top: solid 2px black;
   font-family: var(--bold-font);
 }
 
 .box1 {
-  /* top: 10vh;
-  left: 0; */
+  top: 10vh;
+  left: 0;
   background-color: #faffd8;
 }
 
@@ -77,10 +76,6 @@
   background-color: #69e0c2;
 }
 
-.facts-hl h1 {
-  font-size: 5vw;
-  font-family: "mad-sans-black.woff";
-}
 
 .facts-hl p {
   font-size: 1.5vw;
@@ -95,49 +90,11 @@
   font-size: 1em;
 }
 
-.facts-container a {
+.exploreFacts a {
   text-decoration: none;
 }
 
 .btt {
   position: absolute;
-  bottom: 5px;
-}
-
-@media (max-width: 1200px) {
-  .facts-container {
-    width: 100vw;
-    padding: 40px 0;
-    margin: 0;
-  }
-
-  .facts-hl h1 {
-    font-size: 3em;
-    line-height: 1;
-    width: 100%;
-    margin-bottom: 40px;
-  }
-  .info-box h1 {
-    margin-bottom: 20px;
-    font-size: 2em;
-    border: solid 2px #000;
-    width: 100%;
-    padding: 20px;
-  }
-
-  .info-box-container {
-    width: 100vw;
-    padding: 0;
-  }
-
-  .info-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 450px;
-    padding: 30px;
-    border: solid 2px black;
-    text-align: left;
-  }
-  .info-box {}
+  bottom: 20px;
 }

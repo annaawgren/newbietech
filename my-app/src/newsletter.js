@@ -22,12 +22,11 @@ class Newsletter extends Component {
     return (<div className="newsletter flex flex-column w-100 pl6 pr6 pt4 pb6 justify-center items-center tc">
 
         <span id="handemoji" className="hand-emoji">👋🏻</span>
-        <h1>Hey, newsletter! </h1>
+        <h1>Want to know more? </h1>
 
         <div className="newsletter-signup">
           <p>
-            We are currently working on when, where and whats for our
-            upcoming labs. <span className="redishpink">And some other nice things.</span> Sign up to be the first to know about it!
+            We are currently working on the when, where and whats for our upcoming labs. <span className="redishpink">And some other nice things.</span> Sign up to be the first to know about it!
           </p>
         </div>
 
