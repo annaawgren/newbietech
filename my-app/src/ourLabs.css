@@ -1,12 +1,17 @@
 .ourlabs {
   height: auto;
   background-color: var(--redishpink);
-
-
 }
 
 .ourlabs h1 {
   font-family: var(--mad-font);
   font-size: 7em;
   line-height: 1;
+}
+
+@media (max-width: 450px) {
+  .ourlabs h1 {
+    font-size: 6em;
+  }
+
 }

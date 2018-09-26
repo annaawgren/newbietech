@@ -12,7 +12,7 @@ class ArduinoLab extends Component {
 
 
 
-      <div className="labtxt-container-black flex flex-column justify-right items-right">
+      <div className="labtxt-container-black flex flex-column">
 
         <div className="labnumber-hl-black mb4">#01</div>
         <div className="labtxt-hl-black">

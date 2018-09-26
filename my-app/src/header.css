@@ -59,7 +59,7 @@
 
 }
 
-@media (max-widht: 1085px) {
+@media (max-width: 1085px) {
   .header {
     height: 500px;
   }

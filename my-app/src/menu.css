@@ -13,14 +13,12 @@
   border: solid 1px #000;
 }
 
-
 .hero-menu-container a {
   font-family: var(--bold-font);
   text-decoration: none;
   font-size: 1.5em;
   line-height: 1;
 }
-
 
 .fab-bg {
   background-color: #FFAABB;
@@ -29,7 +27,6 @@
 .redishpink-bg {
   background-color: var(--redishpink);
 }
-
 
 .signup-button {
   border-left: solid 2px black;
@@ -43,25 +40,47 @@
   text-decoration: none;
   font-size: 1.5em;
   line-height: 1;
+  width: auto;
 }
 
+.item5:hover {
+  color: #FAB;
+}
+
+@media (max-width: 1300px) {
+  .signup-button a {
+    font-size: 1.5em;
+    line-height: 1;
+  }
+}
 
 @media (max-width: 769px) {
   .hero-menu {
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .hero-menu-container a {
     font-size: 1em;
   }
-
   .signup-button {
     width: 60%;
   }
-
   .signup-button a {
     font-size: 1em;
   }
-
+  .item1 {
+    order: 1;
+    width: 50%;
+  }
+  .item2 {
+    order: 0;
+    width: 100%;
+  }
+  .item3 {
+    order: 2;
+    width: 50%;
+  }
+  .item4, .item5 {
+    width: 100%;
+  }
 }

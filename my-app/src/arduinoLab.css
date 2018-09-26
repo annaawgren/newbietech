@@ -17,7 +17,7 @@ video {
 .labtxt-container-black {
   position: absolute;
   top: 15%;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .labtxt-container-black a {
@@ -31,7 +31,6 @@ video {
   font-size: 5em;
   line-height: 1;
 }
-
 
 .labtxt-hl-black {
   font-family: var(--bold-font);
@@ -53,7 +52,7 @@ video {
   margin-top: 30px;
 }
 
-.button {
+.labtxt-container-black .button {
   width: 300px;
   height: 60px;
   font-family: var(--bold-font);
@@ -63,49 +62,44 @@ video {
 
 @media (max-width: 768px) {
   .arduino {
-    margin-left: 40px;
-    margin-right: 40px;
+    background-position: right;
+    padding-left: 40px;
+    padding-right: 40px;
   }
-
-  .labnumber-hl-black {
-      padding: 0 40px;
-  }
-
   .labtxt-container-black {
-    top: 10%;
+    top: 15%;
   }
-
   .labtxt-hl-black {
     font-size: 2em;
-    padding: 0 40px;
   }
-
   .labtxt-container-black p {
     font-size: 1.5em;
-    padding: 0 40px;
   }
-
-  .button {
+  .labtxt-container-black .button {
     width: 200px;
   }
 }
 
-@media (max-widht: 450px) {
+@media (max-width: 450px) {
   .arduino {
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: flex-start;
+    background-position: left;
+    height: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-
-  .labnumber-hl-black {
-      padding: 0 20px;
-  }
-
   .labtxt-container-black {
     top: 10%;
+    padding-right: 30px;
   }
-  .button {
-    margin-left: 20px;
+  .labtxt-container-black p {
+    padding: 0;
+    margin-left: 20;
   }
+}
 
-
+@media (max-width: 3250px) {
+  .arduino {
+    height: 1100px;
+  }
 }
