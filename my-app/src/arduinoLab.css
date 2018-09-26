@@ -60,6 +60,12 @@ video {
   border: solid 2px var(--redishpink);
 }
 
+@media (max-width: 1024px) {
+  .arduino {
+    padding-right: 90px;
+  }
+}
+
 @media (max-width: 768px) {
   .arduino {
     background-position: right;
@@ -67,7 +73,7 @@ video {
     padding-right: 40px;
   }
   .labtxt-container-black {
-    top: 15%;
+    top: 20%;
   }
   .labtxt-hl-black {
     font-size: 2em;
@@ -85,8 +91,8 @@ video {
     justify-content: flex-start;
     background-position: left;
     height: 1000px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .labtxt-container-black {
     top: 10%;

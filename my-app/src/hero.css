@@ -39,15 +39,40 @@
 
 
 
-@media (max-width: 800px) {
-  .hero {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+
+@media (max-width: 1020px) {
   .hero-quote {
     font-size: 4em;
   }
 }
+
+@media (max-width: 800px) {
+  .hero {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 740px) {
+  .hero {
+    height: 500px;
+  }
+
+  .hero-quote {
+    font-size: 3.4em;
+  }
+  .chip-img {
+    top: 0px;
+    right: 150px;
+    width: 80px;
+  }
+  .arduino-img {
+    bottom: 10px;
+    right: 20px;
+    height: 130px;
+  }
+}
+
 
 @media (max-width: 540px) {
   .hero {

@@ -7,8 +7,8 @@ class Menu extends Component {
 
       <div className="hero-menu-container desktop-view flex flex-column w-100">
         <div className="flex flex-row flex-wrap items-stretch w-100">
-          <a href="#ourLabs" className="hero-menu-item item1 fab-bg pa3 w-40">
-            One day labs – now in Stockholm!
+          <a href="#ourlabs" className="hero-menu-item item1 fab-bg pa3 w-40">
+            One day labs in Stockholm
           </a>
           <a href="#machinelearning" className="hero-menu-item item2 pa3 w-60">
             Free prelaunch: Explore Machine learning
@@ -16,11 +16,11 @@ class Menu extends Component {
         </div>
 
         <div className="flex flex-row flex-wrap items-stretch w-100">
-          <a href="#ourLabs" className="hero-menu-item item3 pa3 w-50">
+          <a href="#arduino" className="hero-menu-item item3 pa3 w-50">
             Upcoming: Build interactive wearables
           </a>
-          <a href="#ourLabs" className="hero-menu-item item4 pa3 w-50">
-            No previous coding skills needed!
+          <a href="#machinelearning" className="hero-menu-item item4 pa3 w-50">
+            No previous coding skills needed <span className="emoji">✌️</span>
           </a>
         </div>
       </div>

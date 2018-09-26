@@ -52,15 +52,26 @@ text-decoration: none;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 660px) {
   .partner-container {
     width: 85%;
+    padding: 30px;
   }
   .partnerinfo p {
     font-size: 1.2em;
   }
   .partner-hl {
     font-size: 2.5em;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 350px) {
+  .partnerinfo p {
+    font-size: 1em;
+  }
+  .partner-hl {
+    font-size: 2em;
     margin-bottom: 60px;
   }
 }

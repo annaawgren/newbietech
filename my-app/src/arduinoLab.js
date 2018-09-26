@@ -8,7 +8,7 @@ class ArduinoLab extends Component {
 
 
   render() {
-    return (<div className="arduino flex flex-row w-100 pr6 pl6 tl justify-end">
+    return (<div className="arduino flex flex-row w-100 pr6 pl6 tl justify-end" id="arduino">
 
 
 
