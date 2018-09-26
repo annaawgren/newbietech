@@ -16,9 +16,6 @@ class ThisIsNewbie extends Component {
 
 
 
-
-
-
   render() {
     return (<div className="this-is-newbie flex flex-column pl6 pr6 w-100 pb6 pt4" id="thisIsNewbie">
 

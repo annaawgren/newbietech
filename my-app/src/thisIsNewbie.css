@@ -44,7 +44,7 @@
 
 .icons p {
   font-family: var(--bold-font);
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5;
   margin-top: 30px;
 }
@@ -71,12 +71,10 @@
   .icons-box {
     width: 50%;
   }
-
   .icons p {
     line-height: 1.5;
     margin-bottom: 40px;
   }
-
   .icons h2 {
     font-size: 2em;
   }
@@ -86,6 +84,13 @@
   .this-is-newbie {
     padding: 20px;
     padding-bottom: 100px;
+  }
+  .icons {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .icons-box {
+    width: 46%;
   }
   .icon {
     width: 100%;
@@ -99,11 +104,20 @@
   }
   .icon {
     width: 100%;
-    height: 80px;
-    margin-bottom: 20px;
+    height: 90px;
+    margin-bottom: 30px;
   }
   .icons p {
-    font-size: 1.5em;
+    font-size: 2em;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .icons h2 {
+    font-size: 3em;
   }
 
 }
@@ -118,6 +132,8 @@
   .icons {
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .icons-box {
     padding: 0;
@@ -129,6 +145,9 @@
   .icons h2 {
     font-size: 2.5em;
     line-height: 1.2;
+  }
+  .icons p {
+    font-size: 1.5em;
   }
 }
 
