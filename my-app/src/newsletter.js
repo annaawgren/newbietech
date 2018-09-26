@@ -26,7 +26,7 @@ class Newsletter extends Component {
 
         <div className="newsletter-signup">
           <p>
-            We are currently working on the when, where and whats for our upcoming labs. <span className="redishpink">And some other nice things.</span> Sign up to be the first to know about it!
+            We are currently working on all the when, where and whats for our upcoming labs. <span className="redishpink">And some other nice things.</span> Sign up to be the first to know about it!
           </p>
         </div>
 
