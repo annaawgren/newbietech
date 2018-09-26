@@ -3,42 +3,6 @@ import anime from 'animejs'
 
 class ExploreFacts extends Component {
 
-  // componentDidMount() {
-  //
-  //   var basicTimeline = anime.timeline();
-  //
-  //   basicTimeline
-  //     .add({
-  //       targets: '#f-interface',
-  //       translateX: 250,
-  //       duration: 200,
-  //       easing: 'easeInOutSine'
-  //     })
-  //     .add({
-  //       targets: '#f-wearables',
-  //       translateX: 250,
-  //       duration: 300,
-  //       easing: 'easeInOutSine'
-  //     })
-  //     .add({
-  //       targets: '#f-conductive',
-  //       translateX: 250,
-  //       duration: 300,
-  //       easing: 'easeInOutSine'
-  //     })
-  //     .add({
-  //       targets: '#f-arduino',
-  //       translateX: 250,
-  //       duration: 300,
-  //       easing: 'easeInOutSine'
-  //     })
-  //     .add({
-  //       targets: '#f-machinelearning',
-  //       translateX: 250,
-  //       duration: 300,
-  //       easing: 'easeInOutSine'
-  //     });
-  // }
 
   render() {
     return (<div className="exploreFacts pl6 pr6 pt5 w-100 tc flex flex-column justify-start">

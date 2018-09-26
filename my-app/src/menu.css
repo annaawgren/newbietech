@@ -59,28 +59,18 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .hero-menu-container a {
-    font-size: 1em;
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
+    width: 100%;
   }
-  .signup-button {
-    width: 60%;
+  .hero-menu-container a {
+    font-size: 1.2em;
   }
   .signup-button a {
     font-size: 1em;
+    line-height: 1;
   }
-  .item1 {
-    order: 1;
-    width: 50%;
-  }
-  .item2 {
-    order: 0;
-    width: 100%;
-  }
-  .item3 {
-    order: 2;
-    width: 50%;
-  }
-  .item4, .item5 {
-    width: 100%;
-  }
+
 }

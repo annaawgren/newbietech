@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-// import Typing from 'react-typing-animation'
+import Typing from 'react-typing-animation'
 
 class Header extends Component {
 
@@ -9,7 +9,7 @@ class Header extends Component {
     return (<div className="header flex flex-column w-100 pt4 pl6 pr6 pb5 tr" id="header">
 
 
-      <div className="mobile-menu flex flex-row item-end w-100 mb5w"><span className="underlined">Menu</span></div>
+      <div className="mobile-menu flex flex-row item-end w-100 mb5"><span className="underlined">Menu</span></div>
 
       <div className="desktop-menu">
         <ul className="nav flex flex-wrap flex-row justify-end w-100 mb5">
@@ -33,20 +33,20 @@ class Header extends Component {
       </div>
 
 
-      <div>
+
 
         <div className="logo flex flex-column justify-between items-start mb4">
           NEWBIE TECH
-          <br />
-          EXPLORATION LAB
+          {/* <br />
+          EXPLORATION LAB */}
 
-          {/* <Typing speed={100}>
+          <Typing speed={100}>
             <span>
               EXPLORATION LAB</span>
-          </Typing> */}
+          </Typing>
         </div>
 
-      </div>
+
 
     </div>)
   }
