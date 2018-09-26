@@ -8,7 +8,7 @@ class Partner extends Component {
       <div className="partner-container flex flex-column justify-center items-center tc">
 
         <div className="partner-hl">
-          Yes,
+          YES,
           <br/>
           BECOME A
           <br/>
@@ -20,7 +20,7 @@ class Partner extends Component {
             Let’s join forces! We are looking for partners who share our mission to make tech fun and accessible for everyone. Do not hesitate to contact us if you see an opportunity to collaborate and shape Newbie tech togheter with us!
             <br/>
             <br/>
-            contact <a className="redishpink" href="mailto:frida@newbietech.se">frida@newbietech.se</a>
+            contact <span className="underlined"><a className="redishpink" href="mailto:frida@newbietech.se">frida@newbietech.se</a></span>
           </p>
         </div>
 

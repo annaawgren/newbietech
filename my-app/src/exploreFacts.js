@@ -7,7 +7,7 @@ class ExploreFacts extends Component {
   render() {
     return (<div className="exploreFacts pl6 pr6 pt5 w-100 tc flex flex-column justify-start">
 
-      <h1>Cool technologies
+      <h1>Creative technologies
         <br/>
         we like to explore</h1>
 

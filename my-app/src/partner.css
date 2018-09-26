@@ -24,16 +24,27 @@
 
 .partnerinfo p {
   font-family: var(--bold-font);
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.5;
   margin-bottom: 40px;
 }
 
+.partnerinfo a {
+text-decoration: none;
+}
+
+.partnerinfo .underlined {
+  padding-bottom: 3px;
+  border-bottom: solid 2px var(--redishpink);
+}
+
+.partnerinfo .underlined:hover {
+  padding-bottom: 3px;
+  border-bottom: solid 2px transparent;
+}
+
 @media (max-width: 800px) {
-  .partner-container {
-    width: 400px;
-    padding: 30px;
-  }
+
   .partner-hl {
     font-size: 3em;
     margin-bottom: 50px;
@@ -43,17 +54,13 @@
 
 @media (max-width: 500px) {
   .partner-container {
-    width: 80%;
-    padding: 30px;
+    width: 85%;
   }
-}
-
-@media (max-height: 570px) {
-  .partner {
-    height: 150vh;
+  .partnerinfo p {
+    font-size: 1.2em;
   }
-
   .partner-hl {
-    font-size: 2em;
+    font-size: 2.5em;
+    margin-bottom: 60px;
   }
 }
