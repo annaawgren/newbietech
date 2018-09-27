@@ -29,7 +29,7 @@ class HeaderBanner extends Component {
       <div className="banner w-100 tc">
         <div><span>💥</span>
           <span className="underlined-ml">
-            <a href="#prelaunch">Machine learning lab</a>
+            <a href="#machinelearning">Machine learning lab</a>
           </span>
           – out now. Limited seats, hurry hurry don't miss! <span>💥</span>
         </div>

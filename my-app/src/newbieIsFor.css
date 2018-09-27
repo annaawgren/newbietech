@@ -4,7 +4,7 @@
   font-family: var(--bold-font);
 }
 
-@media (max-width: 769px) {
+/* @media (max-width: 769px) {
   .newbieIsFor {
     padding-left: 40px;
     padding-right: 40px;
@@ -14,4 +14,4 @@
     font-size: 2em;
     font-family: var(--bold-font);
   }
-}
+} */

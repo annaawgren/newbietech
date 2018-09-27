@@ -19,7 +19,7 @@ class Menu extends Component {
           <a href="#arduino" className="hero-menu-item item3 pa3 w-50">
             Upcoming: Build interactive wearables
           </a>
-          <a href="#machinelearning" className="hero-menu-item item4 pa3 w-50">
+          <a href="#newbieIsFor" className="hero-menu-item item4 pa3 w-50">
             No previous coding skills needed <span className="emoji">✌️</span>
           </a>
         </div>
