@@ -26,7 +26,7 @@ class Header extends Component {
 
           <div onClick={this.handleMenuClick} className="close-tag">
             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 21 19">
-              <g fill="none" stroke="#000" stroke-linecap="square" stroke-width="3" transform="translate(3 3)">
+              <g fill="none" stroke="#000" strokeLinecap="square" strokeWidth="3" transform="translate(3 3)">
                 <path d="M0,0 L15,13"/>
                 <path d="M0,0 L15,13" transform="matrix(1 0 0 -1 0 13)"/>
               </g>

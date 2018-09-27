@@ -27,11 +27,11 @@ class HeaderBanner extends Component {
     return (<div className="header-banner">
 
       <div className="banner w-100 tc">
-        <div><span>💥</span>
+        <div><span role="img" aria-label="Bomb">💥 </span>
           <span className="underlined-ml">
             <a href="#machinelearning">Machine learning lab</a>
           </span>
-          – out now. Limited seats, hurry hurry don't miss! <span>💥</span>
+          – out now. Limited seats, hurry hurry don't miss! <span role="img" aria-label="Bomb">💥</span>
         </div>
         {/* <div onClick={this.handleBannerClick} className="close-tag self-end"/> */}
       </div>

@@ -21,7 +21,7 @@ class Newsletter extends Component {
   render() {
     return (<div className="newsletter flex flex-column w-100 pl6 pr6 pt4 pb5 justify-center items-center tc" id="newsletter">
 
-        <span id="handemoji" className="hand-emoji">👋</span>
+        <span role="img" aria-label="Peace" className="hand-emoji" id="handemoji">👋</span>
         <h1>Aloha</h1>
 
         <div className="newsletter-signup">
