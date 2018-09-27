@@ -27,7 +27,8 @@ class ThisIsNewbie extends Component {
           <div className="icons-box w-25 tl pr4">
             <div className="icon hands-on-img" />
 
-            <h2 className="text-bg"> Experience based</h2>
+            <h2 className="text-bg"> Experience </h2>
+            <h2 className="text-bg"> based</h2>
             <h2 className="text-bg">& Hands-on </h2>
             <p>We believe in learning by doing.
               We focus on hands-on creativity and in our labs

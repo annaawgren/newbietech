@@ -5,7 +5,7 @@ class ExploreFacts extends Component {
 
 
   render() {
-    return (<div className="exploreFacts pl6 pr6 pt5 w-100 tc flex flex-column justify-start">
+    return (<div className="exploreFacts pl6 pr6 pt5 w-100 tc flex flex-column justify-start" id="exploreFacts">
 
       <h1>Creative technologies
         <br/>

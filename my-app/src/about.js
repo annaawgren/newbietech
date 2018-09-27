@@ -15,7 +15,7 @@ class About extends Component {
             <br />
             We are curious and passionate about exploring emerging technologies!
             We run Newbie Tech because we want to inspire and give opportunities
-            for others to discover that joy for tech that we feel!
+            for others to discover that joy for tech that we feel.
 
             <br />
             <br />
