@@ -17,7 +17,7 @@ class Footer extends Component {
 
 
         <div className="footer-socialLinks flex flex-row items-center">
-          <a href="https://www.instagram.com/newbietech/">
+          <a href="https://www.instagram.com/newbietech.se/">
             <img src={Insta} alt="Follow us on Instagram"/>
           </a>
           <a href="https://www.facebook.com/pg/Vegogo-666861027033967/">

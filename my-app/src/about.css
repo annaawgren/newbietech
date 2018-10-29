@@ -60,15 +60,7 @@
 }
 
 .team {
-  background-image: url(./images/team.png);
-}
-
-.lisa {
-  background-image: url(./images/lisa.jpg);
-}
-
-.frida {
-  background-image: url(./images/frida.jpg);
+  background-image: url(./images/team.gif);
 }
 
 @media (max-width: 800px) {

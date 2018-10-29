@@ -26,7 +26,7 @@ class Newsletter extends Component {
 
         <div className="newsletter-signup">
           <p>
-            We are currently working on all the when, where and whats for our upcoming labs. <span className="redishpink">And some other nice things.</span> Sign up for our newsletter to be the first to know about it!
+            We are currently working on all the when, where and whats for our upcoming labs. <span className="redishpink">And some other nice things.</span> Sign up for our newsletter to be the first to know!
           </p>
         </div>
 
@@ -71,7 +71,7 @@ class Newsletter extends Component {
               <div className="clear flex flex-row items-center justify-center">
                 <input
                   type="submit"
-                  value="Subscribe"
+                  value="Sign me up, pls!"
                   name="subscribe"
                   id="mc-embedded-subscribe"
                   className="submit"

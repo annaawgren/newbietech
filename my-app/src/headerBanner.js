@@ -31,8 +31,10 @@ class HeaderBanner extends Component {
           <span className="underlined-ml">
             <a href="#machinelearning">Machine learning lab</a>
           </span>
-          – out now. Limited seats, hurry hurry don't miss! <span role="img" aria-label="Bomb">💥</span>
-        </div>
+           <span>
+           &nbsp;– soon in Stockholm! Limited seats, hurry hurry don't miss <span role="img" aria-label="Bomb">💥</span>
+           </span>
+         </div>
         {/* <div onClick={this.handleBannerClick} className="close-tag self-end"/> */}
       </div>
 

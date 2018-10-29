@@ -28,9 +28,6 @@ class ArduinoLab extends Component {
             that reacts to touch, sound, moist or motion. An introduction to
             using micro-controllers and Arduino. Bring your own laptop.
             No prior knowledge of coding needed. 
-            <br />
-            <br />
-            More info coming soon.
           </p>
 
 

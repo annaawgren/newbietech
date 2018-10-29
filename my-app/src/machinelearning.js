@@ -23,14 +23,11 @@ class MachineLearning extends Component {
             the camera in your computer. Create games where you use
             your body as a remote control. Bring your own laptop.
             No prior knowledge needed.
-            <br/>
-            <br/>
-            More info coming soon.
           </p>
 
 
 
-        <a className="button mt5 mb5 flex justify-center items-center" href="https://www.eventbrite.com/" target="blank">Stay tuned</a>
+        <a className="button mt5 mb5 flex justify-center items-center" href="#newsletter">Stay tuned</a>
 
       </div>
 
