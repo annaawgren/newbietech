@@ -27,7 +27,7 @@ class MachineLearning extends Component {
 
 
 
-        <a className="button mt5 mb5 flex justify-center items-center" href="#newsletter">Stay tuned</a>
+        <a className="button mt5 mb5 flex justify-center items-center" href="#newsletter">Keep me posted</a>
 
       </div>
 

@@ -34,7 +34,7 @@ class Newsletter extends Component {
 
 
           <form
-            action=""
+            action="https://newbietech.us19.list-manage.com/subscribe/post?u=c11245fbc3732c165acc5f4d2&amp;id=3eb4e53027"
             method="post"
             id="mc-embedded-subscribe-form"
             name="mc-embedded-subscribe-form"
