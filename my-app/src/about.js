@@ -20,16 +20,16 @@ class About extends Component {
 
             <br />
             <br />
-            Say hello
+            Say hello!
           </p>
 
         </div>
 
         <div className="contact-us">
           <p>
-            <span className="underlined"><a className="redishpink" href="mailto:anna@newbietech.se" target="blank">anna@newbietech.se</a></span>
+            <span className="underlined"><a className="redishpink" href="mailto:anna@newbietech.io" target="blank">anna@newbietech.io</a></span>
             <br />
-            <span className="underlined"><a className="redishpink" href="mailto:lisa@newbietech.se" target="blank">lisa@newbietech.se</a></span>
+            <span className="underlined"><a className="redishpink" href="mailto:lisa@newbietech.io" target="blank">lisa@newbietech.io</a></span>
 
           </p>
 

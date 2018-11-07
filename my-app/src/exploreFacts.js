@@ -14,33 +14,28 @@ class ExploreFacts extends Component {
 
         <div id="f-interface" className="ef-box box1">
           <h2>Projection Mapping</h2>
-          <p>Projection mapping, similar to video mapping and spatial augmented reality, is a projection technology used to turn objects, often irregularly shaped, into a display surface for video projection. These objects may be complex industrial landscapes, such as buildings, small indoor objects or theatrical stages.</p>
+          <p>With projection mapping complex and irregular objects can turn into canvases for displaying images and video with a projector. The relationship between the projector and the object is mapped out to fit the imagery, creating an interactive or pre-programmed virtual scene onto buildings or indoor objects. Projection mapping can, for instance, be used for installations, concerts, theatre or gaming.</p>
         </div>
 
         <div id="f-wearables" className="ef-box box2">
           <h2>Interactive wearables</h2>
-          <p>Small sensors, microcontrollers and a little bit of code. That is what can make your body and the surrounding world into input sources that make clothes, jewellery and gadgets respond to the music played, the air humidity, touch, acceleration and … you name it. This way everyday items (or a party outfit) can trigger sound, glow to the beat, shift colours or in some other way communicate and make the physical and the digital world blend together.
-          </p>
+          <p>Clothes, jewellery and gadgets can be made interactive and respond to stimuli like music, air humidity, sweat, touch, acceleration and what not. By embedding small sensors, using microcontrollers and a providing a little bit of code, everyday items or your party outfit can trigger sound, glow to the beat, shift colours or send messages and make the physical and the digital world blend together.</p>
         </div>
 
         <div id="f-conductive" className="ef-box box3">
           <h2>Generative art & Processing</h2>
-          <p>Generative art refers to art that in whole or in part has been created with the use of an autonomous system. An autonomous system in this context is generally one that is non-human and can independently determine features of an artwork that would otherwise require decisions made directly by the artist. In some cases the human creator may claim that the generative system represents their own artistic idea, and in others that the system takes on the role of the creator.
-          </p>
+          <p>In generative art, pieces of art are created by autonomous systems and decisions aren't made directly by humans. The computer can be programmed to create unique artworks each time a script is run or respond to some kind of interaction using sensors. One tool for creating this is "Processing" – a programming language and graphical library, created for non-programmers.</p>
         </div>
 
         <div id="f-arduino" className="ef-box box4">
           <h2>Arduino/
           Microcontrollers</h2>
-          <p>Tiny and relatively cheap devices suitable for small electronics projects.
-Microcontrollers, such as Arduino or Genuino, are small computers that run one program over and over. Through reading inputs – for example, motion, temperature and sound, or even a message on Twitter – they can be used to control physical and digital objects and for instance trigger light or sound, or control a motor or other devices.
-</p>
+          <p>These tiny devices are essentially small computers that run one program over and over again. Triggered by for instance motion, temperature, sound or even a Twitter message, they can be used to control physical and digital objects. Microcontrollers such as Arduino are easy-to-use and suitable for small electronics projects. For performing more complex tasks, single-board computers like Raspberry Pi is a better choice.</p>
         </div>
 
         <div id="f-machinelearning" className="ef-box box5">
           <h2>Machine Learning</h2>
-          <p>Machine learning is a way to give computers the capacity to learn from data without programming. It is used for everything from recommending what movie to watch next on Netflix to self-driving cars. It can also be used as a creative tool for building gestural controllers for music, making visuals and creating games. Here are endless possibilities to create by using inputs and outputs related to sound, light, body movements, image recognition, voice or almost anything.
-          </p>
+          <p>Is a way to give computers the capacity to learn from data without programming. It is used for anything from recommending what video to watch next on Youtube, making medical diagnosis, to driving self-driving cars. Machine learning can also be used as a creative tool for building gestural controllers for music, visuals and games, using inputs and outputs related to sound, light, gestures, image recognition, voice or almost anything.</p>
         </div>
       </div>
 

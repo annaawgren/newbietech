@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 
 import Insta from './images/icon-instagram.svg'
-import Facebook from './images/icon-facebook.svg'
 
 class Footer extends Component {
 
@@ -13,11 +12,11 @@ class Footer extends Component {
 
       <div className="flex flex-column h-100 justify-center items-center justify-center">
 
-          <a className="email-us" href="mailto:hello@newbietech.se">hello@newbietech.se</a>
+          <a className="email-us" href="mailto:hello@newbietech.se">hello@newbietech.io</a>
 
 
         <div className="footer-socialLinks flex flex-row items-center">
-          <a href="https://www.instagram.com/newbietech.se/" target="blank">
+          <a href="https://www.instagram.com/newbietech_explorationlab/" target="blank">
             <img src={Insta} alt="Follow us on Instagram"/>
           </a>
         </div>
