@@ -8,7 +8,7 @@ class FooterExtra extends Component {
     return (<div className="footerExtra">
 
       <p>
-        ©Newbie tech 2018
+        ©Newbie tech 2019
       </p>
 
       <h1>
