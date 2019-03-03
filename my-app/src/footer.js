@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 
-import Insta from './images/icon-instagram.svg'
+import Insta from './images/insta.jpg'
+import Facebook from './images/facebook.jpg'
+import LinkedIn from './images/ln.jpg'
 
 class Footer extends Component {
 
@@ -18,6 +20,12 @@ class Footer extends Component {
         <div className="footer-socialLinks flex flex-row items-center">
           <a href="https://www.instagram.com/newbietech_explorationlab/" target="blank">
             <img src={Insta} alt="Follow us on Instagram"/>
+          </a>
+          <a href="https://www.facebook.com/Newbie-Tech-Exploration-Lab-278923373020551/" target="blank">
+            <img src={Facebook} alt="Follow us on Facebook"/>
+          </a>
+          <a href="https://www.linkedin.com/company/newbie-tech/" target="blank">
+            <img src={LinkedIn} alt="Follow us on Linkedin"/>
           </a>
         </div>
       </div>

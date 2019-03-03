@@ -9,11 +9,10 @@ class MachineLearning extends Component {
 
       <div className="labtxt-container flex flex-column justify-center items-left">
 
-        <div className="labnumber-hl mb4">#00</div>
+        <div className="labnumber-hl mb4">#01</div>
         <div className="labtxt-hl">
-          Free prelaunch <br /> mini-lab!
-          <br/>
-          <span className="redishpink">Machine learning afternoon</span>
+
+          <span className="redishpink">Machine learning as a creative tool</span>
         </div>
 
 

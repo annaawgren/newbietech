@@ -14,7 +14,7 @@ class ArduinoLab extends Component {
 
       <div className="labtxt-container-black flex flex-column">
 
-        <div className="labnumber-hl-black mb4">#01</div>
+        <div className="labnumber-hl-black mb4">#02</div>
         <div className="labtxt-hl-black">
           Build interactive
         </div>
