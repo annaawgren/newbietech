@@ -17,11 +17,9 @@ class MachineLearning extends Component {
 
 
           <p>
-            Learn the basics of Machine Learning and sensor inputs
-            for gesture recognition. You will begin to explore using
-            the camera in your computer. Create games where you use
-            your body as a remote control. Bring your own laptop.
-            No prior knowledge needed.
+            Learn the basics of Machine Learning and sensor inputs for gesture recognition.
+            You will begin to explore image and face recognition, audio input and the camera in your computer.
+            Create games that you control with your body or voice. Bring your own laptop. No prior knowledge needed.
           </p>
 
 

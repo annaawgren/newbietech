@@ -30,7 +30,7 @@ class Hero extends Component {
 
 
         <div className="hero-quote pt4">
-          Facilitated and <br />curated
+          Facilitated and <br />hands on
           creative tech explorations.
           <br />For beginners.
         </div>

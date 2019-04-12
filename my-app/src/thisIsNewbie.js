@@ -20,7 +20,7 @@ class ThisIsNewbie extends Component {
     return (<div className="this-is-newbie flex flex-column pl6 pr6 w-100 pb6 pt4" id="thisIsNewbie">
 
 
-        <div className="this-is-hl">This is Newbie tech</div>
+        <div className="this-is-hl">This is Newbie Tech</div>
 
         <div className="icons flex flex-row flex-wrap justify-center justify-around w-100">
 
@@ -32,7 +32,7 @@ class ThisIsNewbie extends Component {
             <h2 className="text-bg">& Hands-on </h2>
             <p>We believe in learning by doing.
               We focus on hands-on creativity and in our labs
-              we build along with experienced industry professionals
+              we build along with industry professionals
               from the tech, art and design industry.
             </p>
           </div>

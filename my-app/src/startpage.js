@@ -40,7 +40,7 @@ import './thisIsNewbie.css'
 class StartPage extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="startpage">
 
         <HeaderBanner />
 
