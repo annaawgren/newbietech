@@ -47,7 +47,6 @@ export const Layout = props => {
         {`
           body,
           html {
-           
             scroll-behavior: smooth;
           }
 

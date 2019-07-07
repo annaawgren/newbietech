@@ -3527,11 +3527,11 @@ video {
 }
 
 .font-body {
-  font-family: CircularStd, sans-serif;
+  font-family: CircularStd-Bold.woff, sans-serif;
 }
 
 .font-sans {
-  font-family: CircularStd, sans-serif;
+  font-family: CircularStd-Bold.woff, sans-serif;
 }
 
 .font-hairline {
@@ -10456,11 +10456,11 @@ video {
   }
 
   .sm\:font-body {
-    font-family: CircularStd, sans-serif;
+    font-family: CircularStd-Bold.woff, sans-serif;
   }
 
   .sm\:font-sans {
-    font-family: CircularStd, sans-serif;
+    font-family: CircularStd-Bold.woff, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -17358,11 +17358,11 @@ video {
   }
 
   .md\:font-body {
-    font-family: CircularStd, sans-serif;
+    font-family: CircularStd-Bold.woff, sans-serif;
   }
 
   .md\:font-sans {
-    font-family: CircularStd, sans-serif;
+    font-family: CircularStd-Bold.woff, sans-serif;
   }
 
   .md\:font-hairline {
@@ -24260,11 +24260,11 @@ video {
   }
 
   .lg\:font-body {
-    font-family: CircularStd, sans-serif;
+    font-family: CircularStd-Bold.woff, sans-serif;
   }
 
   .lg\:font-sans {
-    font-family: CircularStd, sans-serif;
+    font-family: CircularStd-Bold.woff, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -31162,11 +31162,11 @@ video {
   }
 
   .xl\:font-body {
-    font-family: CircularStd, sans-serif;
+    font-family: CircularStd-Bold.woff, sans-serif;
   }
 
   .xl\:font-sans {
-    font-family: CircularStd, sans-serif;
+    font-family: CircularStd-Bold.woff, sans-serif;
   }
 
   .xl\:font-hairline {

@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ["mad-sans-black", "sans-serif"],
-      body: ["CircularStd", "sans-serif"],
-      sans: ["CircularStd", "sans-serif"]
+      body: ["CircularStd-Bold.woff", "sans-serif"],
+      sans: ["CircularStd-Bold.woff", "sans-serif"]
     },
     extend: {
       colors: {
