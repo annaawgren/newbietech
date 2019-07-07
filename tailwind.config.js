@@ -4,14 +4,17 @@ module.exports = {
   separator: ":",
   theme: {
     fontFamily: {
-      display: ["Open sans", "sans-serif"],
-      body: ["Open sans", "sans-serif"],
-      sans: ["Open sans", "sans-serif"]
+      display: ["mad-sans-black", "sans-serif"],
+      body: ["CircularStd", "sans-serif"],
+      sans: ["CircularStd", "sans-serif"]
     },
     extend: {
       colors: {
-        gold: "#625441",
-        green: "#6EAB6C"
+        lightpink: "#f5e6e8",
+        pink: "#ffaabb",
+        darkpink: "#ff5267",
+        turqoise: "#69e0c1",
+        lightyellow: "#faffd8"
       },
       fontSize: {
         mega: "12.5rem"
