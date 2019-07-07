@@ -1,3 +1,7 @@
 {
-    "name": "newbie_tech"
+    "version": 2,
+    "name": "newbie_tech",
+    "builds": [
+        { "src": "package.json", "use": "@now/next" }
+    ]
   }
