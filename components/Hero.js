@@ -1,5 +1,5 @@
 export const Hero = function(props) {
     return(
-        <div>Hero</div>
+        <header className="fixed w-full h-full bg-lightpink p-20">Hero</header>
     )
 }

@@ -15,14 +15,14 @@ import { WhatWeDo } from "../components/WhatWeDo";
 const Home = () => {
   return (
     <Layout title="NewbieTech">
-      <div className="font-display">hello world</div>
-      <About/>
-      <ExploreAndLearn/>
-      <Footer/>
       <Header/>
       <Hero/>
       <ThisIsNewbie/>
       <WhatWeDo/>
+      <About/>
+      <ExploreAndLearn/>
+      <Footer/>
+      
       <LoveToExplore/>
       <Spinner/>
       <MachineLearning/>
