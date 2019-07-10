@@ -1,5 +1,7 @@
 export const WhatWeDo = function(props) {
-    return(
-        <div>This is what we do</div>
-    )
-}
+  return (
+    <div className="w-full h-full">
+      <img className="object-contain" src="../static/images/bg-one.png" />
+    </div>
+  );
+};

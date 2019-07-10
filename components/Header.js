@@ -1,6 +1,6 @@
 export const Header = function(props) {
   return (
-    <header className="fixed w-full bg-lightpink p-20 relative z-10 flex flex-row justify-between">
+    <header className="fixed w-full p-20 z-10 flex flex-row justify-between">
       <svg
         width="53"
         height="65"

@@ -1,7 +1,7 @@
 import { Layout } from "../components/Layout";
-import { About } from "../components/About"
-import { ExploreAndLearn } from "../components/ExploreAndLearn"
-import { Footer } from "../components/Footer"
+import { About } from "../components/About";
+import { ExploreAndLearn } from "../components/ExploreAndLearn";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
 import { LoveToExplore } from "../components/LoveToExplore";
@@ -15,21 +15,21 @@ import { WhatWeDo } from "../components/WhatWeDo";
 const Home = () => {
   return (
     <Layout title="NewbieTech">
-      <Header/>
-      <Hero/>
-      <ThisIsNewbie/>
-      <WhatWeDo/>
-      <About/>
-      <ExploreAndLearn/>
-      <Footer/>
-      
-      <LoveToExplore/>
-      <Spinner/>
-      <MachineLearning/>
-      <Spinner/>
-      <Partner/>
-      <StayTuned/>
-          </Layout>
+      <Header />
+      <Hero />
+      <ThisIsNewbie />
+      <WhatWeDo />
+      <About />
+      <ExploreAndLearn />
+      <Footer />
+
+      <LoveToExplore />
+      <Spinner />
+      <MachineLearning />
+      <Spinner />
+      <Partner />
+      <StayTuned />
+    </Layout>
   );
 };
 
