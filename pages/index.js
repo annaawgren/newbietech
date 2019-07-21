@@ -17,7 +17,7 @@ const Home = () => {
     <Layout title="NewbieTech">
       <Header />
       <Hero />
-      <ThisIsNewbie />
+      {/* <ThisIsNewbie />
       <WhatWeDo />
       <About />
       <ExploreAndLearn />
@@ -28,7 +28,7 @@ const Home = () => {
       <MachineLearning />
       <Spinner />
       <Partner />
-      <StayTuned />
+      <StayTuned /> */}
     </Layout>
   );
 };

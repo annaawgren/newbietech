@@ -1,10 +1,10 @@
-import { MatterAnimation } from "./MatterAnimation";
+import { Shapes } from "./Shapes";
 
 export const Hero = function(props) {
   return (
-    <div className="h-screen w-full flex justify-end flex-shrink-0 flex-no-wrap flex-col flex-grow max-w-full min-h-full overflow-visible bg-lightpink p-20">
+    <div className="w-full flex justify-end flex-shrink-0 flex-no-wrap flex-col flex-grow max-w-full min-h-full overflow-visible bg-lightpink">
       <div className="relative w-full flex-grow-0 flex-shrink-0 overflow-hidden">
-        {/* <MatterAnimation /> */}
+        <Shapes />
 
         <div className="flex items-center justify-center">
           <svg
