@@ -51,8 +51,25 @@ export const Shapes = function(props) {
       }
     });
 
-    const rectangle = Bodies.rectangle(250, 50, 300, 80);
-    const circle = Bodies.circle(150, 250, 100);
+    const rectangleGreen = Bodies.rectangle(250, 50, 300, 80, {
+      render: {
+        fillStyle: "#69E0C2"
+      },
+      frictionAir: 0.05
+    });
+
+    const rectanglePink = Bodies.rectangle(250, 50, 300, 80, {
+      render: {
+        fillStyle: "#ffaabb"
+      },
+      frictionAir: 0.01
+    });
+    const circle = Bodies.circle(150, 250, 100, {
+      render: {
+        fillStyle: "#FF5167"
+      },
+      frictionAir: 0.09
+    });
 
     const wallOptions = {
       isStatic: true,
@@ -80,7 +97,6 @@ export const Shapes = function(props) {
         }
       }
     });
-    console.log(mouseControl);
 
     mouseControl.mouse.element.removeEventListener(
       "mousewheel",
@@ -89,6 +105,19 @@ export const Shapes = function(props) {
     mouseControl.mouse.element.removeEventListener(
       "DOMMouseScroll",
       mouseControl.mouse.mousewheel
+    );
+
+    mouseControl.mouse.element.removeEventListener(
+      "touchmove",
+      mouseControl.mouse.mousemove
+    );
+    mouseControl.mouse.element.removeEventListener(
+      "touchstart",
+      mouseControl.mouse.mousedown
+    );
+    mouseControl.mouse.element.removeEventListener(
+      "touchend",
+      mouseControl.mouse.mouseup
     );
 
     // const initialShapes = Composites.stack(50, 50, 15, 3, 100, 150, (x, y) => {
@@ -102,7 +131,8 @@ export const Shapes = function(props) {
       rightWall,
       mouseControl,
       // initialShapes,
-      rectangle,
+      rectangleGreen,
+      rectanglePink,
       circle,
       newbieLogo
     ]);

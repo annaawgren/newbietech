@@ -1,7 +1,7 @@
 export const Header = function(props) {
   return (
-    <header className="fixed w-full p-20 z-10 ">
-      <div className="flex flex-row justify-between">
+    <header className="absolute z-10">
+      <div className="fixed p-20 w-full flex flex-row justify-between">
         <svg
           className="n-logo"
           width="48"
@@ -22,10 +22,14 @@ export const Header = function(props) {
         </button>
       </div>
 
+      <p className="px-20 pt-48">
+        Hands on creative tech explorations. For beginners.
+      </p>
+
       <style jsx>{`
         .hamline {
           width 60px;
-          height: 3px;
+          height: 4px;
           border-radius: 10px;
           background-color: #4B0A40;
         }

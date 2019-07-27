@@ -2,7 +2,7 @@ import { Shapes } from "./Shapes";
 
 export const Hero = function(props) {
   return (
-    <div className="w-full flex justify-end flex-shrink-0 flex-no-wrap flex-col flex-grow max-w-full min-h-full overflow-visible bg-lightpink">
+    <div className="w-full overflow-hidden bg-lightpink">
       <Shapes />
 
       {/* <div className="flex items-center justify-center">

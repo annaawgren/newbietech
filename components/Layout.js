@@ -62,6 +62,7 @@ export const Layout = props => {
           body,
           html {
             scroll-behavior: smooth;
+            @apply font-display;
           }
         `}
       </style>
