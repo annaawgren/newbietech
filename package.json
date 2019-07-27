@@ -23,7 +23,6 @@
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "@zeit/next-css": "^1.0.1",
     "matter-js": "^0.14.2",
-    "matter-wrap": "^0.2.0",
     "next": "canary",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

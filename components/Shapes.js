@@ -30,18 +30,6 @@ export const Shapes = function(props) {
       }
     });
 
-    const createLogo = (x, y) => {
-      return Bodies.rectangle(x, y, {
-        render: {
-          sprite: {
-            texture: "newbielogo.png",
-            xScale: 25,
-            yScale: 25
-          }
-        }
-      });
-    };
-
     const createShape = (x, y) => {
       return Bodies.rectangle(x, y, 20, 20, {
         // frictionAir: 0.1,
@@ -50,14 +38,22 @@ export const Shapes = function(props) {
           sprite: {
             texture: "../static/images/newbielogo.png"
           }
+        },
+        plugin: {
+          wrap: {
+            min: { x: 0, y: 0 },
+            max: { x: w, y: h }
+          }
         }
       });
     };
 
-    // const bigBall = Bodies.circle(w / 2, h / 2, 200, {
+    // const createLogo = Bodies.rectangle(w / 2, h / 2, 100, 100, {
     //   isStatic: true,
     //   render: {
-    //     fillStyle: "#ffffff"
+    //     sprite: {
+    //       texture: "newbielogo.png"
+    //     }
     //   }
     // });
 
