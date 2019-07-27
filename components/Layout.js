@@ -17,6 +17,7 @@ export const Layout = props => {
         )}
 
         <script src="matter.js" type="text/javascript" />
+        <script src="matter-wrap.js" type="text/javascript" />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content="NewbieTech" />

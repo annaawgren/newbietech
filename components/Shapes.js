@@ -30,11 +30,26 @@ export const Shapes = function(props) {
       }
     });
 
+    const createLogo = (x, y) => {
+      return Bodies.rectangle(x, y, {
+        render: {
+          sprite: {
+            texture: "newbielogo.png",
+            xScale: 25,
+            yScale: 25
+          }
+        }
+      });
+    };
+
     const createShape = (x, y) => {
-      return Bodies.circle(x, y, 20 + 20 * Math.random(), {
+      return Bodies.rectangle(x, y, 20, 20, {
         // frictionAir: 0.1,
         render: {
-          fillStyle: "red"
+          // fillStyle: "red"
+          sprite: {
+            texture: "../static/images/newbielogo.png"
+          }
         }
       });
     };
@@ -73,7 +88,7 @@ export const Shapes = function(props) {
       }
     });
 
-    const initialShapes = Composites.stack(50, 50, 15, 5, 40, 40, (x, y) => {
+    const initialShapes = Composites.stack(50, 50, 15, 3, 100, 150, (x, y) => {
       return createShape(x, y);
     });
 
@@ -93,6 +108,11 @@ export const Shapes = function(props) {
 
     Engine.run(engine);
     Render.run(renderer);
+
+    window.addEventListener("deviceorientation", event => {
+      engine.world.gravity.x = event.gamma / 30;
+      engine.world.gravity.y = event.beta / 30;
+    });
   });
 
   return <section className="shapes" />;
