@@ -8,8 +8,9 @@ export const Shapes = function(props) {
       Render,
       Bodies,
       World,
-      MouseConstraint,
-      Composites
+      Mouse,
+      MouseConstraint
+      // Composites
     } = Matter;
 
     const sectionTag = document.querySelector("section.shapes");
@@ -38,24 +39,20 @@ export const Shapes = function(props) {
           sprite: {
             texture: "../static/images/newbielogo.png"
           }
-        },
-        plugin: {
-          wrap: {
-            min: { x: 0, y: 0 },
-            max: { x: w, y: h }
-          }
         }
       });
     };
 
-    // const createLogo = Bodies.rectangle(w / 2, h / 2, 100, 100, {
-    //   isStatic: true,
-    //   render: {
-    //     sprite: {
-    //       texture: "newbielogo.png"
-    //     }
-    //   }
-    // });
+    const newbieLogo = Bodies.rectangle(50, 50, 300, 189, {
+      render: {
+        sprite: {
+          texture: "../static/images/newbielogo.png"
+        }
+      }
+    });
+
+    const rectangle = Bodies.rectangle(250, 50, 300, 80);
+    const circle = Bodies.circle(150, 250, 100);
 
     const wallOptions = {
       isStatic: true,
@@ -83,10 +80,20 @@ export const Shapes = function(props) {
         }
       }
     });
+    console.log(mouseControl);
 
-    const initialShapes = Composites.stack(50, 50, 15, 3, 100, 150, (x, y) => {
-      return createShape(x, y);
-    });
+    mouseControl.mouse.element.removeEventListener(
+      "mousewheel",
+      mouseControl.mouse.mousewheel
+    );
+    mouseControl.mouse.element.removeEventListener(
+      "DOMMouseScroll",
+      mouseControl.mouse.mousewheel
+    );
+
+    // const initialShapes = Composites.stack(50, 50, 15, 3, 100, 150, (x, y) => {
+    //   return createShape(x, y);
+    // });
 
     World.add(engine.world, [
       ground,
@@ -94,13 +101,16 @@ export const Shapes = function(props) {
       leftWall,
       rightWall,
       mouseControl,
-      initialShapes
+      // initialShapes,
+      rectangle,
+      circle,
+      newbieLogo
     ]);
 
-    document.addEventListener("click", event => {
-      const shape = createShape(event.pageX, event.pageY);
-      World.add(engine.world, shape);
-    });
+    // document.addEventListener("click", event => {
+    //   const shape = createShape(event.pageX, event.pageY);
+    //   World.add(engine.world, shape);
+    // });
 
     Engine.run(engine);
     Render.run(renderer);
