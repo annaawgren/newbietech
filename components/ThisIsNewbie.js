@@ -1,6 +1,6 @@
 export const ThisIsNewbie = function(props) {
   return (
-    <div className="w-full px-56 py-20 flex flex-col">
+    <div className="w-full h-screen px-56 py-20 flex flex-col">
       <p className="text-center text-6xl font-display">THIS IS NEWBIE TECH</p>
       <div className="py-20 flex flex-col lg:flex-row justify-between">
         <div className="flex flex-col mr-16">

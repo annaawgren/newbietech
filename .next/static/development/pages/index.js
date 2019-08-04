@@ -655,9 +655,10 @@ var _jsxFileName = "/Users/annaagren/www/newbietech/components/Spinner.js";
 
 var Spinner = function Spinner(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "h-40 bg-lightpink w-full",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 2
     },
     __self: this
   }, "Spinner!");
@@ -707,7 +708,7 @@ var _jsxFileName = "/Users/annaagren/www/newbietech/components/ThisIsNewbie.js";
 
 var ThisIsNewbie = function ThisIsNewbie(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full px-56 py-20 flex flex-col",
+    className: "w-full h-screen px-56 py-20 flex flex-col",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
@@ -960,21 +961,56 @@ var _jsxFileName = "/Users/annaagren/www/newbietech/components/WhatWeDo.js";
 
 var WhatWeDo = function WhatWeDo(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full h-full",
+    className: "w-full h-full flex justify-center items-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "object-contain",
+    className: "object-contain absolute",
     src: "../static/images/bg-one.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "relative z-10 flex flex-col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-center text-6xl font-display mb-10",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "WHAT WE DO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "font-body text-4xl p-4 bg-lightyellow mb-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Learning Labs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "font-body text-4xl p-4 bg-lightyellow mb-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Exploration Labs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "font-body text-4xl p-4 bg-lightyellow mb-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Sunday Sessions")));
 };
 
 /***/ }),
