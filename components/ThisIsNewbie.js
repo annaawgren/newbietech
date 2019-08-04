@@ -1,11 +1,11 @@
 export const ThisIsNewbie = function(props) {
   return (
     <div className="w-full px-56 py-20 flex flex-col">
-      <p className="text-center text-4xl font-display">This is Newbie Tech</p>
-      <div className="py-20 flex flex-row justify-between">
+      <p className="text-center text-6xl font-display">THIS IS NEWBIE TECH</p>
+      <div className="py-20 flex flex-col lg:flex-row justify-between">
         <div className="flex flex-col mr-16">
           <svg
-            className="pb-4"
+            className="pb-8"
             width="81"
             height="131"
             viewBox="0 0 81 131"
@@ -21,11 +21,11 @@ export const ThisIsNewbie = function(props) {
               fill="#941680"
             />
           </svg>
-          <h3 className="text-3xl">
+          <h3 className="text-3xl font-body mb-4 leading-tight">
             Experience based
             <br /> & hands on
           </h3>
-          <p>
+          <p className="font-body text-m leading-normal">
             We believe in learning by doing. We focus on hands-on creativity and
             in our labs we build along with industry professionals from the
             tech, art and design industry.
@@ -34,7 +34,7 @@ export const ThisIsNewbie = function(props) {
 
         <div className="flex flex-col mr-16">
           <svg
-            className="pb-4"
+            className="pb-8"
             width="151"
             height="129"
             viewBox="0 0 151 129"
@@ -47,11 +47,11 @@ export const ThisIsNewbie = function(props) {
             />
           </svg>
 
-          <h3 className="text-3xl">
+          <h3 className="text-3xl font-body mb-4 leading-tight">
             Collaborative
             <br /> & social
           </h3>
-          <p>
+          <p className="font-body text-m leading-normal">
             We believe in learning together. We explore in small groups and
             co-create to maximise learnings collaboratively.
           </p>
@@ -59,7 +59,7 @@ export const ThisIsNewbie = function(props) {
 
         <div className="flex flex-col mr-16">
           <svg
-            className="pb-4"
+            className="pb-8"
             width="93"
             height="129"
             viewBox="0 0 93 129"
@@ -72,11 +72,11 @@ export const ThisIsNewbie = function(props) {
             />
           </svg>
 
-          <h3 className="text-3xl">
+          <h3 className="text-3xl font-body mb-4 leading-tight">
             Analoge
             <br /> & digital
           </h3>
-          <p>
+          <p className="font-body text-m leading-normal">
             We believe in making emerging technologies tangible. We work with
             analogue materials and provide digital skills to make the physical
             world interactive.
@@ -85,7 +85,7 @@ export const ThisIsNewbie = function(props) {
 
         <div className="flex flex-col">
           <svg
-            className="pb-4"
+            className="pb-8"
             width="152"
             height="120"
             viewBox="0 0 152 120"
@@ -106,10 +106,10 @@ export const ThisIsNewbie = function(props) {
             />
           </svg>
 
-          <h3 className="text-3xl">
+          <h3 className="text-3xl font-body mb-4 leading-tight">
             Facilitated <br />& curated
           </h3>
-          <p>
+          <p className="font-body text-m leading-normal">
             We believe in kickstarting the learning process. We build
             experiences powered by industry professionals to make exploring
             emerging technologies fun and accessible.

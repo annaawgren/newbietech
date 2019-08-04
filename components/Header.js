@@ -22,7 +22,7 @@ export const Header = function(props) {
         </button>
       </div>
 
-      <p className="px-20 pt-48">
+      <p className="px-20 pt-48 font-body">
         Hands on creative tech explorations. For beginners.
       </p>
 

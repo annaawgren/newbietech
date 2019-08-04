@@ -3331,15 +3331,11 @@ video {
 }
 
 .font-display {
-  font-family: Typodermic-AligollX-Regular.woff, sans-serif;
+  font-family: Algol, sans-serif;
 }
 
 .font-body {
-  font-family: CircularStd-Bold.woff, sans-serif;
-}
-
-.font-sans {
-  font-family: CircularStd-Bold.woff, sans-serif;
+  font-family: Circular, sans-serif;
 }
 
 .font-hairline {
@@ -9972,15 +9968,11 @@ video {
   }
 
   .sm\:font-display {
-    font-family: Typodermic-AligollX-Regular.woff, sans-serif;
+    font-family: Algol, sans-serif;
   }
 
   .sm\:font-body {
-    font-family: CircularStd-Bold.woff, sans-serif;
-  }
-
-  .sm\:font-sans {
-    font-family: CircularStd-Bold.woff, sans-serif;
+    font-family: Circular, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -16586,15 +16578,11 @@ video {
   }
 
   .md\:font-display {
-    font-family: Typodermic-AligollX-Regular.woff, sans-serif;
+    font-family: Algol, sans-serif;
   }
 
   .md\:font-body {
-    font-family: CircularStd-Bold.woff, sans-serif;
-  }
-
-  .md\:font-sans {
-    font-family: CircularStd-Bold.woff, sans-serif;
+    font-family: Circular, sans-serif;
   }
 
   .md\:font-hairline {
@@ -23200,15 +23188,11 @@ video {
   }
 
   .lg\:font-display {
-    font-family: Typodermic-AligollX-Regular.woff, sans-serif;
+    font-family: Algol, sans-serif;
   }
 
   .lg\:font-body {
-    font-family: CircularStd-Bold.woff, sans-serif;
-  }
-
-  .lg\:font-sans {
-    font-family: CircularStd-Bold.woff, sans-serif;
+    font-family: Circular, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -29814,15 +29798,11 @@ video {
   }
 
   .xl\:font-display {
-    font-family: Typodermic-AligollX-Regular.woff, sans-serif;
+    font-family: Algol, sans-serif;
   }
 
   .xl\:font-body {
-    font-family: CircularStd-Bold.woff, sans-serif;
-  }
-
-  .xl\:font-sans {
-    font-family: CircularStd-Bold.woff, sans-serif;
+    font-family: Circular, sans-serif;
   }
 
   .xl\:font-hairline {

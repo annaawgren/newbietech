@@ -253,7 +253,7 @@ var Header = function Header(props) {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-3665684929" + " " + "px-20 pt-48",
+    className: "jsx-3665684929" + " " + "px-20 pt-48 font-body",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -262,7 +262,7 @@ var Header = function Header(props) {
   }, "Hands on creative tech explorations. For beginners."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3665684929",
     __self: this
-  }, ".hamline.jsx-3665684929{width:60px;height:4px;border-radius:10px;background-color:#4B0A40;}button.jsx-3665684929{pointer-events:all;outline:none;}button.jsx-3665684929:hover .hamline.top.jsx-3665684929{width:35px;-webkit-transition:200ms ease;transition:200ms ease;}button.jsx-3665684929:hover .hamline.middle.jsx-3665684929{width:20px;-webkit-transition:500ms ease;transition:500ms ease;}button.jsx-3665684929:hover .hamline.btm.jsx-3665684929{width:40px;-webkit-transition:300ms ease;transition:300ms ease;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZWFkZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNEJrQixBQUdxQixBQU1TLEFBSVIsQUFJQSxBQUlBLFdBakJBLEFBVVcsQUFJQSxBQUlBLFFBWlQsR0FMTSxVQU1yQixTQUwyQixzQkFTM0IsQUFJQSxBQUlBLEdBaEJBIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgSGVhZGVyID0gZnVuY3Rpb24ocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8aGVhZGVyIGNsYXNzTmFtZT1cImFic29sdXRlIHotMTBcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZml4ZWQgcC0yMCB3LWZ1bGwgZmxleCBmbGV4LXJvdyBqdXN0aWZ5LWJldHdlZW5cIj5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIGNsYXNzTmFtZT1cIm4tbG9nb1wiXG4gICAgICAgICAgd2lkdGg9XCI0OFwiXG4gICAgICAgICAgaGVpZ2h0PVwiNjBcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgNTMgNjVcIlxuICAgICAgICAgIGZpbGw9XCJub25lXCJcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBkPVwiTTQyLjAxNSA1My41MjI5QzQyLjAxNSA1My44MDQ5IDQxLjgyNyA1NC4wODY5IDQxLjM1NyA1NC4wODY5SDM1LjI0N0MzNC44NzEgNTQuMDg2OSAzNC42ODMgNTMuODA0OSAzNC42ODMgNTMuNTIyOVY0Ny45NzY5SDI5LjEzN0MyOC43NjEgNDcuOTc2OSAyOC41NzMgNDcuNzg4OSAyOC41NzMgNDcuMzE4OVY0MS44NjY5SDIzLjAyN0MyMi42NTEgNDEuODY2OSAyMi40NjMgNDEuNjc4OSAyMi40NjMgNDEuMjA4OVYyOS41NTI5SDE2LjkxN0MxNi41NDEgMjkuNTUyOSAxNi4yNTkgMjkuMzY0OSAxNi4yNTkgMjguOTg4OVYxNy4zMzI4SDExLjM3MVY1My41MjI5QzExLjM3MSA1My44MDQ5IDExLjE4MyA1NC4wODY5IDEwLjgwNyA1NC4wODY5SDQuNjk3QzQuMjI3IDU0LjA4NjkgNC4wMzkgNTMuODA0OSA0LjAzOSA1My41MjI5VjQuNDU0ODVDNC4wMzkgNC4wNzg4NSA0LjIyNyAzLjg5MDg1IDQuNjk3IDMuODkwODVIMTAuODA3QzExLjE4MyAzLjg5MDg1IDExLjM3MSA0LjA3ODg1IDExLjM3MSA0LjQ1NDg1VjEwLjAwMDlIMTYuOTE3QzE3LjM4NyAxMC4wMDA5IDE3LjU3NSAxMC4yODI5IDE3LjU3NSAxMC42NTg5VjE2LjExMDlIMjMuMDI3QzIzLjQ5NyAxNi4xMTA5IDIzLjU5MSAxNi4zOTI5IDIzLjU5MSAxNi43Njg5VjI4LjQyNDlIMjkuMTM3QzI5LjUxMyAyOC40MjQ5IDI5Ljc5NSAyOC41MTg5IDI5Ljc5NSAyOC45ODg5VjQwLjY0NDlIMzQuNjgzVjQuNDU0ODVDMzQuNjgzIDQuMDc4ODUgMzQuODcxIDMuODkwODUgMzUuMjQ3IDMuODkwODVINDEuMzU3QzQxLjgyNyAzLjg5MDg1IDQyLjAxNSA0LjA3ODg1IDQyLjAxNSA0LjQ1NDg1VjUzLjUyMjlaTTQ4Ljc4MyA2NC44OTY5QzUxLjYwMyA2NC44OTY5IDUyLjgyNSA2My4zOTI5IDUyLjgyNSA2MC44NTQ5VjExLjc4NjlDNTIuODI1IDEwLjQ3MDkgNTIuNDQ5IDkuNDM2ODUgNTEuODg1IDguNzc4ODVMNDUuMzA1IDIuMjkyODVDNDMuODAxIDAuOTc2ODUzIDQyLjEwOSAwLjIyNDg1MiA0MC4xMzUgMC4yMjQ4NTJIMzUuMjQ3QzMyLjE0NSAwLjIyNDg1MiAzMS4wMTcgMS4zNTI4NSAzMS4wMTcgNC40NTQ4NVYxOC44MzY5TDE0LjY2MSAyLjI5Mjg1QzEzLjM0NSAwLjg4Mjg0OSAxMS43NDcgMC4yMjQ4NTIgOS40OTEgMC4yMjQ4NTJINC42OTdDMS41OTUgMC4yMjQ4NTIgMC40NjcgMS4zNTI4NSAwLjQ2NyA0LjQ1NDg1VjUyLjExMjlDMC40NjcgNTQuMTgwOSAxLjEyNSA1NS45NjY5IDIuNjI5IDU3LjQ3MDlMOS4wMjEgNjMuODYyOUM5Ljc3MyA2NC42MTQ5IDEwLjcxMyA2NC44OTY5IDEyLjAyOSA2NC44OTY5SDE4LjIzM0MyMC45NTkgNjQuODk2OSAyMi4xODEgNjMuMzkyOSAyMi4xODEgNjAuODU0OVY0Ni4yODQ5TDM5LjU3MSA2My44NjI5QzQwLjQxNyA2NC42MTQ5IDQxLjI2MyA2NC44OTY5IDQyLjU3OSA2NC44OTY5SDQ4Ljc4M1pcIlxuICAgICAgICAgICAgZmlsbD1cIiM0QjBBNDBcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImhhbSBmbGV4IGZsZXgtY29sIGl0ZW1zLWVuZCBoLTYganVzdGlmeS1iZXR3ZWVuXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIHRvcFwiIC8+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIG1pZGRsZVwiIC8+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIGJ0bVwiIC8+XG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxwIGNsYXNzTmFtZT1cInB4LTIwIHB0LTQ4XCI+XG4gICAgICAgIEhhbmRzIG9uIGNyZWF0aXZlIHRlY2ggZXhwbG9yYXRpb25zLiBGb3IgYmVnaW5uZXJzLlxuICAgICAgPC9wPlxuXG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5oYW1saW5lIHtcbiAgICAgICAgICB3aWR0aCA2MHB4O1xuICAgICAgICAgIGhlaWdodDogNHB4O1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzRCMEE0MDtcbiAgICAgICAgfVxuICAgICAgICBidXR0b24ge1xuICAgICAgICAgIHBvaW50ZXItZXZlbnRzOiBhbGw7XG4gICAgICAgICAgb3V0bGluZTogbm9uZTtcbiAgICAgICAgfVxuICAgICAgICBidXR0b246aG92ZXIgLmhhbWxpbmUudG9wIHtcbiAgICAgICAgICB3aWR0aDogMzVweDtcbiAgICAgICAgICB0cmFuc2l0aW9uOiAyMDBtcyBlYXNlO1xuICAgICAgICB9XG4gICAgICAgIGJ1dHRvbjpob3ZlciAuaGFtbGluZS5taWRkbGUge1xuICAgICAgICAgIHdpZHRoOiAyMHB4O1xuICAgICAgICAgIHRyYW5zaXRpb246IDUwMG1zIGVhc2U7XG4gICAgICAgIH1cbiAgICAgICAgYnV0dG9uOmhvdmVyIC5oYW1saW5lLmJ0bSB7XG4gICAgICAgICAgd2lkdGg6IDQwcHg7XG4gICAgICAgICAgdHJhbnNpdGlvbjogMzAwbXMgZWFzZTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvaGVhZGVyPlxuICApO1xufTtcbiJdfQ== */\n/*@ sourceURL=/Users/annaagren/www/newbietech/components/Header.js */"));
+  }, ".hamline.jsx-3665684929{width:60px;height:4px;border-radius:10px;background-color:#4B0A40;}button.jsx-3665684929{pointer-events:all;outline:none;}button.jsx-3665684929:hover .hamline.top.jsx-3665684929{width:35px;-webkit-transition:200ms ease;transition:200ms ease;}button.jsx-3665684929:hover .hamline.middle.jsx-3665684929{width:20px;-webkit-transition:500ms ease;transition:500ms ease;}button.jsx-3665684929:hover .hamline.btm.jsx-3665684929{width:40px;-webkit-transition:300ms ease;transition:300ms ease;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZWFkZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNEJrQixBQUdxQixBQU1TLEFBSVIsQUFJQSxBQUlBLFdBakJBLEFBVVcsQUFJQSxBQUlBLFFBWlQsR0FMTSxVQU1yQixTQUwyQixzQkFTM0IsQUFJQSxBQUlBLEdBaEJBIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgSGVhZGVyID0gZnVuY3Rpb24ocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8aGVhZGVyIGNsYXNzTmFtZT1cImFic29sdXRlIHotMTBcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZml4ZWQgcC0yMCB3LWZ1bGwgZmxleCBmbGV4LXJvdyBqdXN0aWZ5LWJldHdlZW5cIj5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIGNsYXNzTmFtZT1cIm4tbG9nb1wiXG4gICAgICAgICAgd2lkdGg9XCI0OFwiXG4gICAgICAgICAgaGVpZ2h0PVwiNjBcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgNTMgNjVcIlxuICAgICAgICAgIGZpbGw9XCJub25lXCJcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBkPVwiTTQyLjAxNSA1My41MjI5QzQyLjAxNSA1My44MDQ5IDQxLjgyNyA1NC4wODY5IDQxLjM1NyA1NC4wODY5SDM1LjI0N0MzNC44NzEgNTQuMDg2OSAzNC42ODMgNTMuODA0OSAzNC42ODMgNTMuNTIyOVY0Ny45NzY5SDI5LjEzN0MyOC43NjEgNDcuOTc2OSAyOC41NzMgNDcuNzg4OSAyOC41NzMgNDcuMzE4OVY0MS44NjY5SDIzLjAyN0MyMi42NTEgNDEuODY2OSAyMi40NjMgNDEuNjc4OSAyMi40NjMgNDEuMjA4OVYyOS41NTI5SDE2LjkxN0MxNi41NDEgMjkuNTUyOSAxNi4yNTkgMjkuMzY0OSAxNi4yNTkgMjguOTg4OVYxNy4zMzI4SDExLjM3MVY1My41MjI5QzExLjM3MSA1My44MDQ5IDExLjE4MyA1NC4wODY5IDEwLjgwNyA1NC4wODY5SDQuNjk3QzQuMjI3IDU0LjA4NjkgNC4wMzkgNTMuODA0OSA0LjAzOSA1My41MjI5VjQuNDU0ODVDNC4wMzkgNC4wNzg4NSA0LjIyNyAzLjg5MDg1IDQuNjk3IDMuODkwODVIMTAuODA3QzExLjE4MyAzLjg5MDg1IDExLjM3MSA0LjA3ODg1IDExLjM3MSA0LjQ1NDg1VjEwLjAwMDlIMTYuOTE3QzE3LjM4NyAxMC4wMDA5IDE3LjU3NSAxMC4yODI5IDE3LjU3NSAxMC42NTg5VjE2LjExMDlIMjMuMDI3QzIzLjQ5NyAxNi4xMTA5IDIzLjU5MSAxNi4zOTI5IDIzLjU5MSAxNi43Njg5VjI4LjQyNDlIMjkuMTM3QzI5LjUxMyAyOC40MjQ5IDI5Ljc5NSAyOC41MTg5IDI5Ljc5NSAyOC45ODg5VjQwLjY0NDlIMzQuNjgzVjQuNDU0ODVDMzQuNjgzIDQuMDc4ODUgMzQuODcxIDMuODkwODUgMzUuMjQ3IDMuODkwODVINDEuMzU3QzQxLjgyNyAzLjg5MDg1IDQyLjAxNSA0LjA3ODg1IDQyLjAxNSA0LjQ1NDg1VjUzLjUyMjlaTTQ4Ljc4MyA2NC44OTY5QzUxLjYwMyA2NC44OTY5IDUyLjgyNSA2My4zOTI5IDUyLjgyNSA2MC44NTQ5VjExLjc4NjlDNTIuODI1IDEwLjQ3MDkgNTIuNDQ5IDkuNDM2ODUgNTEuODg1IDguNzc4ODVMNDUuMzA1IDIuMjkyODVDNDMuODAxIDAuOTc2ODUzIDQyLjEwOSAwLjIyNDg1MiA0MC4xMzUgMC4yMjQ4NTJIMzUuMjQ3QzMyLjE0NSAwLjIyNDg1MiAzMS4wMTcgMS4zNTI4NSAzMS4wMTcgNC40NTQ4NVYxOC44MzY5TDE0LjY2MSAyLjI5Mjg1QzEzLjM0NSAwLjg4Mjg0OSAxMS43NDcgMC4yMjQ4NTIgOS40OTEgMC4yMjQ4NTJINC42OTdDMS41OTUgMC4yMjQ4NTIgMC40NjcgMS4zNTI4NSAwLjQ2NyA0LjQ1NDg1VjUyLjExMjlDMC40NjcgNTQuMTgwOSAxLjEyNSA1NS45NjY5IDIuNjI5IDU3LjQ3MDlMOS4wMjEgNjMuODYyOUM5Ljc3MyA2NC42MTQ5IDEwLjcxMyA2NC44OTY5IDEyLjAyOSA2NC44OTY5SDE4LjIzM0MyMC45NTkgNjQuODk2OSAyMi4xODEgNjMuMzkyOSAyMi4xODEgNjAuODU0OVY0Ni4yODQ5TDM5LjU3MSA2My44NjI5QzQwLjQxNyA2NC42MTQ5IDQxLjI2MyA2NC44OTY5IDQyLjU3OSA2NC44OTY5SDQ4Ljc4M1pcIlxuICAgICAgICAgICAgZmlsbD1cIiM0QjBBNDBcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImhhbSBmbGV4IGZsZXgtY29sIGl0ZW1zLWVuZCBoLTYganVzdGlmeS1iZXR3ZWVuXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIHRvcFwiIC8+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIG1pZGRsZVwiIC8+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIGJ0bVwiIC8+XG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxwIGNsYXNzTmFtZT1cInB4LTIwIHB0LTQ4IGZvbnQtYm9keVwiPlxuICAgICAgICBIYW5kcyBvbiBjcmVhdGl2ZSB0ZWNoIGV4cGxvcmF0aW9ucy4gRm9yIGJlZ2lubmVycy5cbiAgICAgIDwvcD5cblxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuaGFtbGluZSB7XG4gICAgICAgICAgd2lkdGggNjBweDtcbiAgICAgICAgICBoZWlnaHQ6IDRweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM0QjBBNDA7XG4gICAgICAgIH1cbiAgICAgICAgYnV0dG9uIHtcbiAgICAgICAgICBwb2ludGVyLWV2ZW50czogYWxsO1xuICAgICAgICAgIG91dGxpbmU6IG5vbmU7XG4gICAgICAgIH1cbiAgICAgICAgYnV0dG9uOmhvdmVyIC5oYW1saW5lLnRvcCB7XG4gICAgICAgICAgd2lkdGg6IDM1cHg7XG4gICAgICAgICAgdHJhbnNpdGlvbjogMjAwbXMgZWFzZTtcbiAgICAgICAgfVxuICAgICAgICBidXR0b246aG92ZXIgLmhhbWxpbmUubWlkZGxlIHtcbiAgICAgICAgICB3aWR0aDogMjBweDtcbiAgICAgICAgICB0cmFuc2l0aW9uOiA1MDBtcyBlYXNlO1xuICAgICAgICB9XG4gICAgICAgIGJ1dHRvbjpob3ZlciAuaGFtbGluZS5idG0ge1xuICAgICAgICAgIHdpZHRoOiA0MHB4O1xuICAgICAgICAgIHRyYW5zaXRpb246IDMwMG1zIGVhc2U7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2hlYWRlcj5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/annaagren/www/newbietech/components/Header.js */"));
 };
 
 /***/ }),
@@ -288,7 +288,7 @@ var _jsxFileName = "/Users/annaagren/www/newbietech/components/Hero.js";
 
 var Hero = function Hero(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2166527283" + " " + "w-full overflow-hidden bg-lightpink",
+    className: "jsx-2166527283" + " " + "w-full h-screen overflow-hidden bg-lightpink",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -303,7 +303,7 @@ var Hero = function Hero(props) {
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2166527283",
     __self: this
-  }, "@-webkit-keyframes fadeIn-jsx-2166527283{{opacity:0;-webkit-animation-name:fadein-jsx-2166527283;animation-name:fadein-jsx-2166527283;-webkit-animation-delay:2000ms;animation-delay:2000ms;-webkit-animation-duration:500ms;animation-duration:500ms;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}}@keyframes fadeIn-jsx-2166527283{{opacity:0;-webkit-animation-name:fadein-jsx-2166527283;animation-name:fadein-jsx-2166527283;-webkit-animation-delay:2000ms;animation-delay:2000ms;-webkit-animation-duration:500ms;animation-duration:500ms;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZXJvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCa0IsQUFHcUIsVUFDWSxrRkFDQyxzREFDRSwwREFDVSw4RUFDTixrRUFDL0IiLCJmaWxlIjoiL1VzZXJzL2FubmFhZ3Jlbi93d3cvbmV3YmlldGVjaC9jb21wb25lbnRzL0hlcm8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBTaGFwZXMgfSBmcm9tIFwiLi9TaGFwZXNcIjtcblxuZXhwb3J0IGNvbnN0IEhlcm8gPSBmdW5jdGlvbihwcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwidy1mdWxsIG92ZXJmbG93LWhpZGRlbiBiZy1saWdodHBpbmtcIj5cbiAgICAgIDxTaGFwZXMgLz5cblxuICAgICAgey8qIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXJcIj5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIGNsYXNzTmFtZT1cInNjcm9sbC1hcnJvd1wiXG4gICAgICAgICAgd2lkdGg9XCI1MFwiXG4gICAgICAgICAgaGVpZ2h0PVwiNTBcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgNzggNzhcIlxuICAgICAgICAgIGZpbGw9XCJub25lXCJcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBkPVwiTTc0Ljk4NyAzNi45TDM4Ljk5NTYgNzIuODkxM0wzLjAwNDIyIDM2LjlcIlxuICAgICAgICAgICAgc3Ryb2tlPVwiIzRCMEE0MFwiXG4gICAgICAgICAgICBzdHJva2Utd2lkdGg9XCI2XCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cbiAgICAgIDwvZGl2PiAqL31cblxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBAa2V5ZnJhbWVzIGZhZGVJbiB7XG4gICAgICAgICAgb3BhY2l0eTogMDtcbiAgICAgICAgICBhbmltYXRpb24tbmFtZTogZmFkZWluO1xuICAgICAgICAgIGFuaW1hdGlvbi1kZWxheTogMjAwMG1zO1xuICAgICAgICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogNTAwbXM7XG4gICAgICAgICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XG4gICAgICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/annaagren/www/newbietech/components/Hero.js */"));
+  }, "@-webkit-keyframes fadeIn-jsx-2166527283{{opacity:0;-webkit-animation-name:fadein-jsx-2166527283;animation-name:fadein-jsx-2166527283;-webkit-animation-delay:2000ms;animation-delay:2000ms;-webkit-animation-duration:500ms;animation-duration:500ms;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}}@keyframes fadeIn-jsx-2166527283{{opacity:0;-webkit-animation-name:fadein-jsx-2166527283;animation-name:fadein-jsx-2166527283;-webkit-animation-delay:2000ms;animation-delay:2000ms;-webkit-animation-duration:500ms;animation-duration:500ms;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZXJvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCa0IsQUFHcUIsVUFDWSxrRkFDQyxzREFDRSwwREFDVSw4RUFDTixrRUFDL0IiLCJmaWxlIjoiL1VzZXJzL2FubmFhZ3Jlbi93d3cvbmV3YmlldGVjaC9jb21wb25lbnRzL0hlcm8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBTaGFwZXMgfSBmcm9tIFwiLi9TaGFwZXNcIjtcblxuZXhwb3J0IGNvbnN0IEhlcm8gPSBmdW5jdGlvbihwcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwidy1mdWxsIGgtc2NyZWVuIG92ZXJmbG93LWhpZGRlbiBiZy1saWdodHBpbmtcIj5cbiAgICAgIDxTaGFwZXMgLz5cblxuICAgICAgey8qIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXJcIj5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIGNsYXNzTmFtZT1cInNjcm9sbC1hcnJvd1wiXG4gICAgICAgICAgd2lkdGg9XCI1MFwiXG4gICAgICAgICAgaGVpZ2h0PVwiNTBcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgNzggNzhcIlxuICAgICAgICAgIGZpbGw9XCJub25lXCJcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBkPVwiTTc0Ljk4NyAzNi45TDM4Ljk5NTYgNzIuODkxM0wzLjAwNDIyIDM2LjlcIlxuICAgICAgICAgICAgc3Ryb2tlPVwiIzRCMEE0MFwiXG4gICAgICAgICAgICBzdHJva2Utd2lkdGg9XCI2XCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cbiAgICAgIDwvZGl2PiAqL31cblxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBAa2V5ZnJhbWVzIGZhZGVJbiB7XG4gICAgICAgICAgb3BhY2l0eTogMDtcbiAgICAgICAgICBhbmltYXRpb24tbmFtZTogZmFkZWluO1xuICAgICAgICAgIGFuaW1hdGlvbi1kZWxheTogMjAwMG1zO1xuICAgICAgICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogNTAwbXM7XG4gICAgICAgICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XG4gICAgICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/annaagren/www/newbietech/components/Hero.js */"));
 };
 
 /***/ }),
@@ -345,7 +345,7 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -354,7 +354,7 @@ var Layout = function Layout(props) {
   }, props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -362,7 +362,7 @@ var Layout = function Layout(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     charSet: "utf-8",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -371,16 +371,16 @@ var Layout = function Layout(props) {
   }), props.description && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "description",
     content: props.description,
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
-    src: "matter.js",
-    type: "text/javascript",
-    className: "jsx-1354801730",
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    href: "/static/fonts/CircularStd-Bold.woff",
+    rel: "stylesheet",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -389,74 +389,74 @@ var Layout = function Layout(props) {
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "og:type",
     content: "business.business",
-    className: "jsx-1354801730",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    property: "og:title",
-    content: "NewbieTech",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    property: "og:url",
-    content: "https://newbietech.io",
-    className: "jsx-1354801730",
+    property: "og:title",
+    content: "NewbieTech",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    property: "og:image",
-    content: "https://newbietech.io/static/favicons/favicon-196x196.png/",
-    className: "jsx-1354801730",
+    property: "og:url",
+    content: "https://newbietech.io",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    property: "og:image:width",
-    content: "196",
-    className: "jsx-1354801730",
+    property: "og:image",
+    content: "https://newbietech.io/static/favicons/favicon-196x196.png/",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    property: "og:image:height",
+    property: "og:image:width",
     content: "196",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    property: "og:description",
-    content: "Facilitated and hands on creative tech explorations. For beginners.",
-    className: "jsx-1354801730",
+    property: "og:image:height",
+    content: "196",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+    property: "og:description",
+    content: "Facilitated and hands on creative tech explorations. For beginners.",
+    className: "jsx-2068219274",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "apple-touch-icon",
     sizes: "180x180",
     href: "../static/favicons/apple-touch-icon.png",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
@@ -464,10 +464,10 @@ var Layout = function Layout(props) {
     type: "image/png",
     sizes: "32x32",
     href: "../static/favicons/favicon-32x32.png",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
@@ -475,26 +475,17 @@ var Layout = function Layout(props) {
     type: "image/png",
     sizes: "16x16",
     href: "../static/favicons/favicon-16x16.png",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
-    rel: "manifest",
-    href: "/site.webmanifest",
-    className: "jsx-1354801730",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "mask-icon",
     href: "/safari-pinned-tab.svg",
     color: "#5bbad5",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
@@ -503,7 +494,7 @@ var Layout = function Layout(props) {
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "msapplication-TileColor",
     content: "#2b5797",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
@@ -512,23 +503,23 @@ var Layout = function Layout(props) {
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "theme-color",
     content: "#ffffff",
-    className: "jsx-1354801730",
+    className: "jsx-2068219274",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1354801730" + " " + "antialiased",
+    className: "jsx-2068219274" + " " + "antialiased",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1354801730",
+    id: "2068219274",
     __self: this
-  }, "body,html{-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;@apply font-display;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9MYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNERTLEFBSW9DLDZHQUNKLG9CQUNyQiIsImZpbGUiOiIvVXNlcnMvYW5uYWFncmVuL3d3dy9uZXdiaWV0ZWNoL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuaW1wb3J0IFwiLi4vc3R5bGVzL2luZGV4LmNzc1wiO1xuXG5leHBvcnQgY29uc3QgTGF5b3V0ID0gcHJvcHMgPT4ge1xuICByZXR1cm4gKFxuICAgIDxSZWFjdC5GcmFnbWVudD5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8dGl0bGU+e3Byb3BzLnRpdGxlfTwvdGl0bGU+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImh0dHBzOi8vdW5wa2cuY29tL3RhY2h5b25zQDQuMTAuMC9jc3MvdGFjaHlvbnMubWluLmNzc1wiXG4gICAgICAgIC8+XG4gICAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICAgIHtwcm9wcy5kZXNjcmlwdGlvbiAmJiAoXG4gICAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD17cHJvcHMuZGVzY3JpcHRpb259IC8+XG4gICAgICAgICl9XG5cbiAgICAgICAgPHNjcmlwdCBzcmM9XCJtYXR0ZXIuanNcIiB0eXBlPVwidGV4dC9qYXZhc2NyaXB0XCIgLz5cblxuICAgICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnR5cGVcIiBjb250ZW50PVwiYnVzaW5lc3MuYnVzaW5lc3NcIiAvPlxuICAgICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnRpdGxlXCIgY29udGVudD1cIk5ld2JpZVRlY2hcIiAvPlxuICAgICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnVybFwiIGNvbnRlbnQ9XCJodHRwczovL25ld2JpZXRlY2guaW9cIiAvPlxuICAgICAgICA8bWV0YVxuICAgICAgICAgIHByb3BlcnR5PVwib2c6aW1hZ2VcIlxuICAgICAgICAgIGNvbnRlbnQ9XCJodHRwczovL25ld2JpZXRlY2guaW8vc3RhdGljL2Zhdmljb25zL2Zhdmljb24tMTk2eDE5Ni5wbmcvXCJcbiAgICAgICAgLz5cbiAgICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzppbWFnZTp3aWR0aFwiIGNvbnRlbnQ9XCIxOTZcIiAvPlxuICAgICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOmltYWdlOmhlaWdodFwiIGNvbnRlbnQ9XCIxOTZcIiAvPlxuICAgICAgICA8bWV0YVxuICAgICAgICAgIHByb3BlcnR5PVwib2c6ZGVzY3JpcHRpb25cIlxuICAgICAgICAgIGNvbnRlbnQ9XCJGYWNpbGl0YXRlZCBhbmQgaGFuZHMgb24gY3JlYXRpdmUgdGVjaCBleHBsb3JhdGlvbnMuXG4gICAgICAgICAgRm9yIGJlZ2lubmVycy5cIlxuICAgICAgICAvPlxuXG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiXG4gICAgICAgICAgc2l6ZXM9XCIxODB4MTgwXCJcbiAgICAgICAgICBocmVmPVwiLi4vc3RhdGljL2Zhdmljb25zL2FwcGxlLXRvdWNoLWljb24ucG5nXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJpY29uXCJcbiAgICAgICAgICB0eXBlPVwiaW1hZ2UvcG5nXCJcbiAgICAgICAgICBzaXplcz1cIjMyeDMyXCJcbiAgICAgICAgICBocmVmPVwiLi4vc3RhdGljL2Zhdmljb25zL2Zhdmljb24tMzJ4MzIucG5nXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJpY29uXCJcbiAgICAgICAgICB0eXBlPVwiaW1hZ2UvcG5nXCJcbiAgICAgICAgICBzaXplcz1cIjE2eDE2XCJcbiAgICAgICAgICBocmVmPVwiLi4vc3RhdGljL2Zhdmljb25zL2Zhdmljb24tMTZ4MTYucG5nXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwibWFuaWZlc3RcIiBocmVmPVwiL3NpdGUud2VibWFuaWZlc3RcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJtYXNrLWljb25cIiBocmVmPVwiL3NhZmFyaS1waW5uZWQtdGFiLnN2Z1wiIGNvbG9yPVwiIzViYmFkNVwiIC8+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJtc2FwcGxpY2F0aW9uLVRpbGVDb2xvclwiIGNvbnRlbnQ9XCIjMmI1Nzk3XCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cInRoZW1lLWNvbG9yXCIgY29udGVudD1cIiNmZmZmZmZcIiAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJhbnRpYWxpYXNlZFwiPntwcm9wcy5jaGlsZHJlbn08L2Rpdj5cblxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+XG4gICAgICAgIHtgXG4gICAgICAgICAgYm9keSxcbiAgICAgICAgICBodG1sIHtcbiAgICAgICAgICAgIHNjcm9sbC1iZWhhdmlvcjogc21vb3RoO1xuICAgICAgICAgICAgQGFwcGx5IGZvbnQtZGlzcGxheTtcbiAgICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICA8L3N0eWxlPlxuICAgIDwvUmVhY3QuRnJhZ21lbnQ+XG4gICk7XG59O1xuIl19 */\n/*@ sourceURL=/Users/annaagren/www/newbietech/components/Layout.js */"));
+  }, "@font-face{font-family:\"Circular\";font-style:bold;font-weight:400;src:local(\"Circular:Bold\"),local(\"CircularStd-Bold\"), url(/static/fonts/CircularStd-Bold.woff) format(\"woff2\");}@font-face{font-family:\"Algol\";font-style:regular;font-weight:200;src:local(\"Algol\"),local(\"Alogol\"),:url(/static/fonts/Typodermic-AlgollX-Regular.woff) format(\"woff2\");}body,html{-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;@apply font-display;color:#4b0a40;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9MYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNERTLEFBR29DLEFBT0gsQUFRRyxvQkFQSixHQVBILGdCQUNBLEFBT0EsZ0JBTDBDLEFBT1Usc0RBS2pELG9CQUNMLGNBQ2hCLGVBTkEsUUFQQSIsImZpbGUiOiIvVXNlcnMvYW5uYWFncmVuL3d3dy9uZXdiaWV0ZWNoL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuaW1wb3J0IFwiLi4vc3R5bGVzL2luZGV4LmNzc1wiO1xuXG5leHBvcnQgY29uc3QgTGF5b3V0ID0gcHJvcHMgPT4ge1xuICByZXR1cm4gKFxuICAgIDxSZWFjdC5GcmFnbWVudD5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8dGl0bGU+e3Byb3BzLnRpdGxlfTwvdGl0bGU+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImh0dHBzOi8vdW5wa2cuY29tL3RhY2h5b25zQDQuMTAuMC9jc3MvdGFjaHlvbnMubWluLmNzc1wiXG4gICAgICAgIC8+XG4gICAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICAgIHtwcm9wcy5kZXNjcmlwdGlvbiAmJiAoXG4gICAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD17cHJvcHMuZGVzY3JpcHRpb259IC8+XG4gICAgICAgICl9XG5cbiAgICAgICAgPGxpbmsgaHJlZj1cIi9zdGF0aWMvZm9udHMvQ2lyY3VsYXJTdGQtQm9sZC53b2ZmXCIgcmVsPVwic3R5bGVzaGVldFwiIC8+XG4gICAgICAgIHsvKiA8c2NyaXB0IHNyYz1cIm1hdHRlci5qc1wiIHR5cGU9XCJ0ZXh0L2phdmFzY3JpcHRcIiAvPiAqL31cblxuICAgICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnR5cGVcIiBjb250ZW50PVwiYnVzaW5lc3MuYnVzaW5lc3NcIiAvPlxuICAgICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnRpdGxlXCIgY29udGVudD1cIk5ld2JpZVRlY2hcIiAvPlxuICAgICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnVybFwiIGNvbnRlbnQ9XCJodHRwczovL25ld2JpZXRlY2guaW9cIiAvPlxuICAgICAgICA8bWV0YVxuICAgICAgICAgIHByb3BlcnR5PVwib2c6aW1hZ2VcIlxuICAgICAgICAgIGNvbnRlbnQ9XCJodHRwczovL25ld2JpZXRlY2guaW8vc3RhdGljL2Zhdmljb25zL2Zhdmljb24tMTk2eDE5Ni5wbmcvXCJcbiAgICAgICAgLz5cbiAgICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzppbWFnZTp3aWR0aFwiIGNvbnRlbnQ9XCIxOTZcIiAvPlxuICAgICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOmltYWdlOmhlaWdodFwiIGNvbnRlbnQ9XCIxOTZcIiAvPlxuICAgICAgICA8bWV0YVxuICAgICAgICAgIHByb3BlcnR5PVwib2c6ZGVzY3JpcHRpb25cIlxuICAgICAgICAgIGNvbnRlbnQ9XCJGYWNpbGl0YXRlZCBhbmQgaGFuZHMgb24gY3JlYXRpdmUgdGVjaCBleHBsb3JhdGlvbnMuXG4gICAgICAgICAgRm9yIGJlZ2lubmVycy5cIlxuICAgICAgICAvPlxuXG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiXG4gICAgICAgICAgc2l6ZXM9XCIxODB4MTgwXCJcbiAgICAgICAgICBocmVmPVwiLi4vc3RhdGljL2Zhdmljb25zL2FwcGxlLXRvdWNoLWljb24ucG5nXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJpY29uXCJcbiAgICAgICAgICB0eXBlPVwiaW1hZ2UvcG5nXCJcbiAgICAgICAgICBzaXplcz1cIjMyeDMyXCJcbiAgICAgICAgICBocmVmPVwiLi4vc3RhdGljL2Zhdmljb25zL2Zhdmljb24tMzJ4MzIucG5nXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJpY29uXCJcbiAgICAgICAgICB0eXBlPVwiaW1hZ2UvcG5nXCJcbiAgICAgICAgICBzaXplcz1cIjE2eDE2XCJcbiAgICAgICAgICBocmVmPVwiLi4vc3RhdGljL2Zhdmljb25zL2Zhdmljb24tMTZ4MTYucG5nXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwibWFzay1pY29uXCIgaHJlZj1cIi9zYWZhcmktcGlubmVkLXRhYi5zdmdcIiBjb2xvcj1cIiM1YmJhZDVcIiAvPlxuICAgICAgICA8bWV0YSBuYW1lPVwibXNhcHBsaWNhdGlvbi1UaWxlQ29sb3JcIiBjb250ZW50PVwiIzJiNTc5N1wiIC8+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJ0aGVtZS1jb2xvclwiIGNvbnRlbnQ9XCIjZmZmZmZmXCIgLz5cbiAgICAgIDwvSGVhZD5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYW50aWFsaWFzZWRcIj57cHJvcHMuY2hpbGRyZW59PC9kaXY+XG5cbiAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPlxuICAgICAgICB7YFxuICAgICAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICAgICAgZm9udC1mYW1pbHk6IFwiQ2lyY3VsYXJcIjtcbiAgICAgICAgICAgIGZvbnQtc3R5bGU6IGJvbGQ7XG4gICAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICAgICAgc3JjOiBsb2NhbChcIkNpcmN1bGFyIEJvbGRcIiksIGxvY2FsKFwiQ2lyY3VsYXJTdGQtQm9sZFwiKSxcbiAgICAgICAgICAgICAgdXJsKC9zdGF0aWMvZm9udHMvQ2lyY3VsYXJTdGQtQm9sZC53b2ZmKSBmb3JtYXQoXCJ3b2ZmMlwiKTtcbiAgICAgICAgICB9XG4gICAgICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgICAgICBmb250LWZhbWlseTogXCJBbGdvbFwiO1xuICAgICAgICAgICAgZm9udC1zdHlsZTogcmVndWxhcjtcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiAyMDA7XG4gICAgICAgICAgICBzcmM6IGxvY2FsKFwiQWxnb2xcIiksIGxvY2FsKFwiQWxvZ29sXCIpLFxuICAgICAgICAgICAgICB1cmwoL3N0YXRpYy9mb250cy9UeXBvZGVybWljLUFsZ29sbFgtUmVndWxhci53b2ZmKSBmb3JtYXQoXCJ3b2ZmMlwiKTtcbiAgICAgICAgICB9XG4gICAgICAgICAgYm9keSxcbiAgICAgICAgICBodG1sIHtcbiAgICAgICAgICAgIHNjcm9sbC1iZWhhdmlvcjogc21vb3RoO1xuICAgICAgICAgICAgQGFwcGx5IGZvbnQtZGlzcGxheTtcbiAgICAgICAgICAgIGNvbG9yOiAjNGIwYTQwO1xuICAgICAgICAgIH1cbiAgICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG4gICAgPC9SZWFjdC5GcmFnbWVudD5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/annaagren/www/newbietech/components/Layout.js */"));
 };
 
 /***/ }),
@@ -816,14 +807,14 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-center text-4xl font-display",
+    className: "text-center text-6xl font-display",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, "This is Newbie Tech"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "py-20 flex flex-row justify-between",
+  }, "THIS IS NEWBIE TECH"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "py-20 flex flex-col lg:flex-row justify-between",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -837,7 +828,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    className: "pb-4",
+    className: "pb-8",
     width: "81",
     height: "131",
     viewBox: "0 0 81 131",
@@ -865,7 +856,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "text-3xl",
+    className: "text-3xl font-body mb-4 leading-tight",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -878,6 +869,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }), " & hands on"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "font-body text-m leading-normal",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
@@ -891,7 +883,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    className: "pb-4",
+    className: "pb-8",
     width: "151",
     height: "129",
     viewBox: "0 0 151 129",
@@ -911,7 +903,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "text-3xl",
+    className: "text-3xl font-body mb-4 leading-tight",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
@@ -924,6 +916,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }), " & social"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "font-body text-m leading-normal",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
@@ -937,7 +930,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    className: "pb-4",
+    className: "pb-8",
     width: "93",
     height: "129",
     viewBox: "0 0 93 129",
@@ -957,7 +950,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "text-3xl",
+    className: "text-3xl font-body mb-4 leading-tight",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 75
@@ -970,6 +963,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }), " & digital"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "font-body text-m leading-normal",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
@@ -983,7 +977,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    className: "pb-4",
+    className: "pb-8",
     width: "152",
     height: "120",
     viewBox: "0 0 152 120",
@@ -1019,7 +1013,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "text-3xl",
+    className: "text-3xl font-body mb-4 leading-tight",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 109
@@ -1032,6 +1026,7 @@ var ThisIsNewbie = function ThisIsNewbie(props) {
     },
     __self: this
   }), "& curated"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "font-body text-m leading-normal",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 112

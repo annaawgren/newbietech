@@ -16,7 +16,8 @@ export const Layout = props => {
           <meta name="description" content={props.description} />
         )}
 
-        <script src="matter.js" type="text/javascript" />
+        <link href="/static/fonts/CircularStd-Bold.woff" rel="stylesheet" />
+        {/* <script src="matter.js" type="text/javascript" /> */}
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content="NewbieTech" />
@@ -50,7 +51,6 @@ export const Layout = props => {
           sizes="16x16"
           href="../static/favicons/favicon-16x16.png"
         />
-        <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#2b5797" />
         <meta name="theme-color" content="#ffffff" />
@@ -59,10 +59,25 @@ export const Layout = props => {
 
       <style jsx global>
         {`
+          @font-face {
+            font-family: "Circular";
+            font-style: bold;
+            font-weight: 400;
+            src: local("Circular Bold"), local("CircularStd-Bold"),
+              url(/static/fonts/CircularStd-Bold.woff) format("woff2");
+          }
+          @font-face {
+            font-family: "Algol";
+            font-style: regular;
+            font-weight: 200;
+            src: local("Algol"), local("Alogol"),
+              url(/static/fonts/Typodermic-AlgollX-Regular.woff) format("woff2");
+          }
           body,
           html {
             scroll-behavior: smooth;
             @apply font-display;
+            color: #4b0a40;
           }
         `}
       </style>

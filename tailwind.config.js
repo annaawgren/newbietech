@@ -4,9 +4,8 @@ module.exports = {
   separator: ":",
   theme: {
     fontFamily: {
-      display: ["Typodermic-AligollX-Regular.woff", "sans-serif"],
-      body: ["CircularStd-Bold.woff", "sans-serif"],
-      sans: ["CircularStd-Bold.woff", "sans-serif"]
+      display: ["Algol", "sans-serif"],
+      body: ["Circular", "sans-serif"]
     },
     extend: {
       colors: {
