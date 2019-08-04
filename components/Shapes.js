@@ -9,8 +9,8 @@ export const Shapes = function(props) {
       Bodies,
       World,
       Mouse,
-      MouseConstraint
-      // Composites
+      MouseConstraint,
+      Composites
     } = Matter;
 
     const sectionTag = document.querySelector("section.shapes");
@@ -32,38 +32,38 @@ export const Shapes = function(props) {
     });
 
     const createShape = (x, y) => {
-      return Bodies.rectangle(x, y, 20, 20, {
+      return Bodies.circle(x, y, 20, {
         // frictionAir: 0.1,
         render: {
-          // fillStyle: "red"
-          sprite: {
-            texture: "../static/images/newbielogo.png"
-          }
+          fillStyle: "#FF5167"
+          // sprite: {
+          //   texture: "../static/images/newbielogo.png"
+          // }
         }
       });
     };
 
-    const newbieLogo = Bodies.rectangle(50, 50, 300, 189, {
-      render: {
-        sprite: {
-          texture: "../static/images/newbielogo.png"
-        }
-      }
-    });
+    // const newbieLogo = Bodies.rectangle(50, 50, 300, 189, {
+    //   render: {
+    //     sprite: {
+    //       texture: "../static/images/newbielogo.png"
+    //     }
+    //   }
+    // });
 
-    const rectangleGreen = Bodies.rectangle(250, 50, 300, 80, {
-      render: {
-        fillStyle: "#69E0C2"
-      },
-      frictionAir: 0.05
-    });
+    // const rectangleGreen = Bodies.rectangle(250, 50, 300, 80, {
+    //   render: {
+    //     fillStyle: "#69E0C2"
+    //   },
+    //   frictionAir: 0.05
+    // });
 
-    const rectanglePink = Bodies.rectangle(250, 50, 300, 80, {
-      render: {
-        fillStyle: "#ffaabb"
-      },
-      frictionAir: 0.01
-    });
+    // const rectanglePink = Bodies.rectangle(250, 50, 300, 80, {
+    //   render: {
+    //     fillStyle: "#ffaabb"
+    //   },
+    //   frictionAir: 0.01
+    // });
     const circle = Bodies.circle(150, 250, 100, {
       render: {
         fillStyle: "#FF5167"
@@ -120,9 +120,9 @@ export const Shapes = function(props) {
       mouseControl.mouse.mouseup
     );
 
-    // const initialShapes = Composites.stack(50, 50, 15, 3, 100, 150, (x, y) => {
-    //   return createShape(x, y);
-    // });
+    const initialShapes = Composites.stack(50, 50, 30, 20, 100, 50, (x, y) => {
+      return createShape(x, y);
+    });
 
     World.add(engine.world, [
       ground,
@@ -130,11 +130,10 @@ export const Shapes = function(props) {
       leftWall,
       rightWall,
       mouseControl,
-      // initialShapes,
-      rectangleGreen,
-      rectanglePink,
-      circle,
-      newbieLogo
+      initialShapes,
+      // rectangleGreen,
+      // rectanglePink,
+      circle
     ]);
 
     // document.addEventListener("click", event => {

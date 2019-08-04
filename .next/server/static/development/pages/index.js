@@ -203,66 +203,54 @@ var Header = function Header(props) {
       lineNumber: 4
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("svg", {
-    width: "48",
-    height: "60",
-    viewBox: "0 0 53 65",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg",
-    className: "jsx-3665684929" + " " + "n-logo",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "../static/images/newbielogo.png",
+    alt: "Newbie Tech logo",
+    className: "jsx-3665684929",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
-    d: "M42.015 53.5229C42.015 53.8049 41.827 54.0869 41.357 54.0869H35.247C34.871 54.0869 34.683 53.8049 34.683 53.5229V47.9769H29.137C28.761 47.9769 28.573 47.7889 28.573 47.3189V41.8669H23.027C22.651 41.8669 22.463 41.6789 22.463 41.2089V29.5529H16.917C16.541 29.5529 16.259 29.3649 16.259 28.9889V17.3328H11.371V53.5229C11.371 53.8049 11.183 54.0869 10.807 54.0869H4.697C4.227 54.0869 4.039 53.8049 4.039 53.5229V4.45485C4.039 4.07885 4.227 3.89085 4.697 3.89085H10.807C11.183 3.89085 11.371 4.07885 11.371 4.45485V10.0009H16.917C17.387 10.0009 17.575 10.2829 17.575 10.6589V16.1109H23.027C23.497 16.1109 23.591 16.3929 23.591 16.7689V28.4249H29.137C29.513 28.4249 29.795 28.5189 29.795 28.9889V40.6449H34.683V4.45485C34.683 4.07885 34.871 3.89085 35.247 3.89085H41.357C41.827 3.89085 42.015 4.07885 42.015 4.45485V53.5229ZM48.783 64.8969C51.603 64.8969 52.825 63.3929 52.825 60.8549V11.7869C52.825 10.4709 52.449 9.43685 51.885 8.77885L45.305 2.29285C43.801 0.976853 42.109 0.224852 40.135 0.224852H35.247C32.145 0.224852 31.017 1.35285 31.017 4.45485V18.8369L14.661 2.29285C13.345 0.882849 11.747 0.224852 9.491 0.224852H4.697C1.595 0.224852 0.467 1.35285 0.467 4.45485V52.1129C0.467 54.1809 1.125 55.9669 2.629 57.4709L9.021 63.8629C9.773 64.6149 10.713 64.8969 12.029 64.8969H18.233C20.959 64.8969 22.181 63.3929 22.181 60.8549V46.2849L39.571 63.8629C40.417 64.6149 41.263 64.8969 42.579 64.8969H48.783Z",
-    fill: "#4B0A40",
-    className: "jsx-3665684929",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "jsx-3665684929" + " " + "ham flex flex-col items-end h-6 justify-between",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3665684929" + " " + "hamline top",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 21
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3665684929" + " " + "hamline middle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3665684929" + " " + "hamline btm",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "jsx-3665684929" + " " + "px-20 pt-48 font-body",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 27
     },
     __self: this
   }, "Hands on creative tech explorations. For beginners."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3665684929",
     __self: this
-  }, ".hamline.jsx-3665684929{width:60px;height:4px;border-radius:10px;background-color:#4B0A40;}button.jsx-3665684929{pointer-events:all;outline:none;}button.jsx-3665684929:hover .hamline.top.jsx-3665684929{width:35px;-webkit-transition:200ms ease;transition:200ms ease;}button.jsx-3665684929:hover .hamline.middle.jsx-3665684929{width:20px;-webkit-transition:500ms ease;transition:500ms ease;}button.jsx-3665684929:hover .hamline.btm.jsx-3665684929{width:40px;-webkit-transition:300ms ease;transition:300ms ease;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZWFkZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNEJrQixBQUdxQixBQU1TLEFBSVIsQUFJQSxBQUlBLFdBakJBLEFBVVcsQUFJQSxBQUlBLFFBWlQsR0FMTSxVQU1yQixTQUwyQixzQkFTM0IsQUFJQSxBQUlBLEdBaEJBIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgSGVhZGVyID0gZnVuY3Rpb24ocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8aGVhZGVyIGNsYXNzTmFtZT1cImFic29sdXRlIHotMTBcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZml4ZWQgcC0yMCB3LWZ1bGwgZmxleCBmbGV4LXJvdyBqdXN0aWZ5LWJldHdlZW5cIj5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIGNsYXNzTmFtZT1cIm4tbG9nb1wiXG4gICAgICAgICAgd2lkdGg9XCI0OFwiXG4gICAgICAgICAgaGVpZ2h0PVwiNjBcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgNTMgNjVcIlxuICAgICAgICAgIGZpbGw9XCJub25lXCJcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBkPVwiTTQyLjAxNSA1My41MjI5QzQyLjAxNSA1My44MDQ5IDQxLjgyNyA1NC4wODY5IDQxLjM1NyA1NC4wODY5SDM1LjI0N0MzNC44NzEgNTQuMDg2OSAzNC42ODMgNTMuODA0OSAzNC42ODMgNTMuNTIyOVY0Ny45NzY5SDI5LjEzN0MyOC43NjEgNDcuOTc2OSAyOC41NzMgNDcuNzg4OSAyOC41NzMgNDcuMzE4OVY0MS44NjY5SDIzLjAyN0MyMi42NTEgNDEuODY2OSAyMi40NjMgNDEuNjc4OSAyMi40NjMgNDEuMjA4OVYyOS41NTI5SDE2LjkxN0MxNi41NDEgMjkuNTUyOSAxNi4yNTkgMjkuMzY0OSAxNi4yNTkgMjguOTg4OVYxNy4zMzI4SDExLjM3MVY1My41MjI5QzExLjM3MSA1My44MDQ5IDExLjE4MyA1NC4wODY5IDEwLjgwNyA1NC4wODY5SDQuNjk3QzQuMjI3IDU0LjA4NjkgNC4wMzkgNTMuODA0OSA0LjAzOSA1My41MjI5VjQuNDU0ODVDNC4wMzkgNC4wNzg4NSA0LjIyNyAzLjg5MDg1IDQuNjk3IDMuODkwODVIMTAuODA3QzExLjE4MyAzLjg5MDg1IDExLjM3MSA0LjA3ODg1IDExLjM3MSA0LjQ1NDg1VjEwLjAwMDlIMTYuOTE3QzE3LjM4NyAxMC4wMDA5IDE3LjU3NSAxMC4yODI5IDE3LjU3NSAxMC42NTg5VjE2LjExMDlIMjMuMDI3QzIzLjQ5NyAxNi4xMTA5IDIzLjU5MSAxNi4zOTI5IDIzLjU5MSAxNi43Njg5VjI4LjQyNDlIMjkuMTM3QzI5LjUxMyAyOC40MjQ5IDI5Ljc5NSAyOC41MTg5IDI5Ljc5NSAyOC45ODg5VjQwLjY0NDlIMzQuNjgzVjQuNDU0ODVDMzQuNjgzIDQuMDc4ODUgMzQuODcxIDMuODkwODUgMzUuMjQ3IDMuODkwODVINDEuMzU3QzQxLjgyNyAzLjg5MDg1IDQyLjAxNSA0LjA3ODg1IDQyLjAxNSA0LjQ1NDg1VjUzLjUyMjlaTTQ4Ljc4MyA2NC44OTY5QzUxLjYwMyA2NC44OTY5IDUyLjgyNSA2My4zOTI5IDUyLjgyNSA2MC44NTQ5VjExLjc4NjlDNTIuODI1IDEwLjQ3MDkgNTIuNDQ5IDkuNDM2ODUgNTEuODg1IDguNzc4ODVMNDUuMzA1IDIuMjkyODVDNDMuODAxIDAuOTc2ODUzIDQyLjEwOSAwLjIyNDg1MiA0MC4xMzUgMC4yMjQ4NTJIMzUuMjQ3QzMyLjE0NSAwLjIyNDg1MiAzMS4wMTcgMS4zNTI4NSAzMS4wMTcgNC40NTQ4NVYxOC44MzY5TDE0LjY2MSAyLjI5Mjg1QzEzLjM0NSAwLjg4Mjg0OSAxMS43NDcgMC4yMjQ4NTIgOS40OTEgMC4yMjQ4NTJINC42OTdDMS41OTUgMC4yMjQ4NTIgMC40NjcgMS4zNTI4NSAwLjQ2NyA0LjQ1NDg1VjUyLjExMjlDMC40NjcgNTQuMTgwOSAxLjEyNSA1NS45NjY5IDIuNjI5IDU3LjQ3MDlMOS4wMjEgNjMuODYyOUM5Ljc3MyA2NC42MTQ5IDEwLjcxMyA2NC44OTY5IDEyLjAyOSA2NC44OTY5SDE4LjIzM0MyMC45NTkgNjQuODk2OSAyMi4xODEgNjMuMzkyOSAyMi4xODEgNjAuODU0OVY0Ni4yODQ5TDM5LjU3MSA2My44NjI5QzQwLjQxNyA2NC42MTQ5IDQxLjI2MyA2NC44OTY5IDQyLjU3OSA2NC44OTY5SDQ4Ljc4M1pcIlxuICAgICAgICAgICAgZmlsbD1cIiM0QjBBNDBcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImhhbSBmbGV4IGZsZXgtY29sIGl0ZW1zLWVuZCBoLTYganVzdGlmeS1iZXR3ZWVuXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIHRvcFwiIC8+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIG1pZGRsZVwiIC8+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1saW5lIGJ0bVwiIC8+XG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxwIGNsYXNzTmFtZT1cInB4LTIwIHB0LTQ4IGZvbnQtYm9keVwiPlxuICAgICAgICBIYW5kcyBvbiBjcmVhdGl2ZSB0ZWNoIGV4cGxvcmF0aW9ucy4gRm9yIGJlZ2lubmVycy5cbiAgICAgIDwvcD5cblxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuaGFtbGluZSB7XG4gICAgICAgICAgd2lkdGggNjBweDtcbiAgICAgICAgICBoZWlnaHQ6IDRweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM0QjBBNDA7XG4gICAgICAgIH1cbiAgICAgICAgYnV0dG9uIHtcbiAgICAgICAgICBwb2ludGVyLWV2ZW50czogYWxsO1xuICAgICAgICAgIG91dGxpbmU6IG5vbmU7XG4gICAgICAgIH1cbiAgICAgICAgYnV0dG9uOmhvdmVyIC5oYW1saW5lLnRvcCB7XG4gICAgICAgICAgd2lkdGg6IDM1cHg7XG4gICAgICAgICAgdHJhbnNpdGlvbjogMjAwbXMgZWFzZTtcbiAgICAgICAgfVxuICAgICAgICBidXR0b246aG92ZXIgLmhhbWxpbmUubWlkZGxlIHtcbiAgICAgICAgICB3aWR0aDogMjBweDtcbiAgICAgICAgICB0cmFuc2l0aW9uOiA1MDBtcyBlYXNlO1xuICAgICAgICB9XG4gICAgICAgIGJ1dHRvbjpob3ZlciAuaGFtbGluZS5idG0ge1xuICAgICAgICAgIHdpZHRoOiA0MHB4O1xuICAgICAgICAgIHRyYW5zaXRpb246IDMwMG1zIGVhc2U7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2hlYWRlcj5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/annaagren/www/newbietech/components/Header.js */"));
+  }, ".hamline.jsx-3665684929{width:60px;height:4px;border-radius:10px;background-color:#4B0A40;}button.jsx-3665684929{pointer-events:all;outline:none;}button.jsx-3665684929:hover .hamline.top.jsx-3665684929{width:35px;-webkit-transition:200ms ease;transition:200ms ease;}button.jsx-3665684929:hover .hamline.middle.jsx-3665684929{width:20px;-webkit-transition:500ms ease;transition:500ms ease;}button.jsx-3665684929:hover .hamline.btm.jsx-3665684929{width:40px;-webkit-transition:300ms ease;transition:300ms ease;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZWFkZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBOEJrQixBQUdxQixBQU1TLEFBSVIsQUFJQSxBQUlBLFdBakJBLEFBVVcsQUFJQSxBQUlBLFFBWlQsR0FMTSxVQU1yQixTQUwyQixzQkFTM0IsQUFJQSxBQUlBLEdBaEJBIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hYWdyZW4vd3d3L25ld2JpZXRlY2gvY29tcG9uZW50cy9IZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgSGVhZGVyID0gZnVuY3Rpb24ocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8aGVhZGVyIGNsYXNzTmFtZT1cImFic29sdXRlIHotMTBcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZml4ZWQgcC0yMCB3LWZ1bGwgZmxleCBmbGV4LXJvdyBqdXN0aWZ5LWJldHdlZW5cIj5cbiAgICAgICAgPGltZyBzcmM9XCIuLi9zdGF0aWMvaW1hZ2VzL25ld2JpZWxvZ28ucG5nXCIgYWx0PVwiTmV3YmllIFRlY2ggbG9nb1wiIC8+XG5cbiAgICAgICAgey8qIDxzdmdcbiAgICAgICAgICBjbGFzc05hbWU9XCJuLWxvZ29cIlxuICAgICAgICAgIHdpZHRoPVwiNDhcIlxuICAgICAgICAgIGhlaWdodD1cIjYwXCJcbiAgICAgICAgICB2aWV3Qm94PVwiMCAwIDUzIDY1XCJcbiAgICAgICAgICBmaWxsPVwibm9uZVwiXG4gICAgICAgICAgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiXG4gICAgICAgID5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgZD1cIk00Mi4wMTUgNTMuNTIyOUM0Mi4wMTUgNTMuODA0OSA0MS44MjcgNTQuMDg2OSA0MS4zNTcgNTQuMDg2OUgzNS4yNDdDMzQuODcxIDU0LjA4NjkgMzQuNjgzIDUzLjgwNDkgMzQuNjgzIDUzLjUyMjlWNDcuOTc2OUgyOS4xMzdDMjguNzYxIDQ3Ljk3NjkgMjguNTczIDQ3Ljc4ODkgMjguNTczIDQ3LjMxODlWNDEuODY2OUgyMy4wMjdDMjIuNjUxIDQxLjg2NjkgMjIuNDYzIDQxLjY3ODkgMjIuNDYzIDQxLjIwODlWMjkuNTUyOUgxNi45MTdDMTYuNTQxIDI5LjU1MjkgMTYuMjU5IDI5LjM2NDkgMTYuMjU5IDI4Ljk4ODlWMTcuMzMyOEgxMS4zNzFWNTMuNTIyOUMxMS4zNzEgNTMuODA0OSAxMS4xODMgNTQuMDg2OSAxMC44MDcgNTQuMDg2OUg0LjY5N0M0LjIyNyA1NC4wODY5IDQuMDM5IDUzLjgwNDkgNC4wMzkgNTMuNTIyOVY0LjQ1NDg1QzQuMDM5IDQuMDc4ODUgNC4yMjcgMy44OTA4NSA0LjY5NyAzLjg5MDg1SDEwLjgwN0MxMS4xODMgMy44OTA4NSAxMS4zNzEgNC4wNzg4NSAxMS4zNzEgNC40NTQ4NVYxMC4wMDA5SDE2LjkxN0MxNy4zODcgMTAuMDAwOSAxNy41NzUgMTAuMjgyOSAxNy41NzUgMTAuNjU4OVYxNi4xMTA5SDIzLjAyN0MyMy40OTcgMTYuMTEwOSAyMy41OTEgMTYuMzkyOSAyMy41OTEgMTYuNzY4OVYyOC40MjQ5SDI5LjEzN0MyOS41MTMgMjguNDI0OSAyOS43OTUgMjguNTE4OSAyOS43OTUgMjguOTg4OVY0MC42NDQ5SDM0LjY4M1Y0LjQ1NDg1QzM0LjY4MyA0LjA3ODg1IDM0Ljg3MSAzLjg5MDg1IDM1LjI0NyAzLjg5MDg1SDQxLjM1N0M0MS44MjcgMy44OTA4NSA0Mi4wMTUgNC4wNzg4NSA0Mi4wMTUgNC40NTQ4NVY1My41MjI5Wk00OC43ODMgNjQuODk2OUM1MS42MDMgNjQuODk2OSA1Mi44MjUgNjMuMzkyOSA1Mi44MjUgNjAuODU0OVYxMS43ODY5QzUyLjgyNSAxMC40NzA5IDUyLjQ0OSA5LjQzNjg1IDUxLjg4NSA4Ljc3ODg1TDQ1LjMwNSAyLjI5Mjg1QzQzLjgwMSAwLjk3Njg1MyA0Mi4xMDkgMC4yMjQ4NTIgNDAuMTM1IDAuMjI0ODUySDM1LjI0N0MzMi4xNDUgMC4yMjQ4NTIgMzEuMDE3IDEuMzUyODUgMzEuMDE3IDQuNDU0ODVWMTguODM2OUwxNC42NjEgMi4yOTI4NUMxMy4zNDUgMC44ODI4NDkgMTEuNzQ3IDAuMjI0ODUyIDkuNDkxIDAuMjI0ODUySDQuNjk3QzEuNTk1IDAuMjI0ODUyIDAuNDY3IDEuMzUyODUgMC40NjcgNC40NTQ4NVY1Mi4xMTI5QzAuNDY3IDU0LjE4MDkgMS4xMjUgNTUuOTY2OSAyLjYyOSA1Ny40NzA5TDkuMDIxIDYzLjg2MjlDOS43NzMgNjQuNjE0OSAxMC43MTMgNjQuODk2OSAxMi4wMjkgNjQuODk2OUgxOC4yMzNDMjAuOTU5IDY0Ljg5NjkgMjIuMTgxIDYzLjM5MjkgMjIuMTgxIDYwLjg1NDlWNDYuMjg0OUwzOS41NzEgNjMuODYyOUM0MC40MTcgNjQuNjE0OSA0MS4yNjMgNjQuODk2OSA0Mi41NzkgNjQuODk2OUg0OC43ODNaXCJcbiAgICAgICAgICAgIGZpbGw9XCIjNEIwQTQwXCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz4gKi99XG4gICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwiaGFtIGZsZXggZmxleC1jb2wgaXRlbXMtZW5kIGgtNiBqdXN0aWZ5LWJldHdlZW5cIj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhhbWxpbmUgdG9wXCIgLz5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhhbWxpbmUgbWlkZGxlXCIgLz5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhhbWxpbmUgYnRtXCIgLz5cbiAgICAgICAgPC9idXR0b24+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHAgY2xhc3NOYW1lPVwicHgtMjAgcHQtNDggZm9udC1ib2R5XCI+XG4gICAgICAgIEhhbmRzIG9uIGNyZWF0aXZlIHRlY2ggZXhwbG9yYXRpb25zLiBGb3IgYmVnaW5uZXJzLlxuICAgICAgPC9wPlxuXG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5oYW1saW5lIHtcbiAgICAgICAgICB3aWR0aCA2MHB4O1xuICAgICAgICAgIGhlaWdodDogNHB4O1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzRCMEE0MDtcbiAgICAgICAgfVxuICAgICAgICBidXR0b24ge1xuICAgICAgICAgIHBvaW50ZXItZXZlbnRzOiBhbGw7XG4gICAgICAgICAgb3V0bGluZTogbm9uZTtcbiAgICAgICAgfVxuICAgICAgICBidXR0b246aG92ZXIgLmhhbWxpbmUudG9wIHtcbiAgICAgICAgICB3aWR0aDogMzVweDtcbiAgICAgICAgICB0cmFuc2l0aW9uOiAyMDBtcyBlYXNlO1xuICAgICAgICB9XG4gICAgICAgIGJ1dHRvbjpob3ZlciAuaGFtbGluZS5taWRkbGUge1xuICAgICAgICAgIHdpZHRoOiAyMHB4O1xuICAgICAgICAgIHRyYW5zaXRpb246IDUwMG1zIGVhc2U7XG4gICAgICAgIH1cbiAgICAgICAgYnV0dG9uOmhvdmVyIC5oYW1saW5lLmJ0bSB7XG4gICAgICAgICAgd2lkdGg6IDQwcHg7XG4gICAgICAgICAgdHJhbnNpdGlvbjogMzAwbXMgZWFzZTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvaGVhZGVyPlxuICApO1xufTtcbiJdfQ== */\n/*@ sourceURL=/Users/annaagren/www/newbietech/components/Header.js */"));
 };
 
 /***/ }),
@@ -627,7 +615,8 @@ var Shapes = function Shapes(props) {
         Bodies = matter_js__WEBPACK_IMPORTED_MODULE_1___default.a.Bodies,
         World = matter_js__WEBPACK_IMPORTED_MODULE_1___default.a.World,
         Mouse = matter_js__WEBPACK_IMPORTED_MODULE_1___default.a.Mouse,
-        MouseConstraint = matter_js__WEBPACK_IMPORTED_MODULE_1___default.a.MouseConstraint;
+        MouseConstraint = matter_js__WEBPACK_IMPORTED_MODULE_1___default.a.MouseConstraint,
+        Composites = matter_js__WEBPACK_IMPORTED_MODULE_1___default.a.Composites;
     var sectionTag = document.querySelector("section.shapes");
     var w = window.innerWidth;
     var h = window.innerHeight;
@@ -645,36 +634,36 @@ var Shapes = function Shapes(props) {
     });
 
     var createShape = function createShape(x, y) {
-      return Bodies.rectangle(x, y, 20, 20, {
+      return Bodies.circle(x, y, 20, {
         // frictionAir: 0.1,
         render: {
-          // fillStyle: "red"
-          sprite: {
-            texture: "../static/images/newbielogo.png"
-          }
+          fillStyle: "#FF5167" // sprite: {
+          //   texture: "../static/images/newbielogo.png"
+          // }
+
         }
       });
-    };
+    }; // const newbieLogo = Bodies.rectangle(50, 50, 300, 189, {
+    //   render: {
+    //     sprite: {
+    //       texture: "../static/images/newbielogo.png"
+    //     }
+    //   }
+    // });
+    // const rectangleGreen = Bodies.rectangle(250, 50, 300, 80, {
+    //   render: {
+    //     fillStyle: "#69E0C2"
+    //   },
+    //   frictionAir: 0.05
+    // });
+    // const rectanglePink = Bodies.rectangle(250, 50, 300, 80, {
+    //   render: {
+    //     fillStyle: "#ffaabb"
+    //   },
+    //   frictionAir: 0.01
+    // });
 
-    var newbieLogo = Bodies.rectangle(50, 50, 300, 189, {
-      render: {
-        sprite: {
-          texture: "../static/images/newbielogo.png"
-        }
-      }
-    });
-    var rectangleGreen = Bodies.rectangle(250, 50, 300, 80, {
-      render: {
-        fillStyle: "#69E0C2"
-      },
-      frictionAir: 0.05
-    });
-    var rectanglePink = Bodies.rectangle(250, 50, 300, 80, {
-      render: {
-        fillStyle: "#ffaabb"
-      },
-      frictionAir: 0.01
-    });
+
     var circle = Bodies.circle(150, 250, 100, {
       render: {
         fillStyle: "#FF5167"
@@ -703,12 +692,13 @@ var Shapes = function Shapes(props) {
     mouseControl.mouse.element.removeEventListener("DOMMouseScroll", mouseControl.mouse.mousewheel);
     mouseControl.mouse.element.removeEventListener("touchmove", mouseControl.mouse.mousemove);
     mouseControl.mouse.element.removeEventListener("touchstart", mouseControl.mouse.mousedown);
-    mouseControl.mouse.element.removeEventListener("touchend", mouseControl.mouse.mouseup); // const initialShapes = Composites.stack(50, 50, 15, 3, 100, 150, (x, y) => {
-    //   return createShape(x, y);
-    // });
-
-    World.add(engine.world, [ground, ceiling, leftWall, rightWall, mouseControl, // initialShapes,
-    rectangleGreen, rectanglePink, circle, newbieLogo]); // document.addEventListener("click", event => {
+    mouseControl.mouse.element.removeEventListener("touchend", mouseControl.mouse.mouseup);
+    var initialShapes = Composites.stack(50, 50, 30, 20, 100, 50, function (x, y) {
+      return createShape(x, y);
+    });
+    World.add(engine.world, [ground, ceiling, leftWall, rightWall, mouseControl, initialShapes, // rectangleGreen,
+    // rectanglePink,
+    circle]); // document.addEventListener("click", event => {
     //   const shape = createShape(event.pageX, event.pageY);
     //   World.add(engine.world, shape);
     // });
@@ -724,7 +714,7 @@ var Shapes = function Shapes(props) {
     className: "shapes",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 153
     },
     __self: this
   });
@@ -751,10 +741,16 @@ var Spinner = function Spinner(props) {
     className: "h-40 bg-lightpink w-full",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 3
     },
     __self: this
-  }, "Spinner!");
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, "PREVIOUS EXPLORATION LAB"));
 };
 
 /***/ }),
