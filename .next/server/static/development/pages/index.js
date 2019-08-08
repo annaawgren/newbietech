@@ -554,12 +554,21 @@ var _jsxFileName = "/Users/annaagren/www/newbietech/components/MachineLearning.j
 
 var MachineLearning = function MachineLearning(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-full h-screen flex justify-center items-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
     },
     __self: this
-  }, "MachineLearning Gif goes in here");
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "object-contain w-100",
+    src: "../static/images/ml.gif",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }));
 };
 
 /***/ }),
@@ -664,11 +673,11 @@ var Shapes = function Shapes(props) {
     // });
 
 
-    var circle = Bodies.circle(150, 250, 100, {
+    var circle = Bodies.circle(540, 40, 70, {
       render: {
-        fillStyle: "#FF5167"
+        fillStyle: "red"
       },
-      frictionAir: 0.09
+      frictionAir: 0.02
     });
     var wallOptions = {
       isStatic: true,
@@ -693,7 +702,7 @@ var Shapes = function Shapes(props) {
     mouseControl.mouse.element.removeEventListener("touchmove", mouseControl.mouse.mousemove);
     mouseControl.mouse.element.removeEventListener("touchstart", mouseControl.mouse.mousedown);
     mouseControl.mouse.element.removeEventListener("touchend", mouseControl.mouse.mouseup);
-    var initialShapes = Composites.stack(50, 50, 30, 20, 100, 50, function (x, y) {
+    var initialShapes = Composites.stack(50, 50, 40, 60, 100, 50, function (x, y) {
       return createShape(x, y);
     });
     World.add(engine.world, [ground, ceiling, leftWall, rightWall, mouseControl, initialShapes, // rectangleGreen,
@@ -738,7 +747,7 @@ var _jsxFileName = "/Users/annaagren/www/newbietech/components/Spinner.js";
 
 var Spinner = function Spinner(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-40 bg-lightpink w-full",
+    className: "h-32 bg-lightpink w-full",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
@@ -750,7 +759,7 @@ var Spinner = function Spinner(props) {
       lineNumber: 4
     },
     __self: this
-  }, "PREVIOUS EXPLORATION LAB"));
+  }, "PREVIOUS EXPLORATION LAB : MACHINE LEARNING AS A CREATIVE TOOL"));
 };
 
 /***/ }),
@@ -1050,21 +1059,28 @@ var _jsxFileName = "/Users/annaagren/www/newbietech/components/WhatWeDo.js";
 
 var WhatWeDo = function WhatWeDo(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full h-full flex justify-center items-center",
+    className: "w-full h-full justify-center items-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "object-contain absolute",
-    src: "../static/images/bg-one.png",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "absolute",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "object-contain ",
+    src: "../static/images/bg-one.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "relative z-10 flex flex-col",
     __source: {
       fileName: _jsxFileName,
@@ -1176,43 +1192,43 @@ var Home = function Home() {
       lineNumber: 21
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_2__["About"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Spinner__WEBPACK_IMPORTED_MODULE_10__["Spinner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ExploreAndLearn__WEBPACK_IMPORTED_MODULE_3__["ExploreAndLearn"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MachineLearning__WEBPACK_IMPORTED_MODULE_8__["MachineLearning"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["Footer"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Spinner__WEBPACK_IMPORTED_MODULE_10__["Spinner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_LoveToExplore__WEBPACK_IMPORTED_MODULE_7__["LoveToExplore"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_2__["About"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ExploreAndLearn__WEBPACK_IMPORTED_MODULE_3__["ExploreAndLearn"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Spinner__WEBPACK_IMPORTED_MODULE_10__["Spinner"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["Footer"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MachineLearning__WEBPACK_IMPORTED_MODULE_8__["MachineLearning"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Spinner__WEBPACK_IMPORTED_MODULE_10__["Spinner"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_LoveToExplore__WEBPACK_IMPORTED_MODULE_7__["LoveToExplore"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -1221,13 +1237,13 @@ var Home = function Home() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Partner__WEBPACK_IMPORTED_MODULE_9__["Partner"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_StayTuned__WEBPACK_IMPORTED_MODULE_11__["StayTuned"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }));

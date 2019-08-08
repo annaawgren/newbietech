@@ -64,11 +64,11 @@ export const Shapes = function(props) {
     //   },
     //   frictionAir: 0.01
     // });
-    const circle = Bodies.circle(150, 250, 100, {
+    const circle = Bodies.circle(540, 40, 70, {
       render: {
-        fillStyle: "#FF5167"
+        fillStyle: "red"
       },
-      frictionAir: 0.09
+      frictionAir: 0.02
     });
 
     const wallOptions = {
@@ -120,7 +120,7 @@ export const Shapes = function(props) {
       mouseControl.mouse.mouseup
     );
 
-    const initialShapes = Composites.stack(50, 50, 30, 20, 100, 50, (x, y) => {
+    const initialShapes = Composites.stack(50, 50, 40, 60, 100, 50, (x, y) => {
       return createShape(x, y);
     });
 

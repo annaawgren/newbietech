@@ -19,14 +19,15 @@ const Home = () => {
       <Hero />
       <ThisIsNewbie />
       <WhatWeDo />
+      <Spinner />
+      <MachineLearning />
+      <Spinner />
       <About />
       <ExploreAndLearn />
       <Footer />
 
       <LoveToExplore />
-      <Spinner />
-      <MachineLearning />
-      <Spinner />
+
       <Partner />
       <StayTuned />
     </Layout>
