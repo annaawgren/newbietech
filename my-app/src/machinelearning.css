@@ -26,7 +26,7 @@ video {
 .labnumber-hl {
   font-family: var(--mad-font);
   color: #fff;
-  font-size: 5em;
+  font-size: 4em;
   line-height: 1;
 }
 
@@ -64,6 +64,9 @@ video {
 .white {
   color: white;
 }
+.underlined-link {
+  border-bottom: solid 2px white;
+}
 @media (max-width: 768px) {
   .machinelearning {
     padding-left: 40px;
@@ -94,7 +97,7 @@ video {
     padding-right: 20px;
   }
   .labnumber-hl {
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 

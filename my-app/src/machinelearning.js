@@ -8,7 +8,7 @@ class MachineLearning extends Component {
         id="machinelearning"
       >
         <div className="labtxt-container flex flex-column justify-center items-left">
-          <div className="labnumber-hl mb4">19.10.27</div>
+          <div className="labnumber-hl mb4">2019.10.27</div>
           <div className="labtxt-hl turqoise">
             Machine Learning as a creative tool
           </div>
@@ -24,23 +24,22 @@ class MachineLearning extends Component {
 
           <p>
             <span className="turqoise">When:</span> Sunday October 27th 2019, at
-            13.00-18.00.
-          </p>
-          <p>
-            <span className="turqoise">Where:</span>{" "}
+            13.00-18.00. <span className="turqoise">Where:</span>{" "}
             <a
               className="white"
               href="https://earthpeople.se/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Earth People, Snapperupsgatan 2B, Malmö
+              <span className="underlined-link">Earth People</span>,
+              Snapperupsgatan 2B, Malmö.
             </a>{" "}
+            <span className="turqoise">Limited seats – sign up below!</span>
           </p>
 
           <a
             className="button mt5 mb5 flex justify-center items-center"
-            href="mailto:hello@newbietech.io?Subject=Sign me up for some machine learning!"
+            href="mailto:hello@newbietech.io?subject=Sign%20me%20up%20for%20a%20seat%20at%20the%20Machine%20Learning%20Lab!"
           >
             Sign me up!
           </a>

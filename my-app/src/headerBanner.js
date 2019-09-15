@@ -6,7 +6,8 @@ const Marquee = props => {
       <span className="bomb" role="img" aria-label="Bomb">
         💥{" "}
       </span>
-      MACHINE LEARNING AS A CREATIVE TOOL{" "}
+      <span className="white"> FREE LAB: </span> MACHINE LEARNING AS A CREATIVE
+      TOOL{" "}
       <span className="bomb" role="img" aria-label="Bomb">
         {" "}
         💥{" "}
@@ -27,8 +28,8 @@ const Marquee = props => {
 class HeaderBanner extends Component {
   render() {
     return (
-      <div className="banner w-100 tc">
-        <a href="#ourlabs" class="marquee mix-difference">
+      <div className="banner marquee w-100 tc">
+        <a href="#ourlabs" class="">
           <span className="marquee-animator">
             <Marquee />
           </span>

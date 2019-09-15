@@ -14,7 +14,7 @@ class Menu extends Component {
               className="hero-menu-item item2 pa3 w-60"
             >
               <span className="red">2019.10.27:</span> Explore Machine Learning
-              – sign up now!
+              <span className="red"> – sign up now!</span>
             </a>
           </div>
 
