@@ -7,8 +7,11 @@
   font-family: var(--bold-font);
   height: auto;
   background-color: var(--turqoise);
-  padding: 10px 5%;
+  padding: 10px 0;
   z-index: 3;
+}
+.bomb {
+  display: inline-block;
 }
 
 .underlined-ml {
@@ -24,22 +27,27 @@
   text-decoration: none;
 }
 
-/* .close-tag {
-  width: 20px;
-  height: 100%;
-  background-image: url(./images/closing-x.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-
 .banner.hidden {
   display: none;
 }
 
-@media (max-width: 420px) {
-  .banner {
-    padding-left: 10px;
-    padding-right: 10px;
+.marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(100%);
   }
+  100% {
+    transform: translateX(-3000px);
+  }
+}
+
+.marquee-animator {
+  animation: moveLeft 100s linear infinite;
+  white-space: nowrap;
+  position: relative;
+  display: block;
 }

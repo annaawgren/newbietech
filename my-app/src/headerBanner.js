@@ -1,26 +1,41 @@
-import React, {Component} from 'react'
+import React, { Component } from "react";
+
+const Marquee = props => {
+  const title = (
+    <span>
+      <span className="bomb" role="img" aria-label="Bomb">
+        💥{" "}
+      </span>
+      MACHINE LEARNING AS A CREATIVE TOOL{" "}
+      <span className="bomb" role="img" aria-label="Bomb">
+        {" "}
+        💥{" "}
+      </span>
+      Malmö October 27th 2019{" "}
+      <span className="bomb" role="img" aria-label="Bomb">
+        💥{" "}
+      </span>{" "}
+      Limited seats – sign up now!{" "}
+    </span>
+  );
+
+  const marqueeText = new Array(100).fill(title);
+
+  return <div>{marqueeText}</div>;
+};
 
 class HeaderBanner extends Component {
-
   render() {
-
-    return (<div className="header-banner">
-
+    return (
       <div className="banner w-100 tc">
-        <div><span role="img" aria-label="Bomb">💥 </span>
-           <span>
-          Yay! Stay tuned for our {" "}
-           <span className="underlined-ml">
-            <a href="#ourlabs">upcoming labs</a>
-           </span>{" "}in Stockholm and Malmö! <span role="img" aria-label="Bomb">💥</span>
-           </span>
-         </div>
-        
+        <a href="#ourlabs" class="marquee mix-difference">
+          <span className="marquee-animator">
+            <Marquee />
+          </span>
+        </a>
       </div>
-
-    </div>)
+    );
   }
-
 }
 
-export default HeaderBanner
+export default HeaderBanner;

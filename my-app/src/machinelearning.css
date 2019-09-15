@@ -7,7 +7,8 @@
   height: 1000px;
 }
 
-.background-img img, video {
+.background-img img,
+video {
   width: 100vw;
   position: relative;
 }
@@ -39,6 +40,9 @@
 .redishpink {
   color: var(--redishpink);
 }
+.turqoise {
+  color: var(--turqoise);
+}
 
 .labtxt-container p {
   font-family: var(--bold-font);
@@ -57,11 +61,14 @@
   color: #fff;
   font-size: 1em;
 }
-
+.white {
+  color: white;
+}
 @media (max-width: 768px) {
   .machinelearning {
     padding-left: 40px;
     padding-right: 40px;
+    height: 1300px;
   }
   .labtxt-container {
     top: 10%;
@@ -78,18 +85,21 @@
 @media (max-width: 450px) {
   .machinelearning {
     background-position: left;
-    height: 1150px;
+    height: 1500px;
     padding-left: 40px;
     padding-right: 40px;
   }
   .labtxt-container {
     top: 10%;
-    padding-right: 30px;
+    padding-right: 20px;
+  }
+  .labnumber-hl {
+    font-size: 4em;
   }
 }
 
 @media (max-width: 350px) {
   .machinelearning {
-    height: 1350px;
+    height: 1500px;
   }
 }
