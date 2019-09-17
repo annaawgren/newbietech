@@ -19,7 +19,7 @@ class MachineLearning extends Component {
             explore image, speech and face recognition, use audio input and the
             camera in your computer. You will learn how to create a simple game
             that you control with your body or voice. Bring your laptop. No
-            prior knowledge or coding skills needed – and there will be fika!
+            prior knowledge or coding skills needed!
           </p>
 
           <p>
