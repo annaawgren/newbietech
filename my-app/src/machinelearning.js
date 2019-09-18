@@ -40,8 +40,7 @@ class MachineLearning extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="underlined-link">Earth People</span>,
-              Snapperupsgatan 2B, Malmö.
+              <span className="underlined-link">Earth People</span>, Malmö.
             </a>{" "}
             <span className="turqoise">Limited seats – sign up below!</span>
           </p>
