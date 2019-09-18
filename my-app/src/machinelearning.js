@@ -17,9 +17,18 @@ class MachineLearning extends Component {
             <span className="turqoise">What:</span> Learn the very basics of
             Machine Learning – and how to use it as a creative tool. You will
             explore image, speech and face recognition, use audio input and the
-            camera in your computer. You will learn how to create a simple game
-            that you control with your body or voice. Bring your laptop. No
-            prior knowledge or coding skills needed!
+            camera in your computer. You will create a simple game that you
+            control with your voice or body. Bring your laptop.
+            <br />
+            <span className="point" role="img" aria-label="Bomb">
+              👉
+            </span>{" "}
+            <span className="turqoise">
+              No prior knowledge or coding skills needed!
+            </span>{" "}
+            <span className="point" role="img" aria-label="Bomb">
+              👈
+            </span>
           </p>
 
           <p>

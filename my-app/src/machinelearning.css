@@ -64,6 +64,9 @@ video {
 .white {
   color: white;
 }
+.noprior {
+  color: var(--redishpink);
+}
 .underlined-link {
   border-bottom: solid 2px white;
 }
