@@ -82,7 +82,7 @@ video {
     font-size: 1.5em;
   }
   .labtxt-container-black .button {
-    width: 200px;
+    width: 100%;
   }
 }
 

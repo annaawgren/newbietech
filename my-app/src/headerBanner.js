@@ -16,7 +16,7 @@ const Marquee = props => {
       <span className="bomb" role="img" aria-label="Bomb">
         💥{" "}
       </span>{" "}
-      Limited seats – sign up now!{" "}
+      Limited seats – <span className="fully-booked">FULLY BOOKED!</span>{" "}
     </span>
   );
 

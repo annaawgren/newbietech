@@ -30,6 +30,9 @@
 .banner.hidden {
   display: none;
 }
+.fully-booked {
+  color: var(--redishpink);
+}
 
 .marquee {
   width: 100%;

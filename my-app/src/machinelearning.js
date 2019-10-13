@@ -49,7 +49,7 @@ class MachineLearning extends Component {
             className="button mt5 mb5 flex justify-center items-center"
             href="mailto:hello@newbietech.io?subject=Sign%20me%20up%20for%20a%20seat%20at%20the%20Machine%20Learning%20Lab!"
           >
-            Sign me up!
+            Sign me up for waiting list!
           </a>
         </div>
       </div>

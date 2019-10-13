@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
-import { BrowserRouter, Route } from "react-router-dom"
+import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 
-
-import StartPage from './startpage.js'
-import HyperIsland from './hyperisland.js'
-import './hyperisland.css'
-
+import StartPage from "./startpage.js";
+import Download from "./download.js";
+import "./hyperisland.css";
 
 class App extends Component {
   render() {
@@ -13,11 +11,11 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Route exact path="/" component={StartPage} />
-          <Route path="/hyperisland" component={HyperIsland} />
+          <Route path="/download" component={Download} />
         </div>
       </BrowserRouter>
-    )
+    );
   }
 }
 
-export default App
+export default App;

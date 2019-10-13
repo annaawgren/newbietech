@@ -1,11 +1,10 @@
 :root {
-  --pink: #F5E6E8;
-  --redishpink: #FF5267;
-  --lightblue: #BDF0FD;
-  --turqoise: #69E0C2;
-  --lightyellow: #FAFFD8;
-  --grey: #E7E7E1;
-
+  --pink: #f5e6e8;
+  --redishpink: #ff5267;
+  --lightblue: #bdf0fd;
+  --turqoise: #69e0c2;
+  --lightyellow: #faffd8;
+  --grey: #e7e7e1;
 
   --book-font: "CircularStd-Book.woff", sans-serif;
   --bold-font: "CircularStd-Bold.woff", sans-serif;
@@ -13,19 +12,87 @@
   --mad-font: "mad-sans-black.woff", sans-serif;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -33,7 +100,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
 
 * {
   -webkit-box-sizing: border-box;
@@ -47,6 +113,7 @@ a {
   color: black;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
