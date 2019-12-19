@@ -6,17 +6,17 @@ const Marquee = props => {
       <span className="bomb" role="img" aria-label="Bomb">
         💥{" "}
       </span>
-      <span className="white"> FREE LAB: </span> MACHINE LEARNING AS A CREATIVE
-      TOOL{" "}
+      <span className="white"> FREE LAB MALMÖ: </span> MACHINE LEARNING AS A
+      CREATIVE TOOL{" "}
       <span className="bomb" role="img" aria-label="Bomb">
         {" "}
         💥{" "}
       </span>
-      Malmö October 27th 2019{" "}
+      New date TBA{" "}
       <span className="bomb" role="img" aria-label="Bomb">
         💥{" "}
       </span>{" "}
-      Limited seats – <span className="fully-booked">FULLY BOOKED!</span>{" "}
+      Sign up to stay tuned!{" "}
     </span>
   );
 

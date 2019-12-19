@@ -13,8 +13,9 @@ class Menu extends Component {
               href="#machinelearning"
               className="hero-menu-item item2 pa3 w-60"
             >
-              <span className="red">2019.10.27:</span> Explore Machine Learning
-              <span className="red"> – FULLY BOOKED!</span>
+              <span className="red">Free lab in Malmö</span> Explore Machine
+              Learning
+              <span className="red"> Stay tuned!</span>
             </a>
           </div>
 
